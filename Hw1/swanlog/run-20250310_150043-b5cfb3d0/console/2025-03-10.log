@@ -1,0 +1,16 @@
+swanlab: \ Creating experiment...                                                                                                    swanlab: Tracking run with swanlab version 0.4.9
+swanlab: Run data will be saved locally in D:\python-mangshe\pythonProject1\李宏毅机器学习\Hw1\swanlog\run-20250310_150043-b5cfb3d0
+swanlab: 👋 Hi lizhongzheng, welcome to swanlab!
+swanlab: Syncing run covid_model_train to the cloud
+swanlab: 🌟 Run `swanlab watch D:\python-mangshe\pythonProject1\李宏毅机器学习\Hw1\swanlog` to view SwanLab Experiment Dashboard locally
+swanlab: 🏠 View project at https://swanlab.cn/@lizhongzheng/Hw1
+swanlab: 🚀 View run at https://swanlab.cn/@lizhongzheng/Hw1/runs/1qmev0qvjtulbtxdpgp5g
+train_data size: (2408, 89) valid_data size: (601, 89) test_data size: (997, 88)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87]
+number of features: 88
+swanlab: Error happened while training
+swanlab: Experiment covid_model_train has completed
+swanlab: 🌟 Run `swanlab watch D:\python-mangshe\pythonProject1\李宏毅机器学习\Hw1\swanlog` to view SwanLab Experiment Dashboard locally
+swanlab: 🏠 View project at https://swanlab.cn/@lizhongzheng/Hw1
+swanlab: 🚀 View run at https://swanlab.cn/@lizhongzheng/Hw1/runs/1qmev0qvjtulbtxdpgp5g
+swanlab: \ Waiting for uploading completeswanlab: | Waiting for uploading completeswanlab: / Waiting for uploading completeswanlab: - Waiting for uploading completeswanlab: \ Waiting for uploading completeswanlab: | Waiting for uploading completeswanlab: / Waiting for uploading completeswanlab: - Waiting for uploading completeswanlab: \ Waiting for uploading complete                                                                                                    swanlab: \ Updating experiment status...                                                                                                    

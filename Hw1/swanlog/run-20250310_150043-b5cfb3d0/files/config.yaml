@@ -1,0 +1,32 @@
+batch_size:
+  desc: ''
+  sort: 4
+  value: 256
+early_stopping:
+  desc: ''
+  sort: 6
+  value: 800
+epochs:
+  desc: ''
+  sort: 3
+  value: 8000
+learning_rate:
+  desc: ''
+  sort: 5
+  value: 1.0e-05
+save_model:
+  desc: ''
+  sort: 7
+  value: models/model.ckpt
+seed:
+  desc: ''
+  sort: 0
+  value: 5201314
+select_all:
+  desc: ''
+  sort: 1
+  value: 1
+val_ratio:
+  desc: ''
+  sort: 2
+  value: 0.2

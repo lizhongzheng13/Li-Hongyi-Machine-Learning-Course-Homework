@@ -1,0 +1,1445 @@
+swanlab: \ Creating experiment...                                                                                                    swanlab: Tracking run with swanlab version 0.4.9
+swanlab: Run data will be saved locally in D:\python-mangshe\pythonProject1\李宏毅机器学习\Hw1\swanlog\run-20250311_100225-8a2b6343
+swanlab: 👋 Hi lizhongzheng, welcome to swanlab!
+swanlab: Syncing run covid_model_train to the cloud
+swanlab: 🌟 Run `swanlab watch D:\python-mangshe\pythonProject1\李宏毅机器学习\Hw1\swanlog` to view SwanLab Experiment Dashboard locally
+swanlab: 🏠 View project at https://swanlab.cn/@lizhongzheng/Hw1
+swanlab: 🚀 View run at https://swanlab.cn/@lizhongzheng/Hw1/runs/hxu46b2xwyi4pn0f2uzvz
+train_data size: (2408, 89) valid_data size: (601, 89) test_data size: (997, 88)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87]
+number of features: 88
+I will create the new file,and I am deleting the old file!
+
+Epoch[1/600]:Train loss:16.8100,val loss:16.7585
+
+Saving  model with loss16.759
+Epoch[2/600]:Train loss:16.7970,val loss:16.9157
+
+Epoch[3/600]:Train loss:16.8092,val loss:16.8015
+
+Epoch[4/600]:Train loss:16.8137,val loss:16.8088
+
+Epoch[5/600]:Train loss:16.8020,val loss:16.8685
+
+Epoch[6/600]:Train loss:16.8020,val loss:16.6958
+
+Saving  model with loss16.696
+Epoch[7/600]:Train loss:16.7880,val loss:16.7502
+
+Epoch[8/600]:Train loss:16.8031,val loss:16.7912
+
+Epoch[9/600]:Train loss:16.7781,val loss:16.8245
+
+Epoch[10/600]:Train loss:16.7794,val loss:16.8666
+
+Epoch[11/600]:Train loss:16.7801,val loss:16.7438
+
+Epoch[12/600]:Train loss:16.7828,val loss:16.9144
+
+Epoch[13/600]:Train loss:16.7842,val loss:16.7605
+
+Epoch[14/600]:Train loss:16.7930,val loss:16.7110
+
+Epoch[15/600]:Train loss:16.7736,val loss:16.7838
+
+Epoch[16/600]:Train loss:16.7792,val loss:16.7356
+
+Epoch[17/600]:Train loss:16.7695,val loss:16.7206
+
+Epoch[18/600]:Train loss:16.7767,val loss:16.7408
+
+Epoch[19/600]:Train loss:16.7742,val loss:16.8528
+
+Epoch[20/600]:Train loss:16.7511,val loss:16.9532
+
+Epoch[21/600]:Train loss:16.7697,val loss:16.7094
+
+Epoch[22/600]:Train loss:16.7539,val loss:16.8795
+
+Epoch[23/600]:Train loss:16.7642,val loss:16.6866
+
+Saving  model with loss16.687
+Epoch[24/600]:Train loss:16.7370,val loss:16.6747
+
+Saving  model with loss16.675
+Epoch[25/600]:Train loss:16.7379,val loss:16.6536
+
+Saving  model with loss16.654
+Epoch[26/600]:Train loss:16.7580,val loss:16.7320
+
+Epoch[27/600]:Train loss:16.7291,val loss:16.7176
+
+Epoch[28/600]:Train loss:16.7231,val loss:16.7942
+
+Epoch[29/600]:Train loss:16.7122,val loss:16.7353
+
+Epoch[30/600]:Train loss:16.6952,val loss:16.7161
+
+Epoch[31/600]:Train loss:16.6804,val loss:16.6808
+
+Epoch[32/600]:Train loss:16.6660,val loss:16.7739
+
+Epoch[33/600]:Train loss:16.6421,val loss:16.6894
+
+Epoch[34/600]:Train loss:16.6354,val loss:16.5907
+
+Saving  model with loss16.591
+Epoch[35/600]:Train loss:16.6042,val loss:16.5933
+
+Epoch[36/600]:Train loss:16.5759,val loss:16.5168
+
+Saving  model with loss16.517
+Epoch[37/600]:Train loss:16.5397,val loss:16.4702
+
+Saving  model with loss16.470
+Epoch[38/600]:Train loss:16.4778,val loss:16.4058
+
+Saving  model with loss16.406
+Epoch[39/600]:Train loss:16.4423,val loss:16.4616
+
+Epoch[40/600]:Train loss:16.3546,val loss:16.3804
+
+Saving  model with loss16.380
+Epoch[41/600]:Train loss:16.2678,val loss:16.2276
+
+Saving  model with loss16.228
+Epoch[42/600]:Train loss:16.1751,val loss:15.9966
+
+Saving  model with loss15.997
+Epoch[43/600]:Train loss:16.0117,val loss:15.9870
+
+Saving  model with loss15.987
+Epoch[44/600]:Train loss:15.7638,val loss:15.6525
+
+Saving  model with loss15.653
+Epoch[45/600]:Train loss:15.5044,val loss:15.3664
+
+Saving  model with loss15.366
+Epoch[46/600]:Train loss:15.0765,val loss:14.8030
+
+Saving  model with loss14.803
+Epoch[47/600]:Train loss:14.5088,val loss:14.1073
+
+Saving  model with loss14.107
+Epoch[48/600]:Train loss:13.5414,val loss:12.9104
+
+Saving  model with loss12.910
+Epoch[49/600]:Train loss:12.2135,val loss:11.3596
+
+Saving  model with loss11.360
+Epoch[50/600]:Train loss:10.6926,val loss:9.8578
+
+Saving  model with loss9.858
+Epoch[51/600]:Train loss:9.4671,val loss:8.6986
+
+Saving  model with loss8.699
+Epoch[52/600]:Train loss:8.6593,val loss:8.0660
+
+Saving  model with loss8.066
+Epoch[53/600]:Train loss:8.2353,val loss:7.7081
+
+Saving  model with loss7.708
+Epoch[54/600]:Train loss:8.0158,val loss:7.5360
+
+Saving  model with loss7.536
+Epoch[55/600]:Train loss:7.9125,val loss:7.4695
+
+Saving  model with loss7.469
+Epoch[56/600]:Train loss:7.8806,val loss:7.4224
+
+Saving  model with loss7.422
+Epoch[57/600]:Train loss:7.8417,val loss:7.4293
+
+Epoch[58/600]:Train loss:7.8231,val loss:7.3796
+
+Saving  model with loss7.380
+Epoch[59/600]:Train loss:7.8218,val loss:7.3468
+
+Saving  model with loss7.347
+Epoch[60/600]:Train loss:7.8173,val loss:7.4338
+
+Epoch[61/600]:Train loss:7.7999,val loss:7.3565
+
+Epoch[62/600]:Train loss:7.7962,val loss:7.4206
+
+Epoch[63/600]:Train loss:7.7824,val loss:7.3923
+
+Epoch[64/600]:Train loss:7.7791,val loss:7.3605
+
+Epoch[65/600]:Train loss:7.7704,val loss:7.3224
+
+Saving  model with loss7.322
+Epoch[66/600]:Train loss:7.7600,val loss:7.3506
+
+Epoch[67/600]:Train loss:7.7464,val loss:7.3239
+
+Epoch[68/600]:Train loss:7.7432,val loss:7.3005
+
+Saving  model with loss7.300
+Epoch[69/600]:Train loss:7.7369,val loss:7.3550
+
+Epoch[70/600]:Train loss:7.7194,val loss:7.3484
+
+Epoch[71/600]:Train loss:7.7240,val loss:7.2845
+
+Saving  model with loss7.285
+Epoch[72/600]:Train loss:7.7059,val loss:7.2295
+
+Saving  model with loss7.230
+Epoch[73/600]:Train loss:7.6937,val loss:7.2953
+
+Epoch[74/600]:Train loss:7.6810,val loss:7.2666
+
+Epoch[75/600]:Train loss:7.6838,val loss:7.2841
+
+Epoch[76/600]:Train loss:7.6720,val loss:7.2772
+
+Epoch[77/600]:Train loss:7.6697,val loss:7.2630
+
+Epoch[78/600]:Train loss:7.6480,val loss:7.1560
+
+Saving  model with loss7.156
+Epoch[79/600]:Train loss:7.6386,val loss:7.1989
+
+Epoch[80/600]:Train loss:7.6314,val loss:7.1988
+
+Epoch[81/600]:Train loss:7.6152,val loss:7.2082
+
+Epoch[82/600]:Train loss:7.6125,val loss:7.1770
+
+Epoch[83/600]:Train loss:7.6168,val loss:7.1534
+
+Saving  model with loss7.153
+Epoch[84/600]:Train loss:7.5906,val loss:7.2116
+
+Epoch[85/600]:Train loss:7.5896,val loss:7.1863
+
+Epoch[86/600]:Train loss:7.5719,val loss:7.1242
+
+Saving  model with loss7.124
+Epoch[87/600]:Train loss:7.5733,val loss:7.1733
+
+Epoch[88/600]:Train loss:7.5575,val loss:7.1408
+
+Epoch[89/600]:Train loss:7.5460,val loss:7.1427
+
+Epoch[90/600]:Train loss:7.5437,val loss:7.1188
+
+Saving  model with loss7.119
+Epoch[91/600]:Train loss:7.5261,val loss:7.0885
+
+Saving  model with loss7.088
+Epoch[92/600]:Train loss:7.5279,val loss:7.1898
+
+Epoch[93/600]:Train loss:7.5158,val loss:7.1194
+
+Epoch[94/600]:Train loss:7.5053,val loss:7.1079
+
+Epoch[95/600]:Train loss:7.4827,val loss:7.0860
+
+Saving  model with loss7.086
+Epoch[96/600]:Train loss:7.4808,val loss:7.0850
+
+Saving  model with loss7.085
+Epoch[97/600]:Train loss:7.4636,val loss:7.0951
+
+Epoch[98/600]:Train loss:7.4636,val loss:7.0194
+
+Saving  model with loss7.019
+Epoch[99/600]:Train loss:7.4563,val loss:7.0486
+
+Epoch[100/600]:Train loss:7.4437,val loss:7.1029
+
+Epoch[101/600]:Train loss:7.4359,val loss:7.0534
+
+Epoch[102/600]:Train loss:7.4231,val loss:7.0655
+
+Epoch[103/600]:Train loss:7.4162,val loss:7.0262
+
+Epoch[104/600]:Train loss:7.3957,val loss:7.0371
+
+Epoch[105/600]:Train loss:7.3866,val loss:7.0178
+
+Saving  model with loss7.018
+Epoch[106/600]:Train loss:7.3807,val loss:6.9204
+
+Saving  model with loss6.920
+Epoch[107/600]:Train loss:7.3606,val loss:6.9724
+
+Epoch[108/600]:Train loss:7.3535,val loss:6.9178
+
+Saving  model with loss6.918
+Epoch[109/600]:Train loss:7.3515,val loss:6.9284
+
+Epoch[110/600]:Train loss:7.3358,val loss:6.9611
+
+Epoch[111/600]:Train loss:7.3250,val loss:6.9364
+
+Epoch[112/600]:Train loss:7.3083,val loss:6.8843
+
+Saving  model with loss6.884
+Epoch[113/600]:Train loss:7.2985,val loss:6.9162
+
+Epoch[114/600]:Train loss:7.2950,val loss:6.9483
+
+Epoch[115/600]:Train loss:7.2693,val loss:6.8625
+
+Saving  model with loss6.862
+Epoch[116/600]:Train loss:7.2670,val loss:6.9209
+
+Epoch[117/600]:Train loss:7.2568,val loss:6.8503
+
+Saving  model with loss6.850
+Epoch[118/600]:Train loss:7.2475,val loss:6.8779
+
+Epoch[119/600]:Train loss:7.2374,val loss:6.8293
+
+Saving  model with loss6.829
+Epoch[120/600]:Train loss:7.2223,val loss:6.8649
+
+Epoch[121/600]:Train loss:7.2115,val loss:6.8345
+
+Epoch[122/600]:Train loss:7.2068,val loss:6.7810
+
+Saving  model with loss6.781
+Epoch[123/600]:Train loss:7.1912,val loss:6.8159
+
+Epoch[124/600]:Train loss:7.1775,val loss:6.8143
+
+Epoch[125/600]:Train loss:7.1734,val loss:6.8373
+
+Epoch[126/600]:Train loss:7.1453,val loss:6.7592
+
+Saving  model with loss6.759
+Epoch[127/600]:Train loss:7.1518,val loss:6.7631
+
+Epoch[128/600]:Train loss:7.1382,val loss:6.7914
+
+Epoch[129/600]:Train loss:7.1196,val loss:6.7569
+
+Saving  model with loss6.757
+Epoch[130/600]:Train loss:7.1061,val loss:6.7853
+
+Epoch[131/600]:Train loss:7.1001,val loss:6.7550
+
+Saving  model with loss6.755
+Epoch[132/600]:Train loss:7.0881,val loss:6.7442
+
+Saving  model with loss6.744
+Epoch[133/600]:Train loss:7.0745,val loss:6.7040
+
+Saving  model with loss6.704
+Epoch[134/600]:Train loss:7.0548,val loss:6.7190
+
+Epoch[135/600]:Train loss:7.0519,val loss:6.6627
+
+Saving  model with loss6.663
+Epoch[136/600]:Train loss:7.0339,val loss:6.6610
+
+Saving  model with loss6.661
+Epoch[137/600]:Train loss:7.0247,val loss:6.6039
+
+Saving  model with loss6.604
+Epoch[138/600]:Train loss:7.0073,val loss:6.6506
+
+Epoch[139/600]:Train loss:7.0058,val loss:6.5868
+
+Saving  model with loss6.587
+Epoch[140/600]:Train loss:6.9943,val loss:6.6847
+
+Epoch[141/600]:Train loss:6.9843,val loss:6.6398
+
+Epoch[142/600]:Train loss:6.9680,val loss:6.6577
+
+Epoch[143/600]:Train loss:6.9693,val loss:6.6018
+
+Epoch[144/600]:Train loss:6.9474,val loss:6.6198
+
+Epoch[145/600]:Train loss:6.9380,val loss:6.6452
+
+Epoch[146/600]:Train loss:6.9200,val loss:6.5384
+
+Saving  model with loss6.538
+Epoch[147/600]:Train loss:6.9116,val loss:6.6343
+
+Epoch[148/600]:Train loss:6.8969,val loss:6.5900
+
+Epoch[149/600]:Train loss:6.8859,val loss:6.5944
+
+Epoch[150/600]:Train loss:6.8912,val loss:6.5437
+
+Epoch[151/600]:Train loss:6.8706,val loss:6.5944
+
+Epoch[152/600]:Train loss:6.8650,val loss:6.5847
+
+Epoch[153/600]:Train loss:6.8582,val loss:6.5508
+
+Epoch[154/600]:Train loss:6.8428,val loss:6.5104
+
+Saving  model with loss6.510
+Epoch[155/600]:Train loss:6.8366,val loss:6.5515
+
+Epoch[156/600]:Train loss:6.8316,val loss:6.5435
+
+Epoch[157/600]:Train loss:6.8318,val loss:6.5820
+
+Epoch[158/600]:Train loss:6.8017,val loss:6.5184
+
+Epoch[159/600]:Train loss:6.7984,val loss:6.5255
+
+Epoch[160/600]:Train loss:6.7902,val loss:6.5355
+
+Epoch[161/600]:Train loss:6.7770,val loss:6.5000
+
+Saving  model with loss6.500
+Epoch[162/600]:Train loss:6.7790,val loss:6.4443
+
+Saving  model with loss6.444
+Epoch[163/600]:Train loss:6.7697,val loss:6.5269
+
+Epoch[164/600]:Train loss:6.7529,val loss:6.4636
+
+Epoch[165/600]:Train loss:6.7475,val loss:6.5129
+
+Epoch[166/600]:Train loss:6.7328,val loss:6.4718
+
+Epoch[167/600]:Train loss:6.7333,val loss:6.4796
+
+Epoch[168/600]:Train loss:6.7227,val loss:6.4143
+
+Saving  model with loss6.414
+Epoch[169/600]:Train loss:6.7074,val loss:6.4065
+
+Saving  model with loss6.407
+Epoch[170/600]:Train loss:6.7093,val loss:6.4126
+
+Epoch[171/600]:Train loss:6.6931,val loss:6.4050
+
+Saving  model with loss6.405
+Epoch[172/600]:Train loss:6.6915,val loss:6.4174
+
+Epoch[173/600]:Train loss:6.6738,val loss:6.3906
+
+Saving  model with loss6.391
+Epoch[174/600]:Train loss:6.6752,val loss:6.3866
+
+Saving  model with loss6.387
+Epoch[175/600]:Train loss:6.6597,val loss:6.3879
+
+Epoch[176/600]:Train loss:6.6488,val loss:6.3742
+
+Saving  model with loss6.374
+Epoch[177/600]:Train loss:6.6372,val loss:6.3895
+
+Epoch[178/600]:Train loss:6.6306,val loss:6.4072
+
+Epoch[179/600]:Train loss:6.6226,val loss:6.3991
+
+Epoch[180/600]:Train loss:6.6190,val loss:6.3974
+
+Epoch[181/600]:Train loss:6.6148,val loss:6.3366
+
+Saving  model with loss6.337
+Epoch[182/600]:Train loss:6.5929,val loss:6.3354
+
+Saving  model with loss6.335
+Epoch[183/600]:Train loss:6.5834,val loss:6.3804
+
+Epoch[184/600]:Train loss:6.5790,val loss:6.3727
+
+Epoch[185/600]:Train loss:6.5755,val loss:6.3825
+
+Epoch[186/600]:Train loss:6.5742,val loss:6.3520
+
+Epoch[187/600]:Train loss:6.5527,val loss:6.3276
+
+Saving  model with loss6.328
+Epoch[188/600]:Train loss:6.5437,val loss:6.3170
+
+Saving  model with loss6.317
+Epoch[189/600]:Train loss:6.5480,val loss:6.3034
+
+Saving  model with loss6.303
+Epoch[190/600]:Train loss:6.5421,val loss:6.3097
+
+Epoch[191/600]:Train loss:6.5328,val loss:6.3669
+
+Epoch[192/600]:Train loss:6.5256,val loss:6.2968
+
+Saving  model with loss6.297
+Epoch[193/600]:Train loss:6.5083,val loss:6.3509
+
+Epoch[194/600]:Train loss:6.5160,val loss:6.3043
+
+Epoch[195/600]:Train loss:6.4914,val loss:6.3069
+
+Epoch[196/600]:Train loss:6.4863,val loss:6.2963
+
+Saving  model with loss6.296
+Epoch[197/600]:Train loss:6.4761,val loss:6.2978
+
+Epoch[198/600]:Train loss:6.4765,val loss:6.2506
+
+Saving  model with loss6.251
+Epoch[199/600]:Train loss:6.4575,val loss:6.2857
+
+Epoch[200/600]:Train loss:6.4567,val loss:6.2440
+
+Saving  model with loss6.244
+Epoch[201/600]:Train loss:6.4470,val loss:6.2945
+
+Epoch[202/600]:Train loss:6.4344,val loss:6.2623
+
+Epoch[203/600]:Train loss:6.4203,val loss:6.2394
+
+Saving  model with loss6.239
+Epoch[204/600]:Train loss:6.4264,val loss:6.2256
+
+Saving  model with loss6.226
+Epoch[205/600]:Train loss:6.4128,val loss:6.1721
+
+Saving  model with loss6.172
+Epoch[206/600]:Train loss:6.4128,val loss:6.2278
+
+Epoch[207/600]:Train loss:6.4010,val loss:6.2307
+
+Epoch[208/600]:Train loss:6.3854,val loss:6.2296
+
+Epoch[209/600]:Train loss:6.3866,val loss:6.1488
+
+Saving  model with loss6.149
+Epoch[210/600]:Train loss:6.3750,val loss:6.2141
+
+Epoch[211/600]:Train loss:6.3645,val loss:6.2122
+
+Epoch[212/600]:Train loss:6.3630,val loss:6.1801
+
+Epoch[213/600]:Train loss:6.3426,val loss:6.1846
+
+Epoch[214/600]:Train loss:6.3410,val loss:6.1576
+
+Epoch[215/600]:Train loss:6.3277,val loss:6.1730
+
+Epoch[216/600]:Train loss:6.3266,val loss:6.1482
+
+Saving  model with loss6.148
+Epoch[217/600]:Train loss:6.3262,val loss:6.1831
+
+Epoch[218/600]:Train loss:6.3186,val loss:6.1226
+
+Saving  model with loss6.123
+Epoch[219/600]:Train loss:6.3124,val loss:6.1460
+
+Epoch[220/600]:Train loss:6.2946,val loss:6.0981
+
+Saving  model with loss6.098
+Epoch[221/600]:Train loss:6.2907,val loss:6.0949
+
+Saving  model with loss6.095
+Epoch[222/600]:Train loss:6.2744,val loss:6.0632
+
+Saving  model with loss6.063
+Epoch[223/600]:Train loss:6.2714,val loss:6.1334
+
+Epoch[224/600]:Train loss:6.2620,val loss:6.1136
+
+Epoch[225/600]:Train loss:6.2502,val loss:6.0664
+
+Epoch[226/600]:Train loss:6.2403,val loss:6.1237
+
+Epoch[227/600]:Train loss:6.2247,val loss:6.0694
+
+Epoch[228/600]:Train loss:6.2247,val loss:6.0975
+
+Epoch[229/600]:Train loss:6.2173,val loss:6.0337
+
+Saving  model with loss6.034
+Epoch[230/600]:Train loss:6.2082,val loss:6.0498
+
+Epoch[231/600]:Train loss:6.1959,val loss:6.0812
+
+Epoch[232/600]:Train loss:6.1946,val loss:6.0556
+
+Epoch[233/600]:Train loss:6.1864,val loss:6.0181
+
+Saving  model with loss6.018
+Epoch[234/600]:Train loss:6.1797,val loss:5.9800
+
+Saving  model with loss5.980
+Epoch[235/600]:Train loss:6.1672,val loss:6.0432
+
+Epoch[236/600]:Train loss:6.1638,val loss:6.0044
+
+Epoch[237/600]:Train loss:6.1458,val loss:6.0070
+
+Epoch[238/600]:Train loss:6.1404,val loss:5.9930
+
+Epoch[239/600]:Train loss:6.1304,val loss:5.9790
+
+Saving  model with loss5.979
+Epoch[240/600]:Train loss:6.1256,val loss:5.9756
+
+Saving  model with loss5.976
+Epoch[241/600]:Train loss:6.1180,val loss:5.9531
+
+Saving  model with loss5.953
+Epoch[242/600]:Train loss:6.1010,val loss:5.9755
+
+Epoch[243/600]:Train loss:6.0952,val loss:5.9205
+
+Saving  model with loss5.921
+Epoch[244/600]:Train loss:6.0864,val loss:5.9721
+
+Epoch[245/600]:Train loss:6.0737,val loss:5.9367
+
+Epoch[246/600]:Train loss:6.0691,val loss:5.8983
+
+Saving  model with loss5.898
+Epoch[247/600]:Train loss:6.0576,val loss:5.9994
+
+Epoch[248/600]:Train loss:6.0419,val loss:5.8757
+
+Saving  model with loss5.876
+Epoch[249/600]:Train loss:6.0346,val loss:5.8771
+
+Epoch[250/600]:Train loss:6.0288,val loss:5.8991
+
+Epoch[251/600]:Train loss:6.0076,val loss:5.8885
+
+Epoch[252/600]:Train loss:5.9969,val loss:5.8656
+
+Saving  model with loss5.866
+Epoch[253/600]:Train loss:5.9949,val loss:5.8552
+
+Saving  model with loss5.855
+Epoch[254/600]:Train loss:5.9841,val loss:5.8950
+
+Epoch[255/600]:Train loss:5.9780,val loss:5.8788
+
+Epoch[256/600]:Train loss:5.9561,val loss:5.8434
+
+Saving  model with loss5.843
+Epoch[257/600]:Train loss:5.9471,val loss:5.8014
+
+Saving  model with loss5.801
+Epoch[258/600]:Train loss:5.9499,val loss:5.8700
+
+Epoch[259/600]:Train loss:5.9230,val loss:5.7806
+
+Saving  model with loss5.781
+Epoch[260/600]:Train loss:5.9203,val loss:5.7683
+
+Saving  model with loss5.768
+Epoch[261/600]:Train loss:5.8970,val loss:5.7662
+
+Saving  model with loss5.766
+Epoch[262/600]:Train loss:5.8873,val loss:5.7550
+
+Saving  model with loss5.755
+Epoch[263/600]:Train loss:5.8734,val loss:5.7575
+
+Epoch[264/600]:Train loss:5.8616,val loss:5.7246
+
+Saving  model with loss5.725
+Epoch[265/600]:Train loss:5.8507,val loss:5.7319
+
+Epoch[266/600]:Train loss:5.8366,val loss:5.8004
+
+Epoch[267/600]:Train loss:5.8360,val loss:5.7192
+
+Saving  model with loss5.719
+Epoch[268/600]:Train loss:5.8029,val loss:5.6884
+
+Saving  model with loss5.688
+Epoch[269/600]:Train loss:5.8038,val loss:5.6848
+
+Saving  model with loss5.685
+Epoch[270/600]:Train loss:5.7878,val loss:5.6137
+
+Saving  model with loss5.614
+Epoch[271/600]:Train loss:5.7817,val loss:5.5870
+
+Saving  model with loss5.587
+Epoch[272/600]:Train loss:5.7590,val loss:5.6128
+
+Epoch[273/600]:Train loss:5.7470,val loss:5.6297
+
+Epoch[274/600]:Train loss:5.7334,val loss:5.6394
+
+Epoch[275/600]:Train loss:5.7181,val loss:5.5651
+
+Saving  model with loss5.565
+Epoch[276/600]:Train loss:5.7084,val loss:5.5786
+
+Epoch[277/600]:Train loss:5.7047,val loss:5.5411
+
+Saving  model with loss5.541
+Epoch[278/600]:Train loss:5.6785,val loss:5.5332
+
+Saving  model with loss5.533
+Epoch[279/600]:Train loss:5.6671,val loss:5.5948
+
+Epoch[280/600]:Train loss:5.6357,val loss:5.5374
+
+Epoch[281/600]:Train loss:5.6271,val loss:5.5380
+
+Epoch[282/600]:Train loss:5.6161,val loss:5.5261
+
+Saving  model with loss5.526
+Epoch[283/600]:Train loss:5.5904,val loss:5.4411
+
+Saving  model with loss5.441
+Epoch[284/600]:Train loss:5.5843,val loss:5.4528
+
+Epoch[285/600]:Train loss:5.5600,val loss:5.4355
+
+Saving  model with loss5.436
+Epoch[286/600]:Train loss:5.5412,val loss:5.4281
+
+Saving  model with loss5.428
+Epoch[287/600]:Train loss:5.5173,val loss:5.4430
+
+Epoch[288/600]:Train loss:5.5172,val loss:5.4204
+
+Saving  model with loss5.420
+Epoch[289/600]:Train loss:5.4919,val loss:5.3600
+
+Saving  model with loss5.360
+Epoch[290/600]:Train loss:5.4774,val loss:5.3625
+
+Epoch[291/600]:Train loss:5.4421,val loss:5.2990
+
+Saving  model with loss5.299
+Epoch[292/600]:Train loss:5.4355,val loss:5.3207
+
+Epoch[293/600]:Train loss:5.4194,val loss:5.2720
+
+Saving  model with loss5.272
+Epoch[294/600]:Train loss:5.3854,val loss:5.2746
+
+Epoch[295/600]:Train loss:5.3743,val loss:5.2512
+
+Saving  model with loss5.251
+Epoch[296/600]:Train loss:5.3515,val loss:5.2394
+
+Saving  model with loss5.239
+Epoch[297/600]:Train loss:5.3265,val loss:5.2827
+
+Epoch[298/600]:Train loss:5.3090,val loss:5.1725
+
+Saving  model with loss5.172
+Epoch[299/600]:Train loss:5.2864,val loss:5.1946
+
+Epoch[300/600]:Train loss:5.2560,val loss:5.1505
+
+Saving  model with loss5.151
+Epoch[301/600]:Train loss:5.2319,val loss:5.1488
+
+Saving  model with loss5.149
+Epoch[302/600]:Train loss:5.2116,val loss:5.0819
+
+Saving  model with loss5.082
+Epoch[303/600]:Train loss:5.1879,val loss:5.0916
+
+Epoch[304/600]:Train loss:5.1671,val loss:5.1121
+
+Epoch[305/600]:Train loss:5.1346,val loss:5.0577
+
+Saving  model with loss5.058
+Epoch[306/600]:Train loss:5.1169,val loss:4.9894
+
+Saving  model with loss4.989
+Epoch[307/600]:Train loss:5.0873,val loss:4.9814
+
+Saving  model with loss4.981
+Epoch[308/600]:Train loss:5.0627,val loss:4.9575
+
+Saving  model with loss4.958
+Epoch[309/600]:Train loss:5.0325,val loss:4.9749
+
+Epoch[310/600]:Train loss:5.0058,val loss:4.9153
+
+Saving  model with loss4.915
+Epoch[311/600]:Train loss:4.9749,val loss:4.9113
+
+Saving  model with loss4.911
+Epoch[312/600]:Train loss:4.9522,val loss:4.8373
+
+Saving  model with loss4.837
+Epoch[313/600]:Train loss:4.9198,val loss:4.8412
+
+Epoch[314/600]:Train loss:4.8886,val loss:4.7994
+
+Saving  model with loss4.799
+Epoch[315/600]:Train loss:4.8541,val loss:4.8115
+
+Epoch[316/600]:Train loss:4.8197,val loss:4.7334
+
+Saving  model with loss4.733
+Epoch[317/600]:Train loss:4.8066,val loss:4.7034
+
+Saving  model with loss4.703
+Epoch[318/600]:Train loss:4.7615,val loss:4.6694
+
+Saving  model with loss4.669
+Epoch[319/600]:Train loss:4.7122,val loss:4.6446
+
+Saving  model with loss4.645
+Epoch[320/600]:Train loss:4.6913,val loss:4.5769
+
+Saving  model with loss4.577
+Epoch[321/600]:Train loss:4.6696,val loss:4.5482
+
+Saving  model with loss4.548
+Epoch[322/600]:Train loss:4.6235,val loss:4.5612
+
+Epoch[323/600]:Train loss:4.5778,val loss:4.4933
+
+Saving  model with loss4.493
+Epoch[324/600]:Train loss:4.5517,val loss:4.4547
+
+Saving  model with loss4.455
+Epoch[325/600]:Train loss:4.5054,val loss:4.3997
+
+Saving  model with loss4.400
+Epoch[326/600]:Train loss:4.4619,val loss:4.3865
+
+Saving  model with loss4.386
+Epoch[327/600]:Train loss:4.4198,val loss:4.3681
+
+Saving  model with loss4.368
+Epoch[328/600]:Train loss:4.3783,val loss:4.2548
+
+Saving  model with loss4.255
+Epoch[329/600]:Train loss:4.3408,val loss:4.2256
+
+Saving  model with loss4.226
+Epoch[330/600]:Train loss:4.3018,val loss:4.1776
+
+Saving  model with loss4.178
+Epoch[331/600]:Train loss:4.2675,val loss:4.1890
+
+Epoch[332/600]:Train loss:4.2302,val loss:4.1829
+
+Epoch[333/600]:Train loss:4.1564,val loss:4.0754
+
+Saving  model with loss4.075
+Epoch[334/600]:Train loss:4.1269,val loss:4.0355
+
+Saving  model with loss4.036
+Epoch[335/600]:Train loss:4.0673,val loss:3.9600
+
+Saving  model with loss3.960
+Epoch[336/600]:Train loss:4.0365,val loss:3.9411
+
+Saving  model with loss3.941
+Epoch[337/600]:Train loss:3.9840,val loss:3.8309
+
+Saving  model with loss3.831
+Epoch[338/600]:Train loss:3.9241,val loss:3.8149
+
+Saving  model with loss3.815
+Epoch[339/600]:Train loss:3.8662,val loss:3.7489
+
+Saving  model with loss3.749
+Epoch[340/600]:Train loss:3.8246,val loss:3.6970
+
+Saving  model with loss3.697
+Epoch[341/600]:Train loss:3.7814,val loss:3.6949
+
+Saving  model with loss3.695
+Epoch[342/600]:Train loss:3.7067,val loss:3.6173
+
+Saving  model with loss3.617
+Epoch[343/600]:Train loss:3.6586,val loss:3.5298
+
+Saving  model with loss3.530
+Epoch[344/600]:Train loss:3.6050,val loss:3.4736
+
+Saving  model with loss3.474
+Epoch[345/600]:Train loss:3.5459,val loss:3.4321
+
+Saving  model with loss3.432
+Epoch[346/600]:Train loss:3.4972,val loss:3.3880
+
+Saving  model with loss3.388
+Epoch[347/600]:Train loss:3.4398,val loss:3.3935
+
+Epoch[348/600]:Train loss:3.3694,val loss:3.2627
+
+Saving  model with loss3.263
+Epoch[349/600]:Train loss:3.3390,val loss:3.1746
+
+Saving  model with loss3.175
+Epoch[350/600]:Train loss:3.2842,val loss:3.1360
+
+Saving  model with loss3.136
+Epoch[351/600]:Train loss:3.2262,val loss:3.1141
+
+Saving  model with loss3.114
+Epoch[352/600]:Train loss:3.1602,val loss:3.0967
+
+Saving  model with loss3.097
+Epoch[353/600]:Train loss:3.1055,val loss:2.9747
+
+Saving  model with loss2.975
+Epoch[354/600]:Train loss:3.0208,val loss:2.9088
+
+Saving  model with loss2.909
+Epoch[355/600]:Train loss:2.9828,val loss:2.8451
+
+Saving  model with loss2.845
+Epoch[356/600]:Train loss:2.9309,val loss:2.7898
+
+Saving  model with loss2.790
+Epoch[357/600]:Train loss:2.8614,val loss:2.7166
+
+Saving  model with loss2.717
+Epoch[358/600]:Train loss:2.8001,val loss:2.6972
+
+Saving  model with loss2.697
+Epoch[359/600]:Train loss:2.7439,val loss:2.6493
+
+Saving  model with loss2.649
+Epoch[360/600]:Train loss:2.7120,val loss:2.5881
+
+Saving  model with loss2.588
+Epoch[361/600]:Train loss:2.6489,val loss:2.5606
+
+Saving  model with loss2.561
+Epoch[362/600]:Train loss:2.6006,val loss:2.5341
+
+Saving  model with loss2.534
+Epoch[363/600]:Train loss:2.5508,val loss:2.4655
+
+Saving  model with loss2.466
+Epoch[364/600]:Train loss:2.5098,val loss:2.3975
+
+Saving  model with loss2.397
+Epoch[365/600]:Train loss:2.4797,val loss:2.4500
+
+Epoch[366/600]:Train loss:2.4478,val loss:2.3666
+
+Saving  model with loss2.367
+Epoch[367/600]:Train loss:2.3744,val loss:2.2678
+
+Saving  model with loss2.268
+Epoch[368/600]:Train loss:2.3412,val loss:2.2974
+
+Epoch[369/600]:Train loss:2.3093,val loss:2.2350
+
+Saving  model with loss2.235
+Epoch[370/600]:Train loss:2.2703,val loss:2.1883
+
+Saving  model with loss2.188
+Epoch[371/600]:Train loss:2.2510,val loss:2.1757
+
+Saving  model with loss2.176
+Epoch[372/600]:Train loss:2.2071,val loss:2.2322
+
+Epoch[373/600]:Train loss:2.2006,val loss:2.1315
+
+Saving  model with loss2.131
+Epoch[374/600]:Train loss:2.1722,val loss:2.1550
+
+Epoch[375/600]:Train loss:2.1292,val loss:2.0695
+
+Saving  model with loss2.069
+Epoch[376/600]:Train loss:2.1136,val loss:2.0935
+
+Epoch[377/600]:Train loss:2.1159,val loss:2.1184
+
+Epoch[378/600]:Train loss:2.0630,val loss:2.1061
+
+Epoch[379/600]:Train loss:2.0591,val loss:2.0325
+
+Saving  model with loss2.032
+Epoch[380/600]:Train loss:2.0460,val loss:2.0158
+
+Saving  model with loss2.016
+Epoch[381/600]:Train loss:2.0271,val loss:2.0083
+
+Saving  model with loss2.008
+Epoch[382/600]:Train loss:2.0331,val loss:1.9930
+
+Saving  model with loss1.993
+Epoch[383/600]:Train loss:2.0146,val loss:2.0004
+
+Epoch[384/600]:Train loss:2.0098,val loss:2.1385
+
+Epoch[385/600]:Train loss:1.9914,val loss:1.9982
+
+Epoch[386/600]:Train loss:1.9686,val loss:1.9810
+
+Saving  model with loss1.981
+Epoch[387/600]:Train loss:1.9580,val loss:1.9624
+
+Saving  model with loss1.962
+Epoch[388/600]:Train loss:1.9797,val loss:1.9400
+
+Saving  model with loss1.940
+Epoch[389/600]:Train loss:1.9794,val loss:2.0016
+
+Epoch[390/600]:Train loss:1.9859,val loss:2.1638
+
+Epoch[391/600]:Train loss:1.9952,val loss:1.9512
+
+Epoch[392/600]:Train loss:1.9515,val loss:1.9596
+
+Epoch[393/600]:Train loss:1.9416,val loss:1.9172
+
+Saving  model with loss1.917
+Epoch[394/600]:Train loss:1.9260,val loss:1.9527
+
+Epoch[395/600]:Train loss:1.9656,val loss:1.9228
+
+Epoch[396/600]:Train loss:1.9343,val loss:1.9279
+
+Epoch[397/600]:Train loss:1.9337,val loss:1.9249
+
+Epoch[398/600]:Train loss:1.9479,val loss:1.9128
+
+Saving  model with loss1.913
+Epoch[399/600]:Train loss:1.9727,val loss:1.9501
+
+Epoch[400/600]:Train loss:1.9173,val loss:2.0592
+
+Epoch[401/600]:Train loss:1.9216,val loss:1.9777
+
+Epoch[402/600]:Train loss:1.9031,val loss:2.0517
+
+Epoch[403/600]:Train loss:1.9408,val loss:1.8981
+
+Saving  model with loss1.898
+Epoch[404/600]:Train loss:1.9302,val loss:2.0580
+
+Epoch[405/600]:Train loss:1.9648,val loss:1.8924
+
+Saving  model with loss1.892
+Epoch[406/600]:Train loss:1.9031,val loss:1.9141
+
+Epoch[407/600]:Train loss:1.9110,val loss:2.0131
+
+Epoch[408/600]:Train loss:1.8978,val loss:1.8943
+
+Epoch[409/600]:Train loss:1.9502,val loss:1.9946
+
+Epoch[410/600]:Train loss:1.9050,val loss:1.8694
+
+Saving  model with loss1.869
+Epoch[411/600]:Train loss:1.8870,val loss:1.9779
+
+Epoch[412/600]:Train loss:1.9164,val loss:1.9264
+
+Epoch[413/600]:Train loss:1.8736,val loss:1.9034
+
+Epoch[414/600]:Train loss:1.9006,val loss:1.8955
+
+Epoch[415/600]:Train loss:1.8873,val loss:1.9032
+
+Epoch[416/600]:Train loss:1.8962,val loss:1.8753
+
+Epoch[417/600]:Train loss:1.8686,val loss:1.8855
+
+Epoch[418/600]:Train loss:1.9043,val loss:1.9875
+
+Epoch[419/600]:Train loss:1.8762,val loss:1.8632
+
+Saving  model with loss1.863
+Epoch[420/600]:Train loss:1.8929,val loss:1.9684
+
+Epoch[421/600]:Train loss:1.8693,val loss:1.8528
+
+Saving  model with loss1.853
+Epoch[422/600]:Train loss:1.8568,val loss:1.8548
+
+Epoch[423/600]:Train loss:1.8773,val loss:1.8880
+
+Epoch[424/600]:Train loss:1.8837,val loss:2.0216
+
+Epoch[425/600]:Train loss:1.8697,val loss:1.8557
+
+Epoch[426/600]:Train loss:1.8416,val loss:1.8626
+
+Epoch[427/600]:Train loss:1.8368,val loss:1.8812
+
+Epoch[428/600]:Train loss:1.8773,val loss:1.8870
+
+Epoch[429/600]:Train loss:1.8464,val loss:1.8516
+
+Saving  model with loss1.852
+Epoch[430/600]:Train loss:1.8419,val loss:1.8460
+
+Saving  model with loss1.846
+Epoch[431/600]:Train loss:1.8283,val loss:1.8512
+
+Epoch[432/600]:Train loss:1.8291,val loss:1.9011
+
+Epoch[433/600]:Train loss:1.8352,val loss:1.8856
+
+Epoch[434/600]:Train loss:1.8469,val loss:1.8387
+
+Saving  model with loss1.839
+Epoch[435/600]:Train loss:1.8679,val loss:1.8443
+
+Epoch[436/600]:Train loss:1.8241,val loss:1.8645
+
+Epoch[437/600]:Train loss:1.8508,val loss:1.9009
+
+Epoch[438/600]:Train loss:1.8190,val loss:1.8448
+
+Epoch[439/600]:Train loss:1.8294,val loss:1.8332
+
+Saving  model with loss1.833
+Epoch[440/600]:Train loss:1.8241,val loss:1.8573
+
+Epoch[441/600]:Train loss:1.8211,val loss:1.8652
+
+Epoch[442/600]:Train loss:1.8115,val loss:1.8271
+
+Saving  model with loss1.827
+Epoch[443/600]:Train loss:1.8121,val loss:1.8419
+
+Epoch[444/600]:Train loss:1.8180,val loss:1.8266
+
+Saving  model with loss1.827
+Epoch[445/600]:Train loss:1.8240,val loss:1.8315
+
+Epoch[446/600]:Train loss:1.8521,val loss:2.0259
+
+Epoch[447/600]:Train loss:1.8446,val loss:1.8270
+
+Epoch[448/600]:Train loss:1.8554,val loss:1.8159
+
+Saving  model with loss1.816
+Epoch[449/600]:Train loss:1.8247,val loss:1.8112
+
+Saving  model with loss1.811
+Epoch[450/600]:Train loss:1.8298,val loss:2.0956
+
+Epoch[451/600]:Train loss:1.7832,val loss:1.8141
+
+Epoch[452/600]:Train loss:1.8128,val loss:1.8286
+
+Epoch[453/600]:Train loss:1.8238,val loss:1.7996
+
+Saving  model with loss1.800
+Epoch[454/600]:Train loss:1.7788,val loss:1.8116
+
+Epoch[455/600]:Train loss:1.8206,val loss:1.8222
+
+Epoch[456/600]:Train loss:1.7804,val loss:1.8082
+
+Epoch[457/600]:Train loss:1.8126,val loss:1.8107
+
+Epoch[458/600]:Train loss:1.8348,val loss:1.8507
+
+Epoch[459/600]:Train loss:1.7836,val loss:1.8077
+
+Epoch[460/600]:Train loss:1.7666,val loss:1.9644
+
+Epoch[461/600]:Train loss:1.8348,val loss:1.7731
+
+Saving  model with loss1.773
+Epoch[462/600]:Train loss:1.7629,val loss:1.8405
+
+Epoch[463/600]:Train loss:1.8002,val loss:1.8110
+
+Epoch[464/600]:Train loss:1.7972,val loss:1.8692
+
+Epoch[465/600]:Train loss:1.7728,val loss:1.7809
+
+Epoch[466/600]:Train loss:1.8472,val loss:1.8054
+
+Epoch[467/600]:Train loss:1.7788,val loss:1.9940
+
+Epoch[468/600]:Train loss:1.8122,val loss:1.7730
+
+Saving  model with loss1.773
+Epoch[469/600]:Train loss:1.7863,val loss:1.7753
+
+Epoch[470/600]:Train loss:1.7483,val loss:1.8038
+
+Epoch[471/600]:Train loss:1.7880,val loss:1.8814
+
+Epoch[472/600]:Train loss:1.7969,val loss:1.7663
+
+Saving  model with loss1.766
+Epoch[473/600]:Train loss:1.7546,val loss:1.7512
+
+Saving  model with loss1.751
+Epoch[474/600]:Train loss:1.7601,val loss:1.7826
+
+Epoch[475/600]:Train loss:1.7810,val loss:1.7879
+
+Epoch[476/600]:Train loss:1.7445,val loss:1.7608
+
+Epoch[477/600]:Train loss:1.8112,val loss:1.7645
+
+Epoch[478/600]:Train loss:1.7902,val loss:1.7709
+
+Epoch[479/600]:Train loss:1.7539,val loss:1.7953
+
+Epoch[480/600]:Train loss:1.7549,val loss:1.7766
+
+Epoch[481/600]:Train loss:1.7984,val loss:1.7578
+
+Epoch[482/600]:Train loss:1.7629,val loss:1.7542
+
+Epoch[483/600]:Train loss:1.7977,val loss:1.8443
+
+Epoch[484/600]:Train loss:1.7845,val loss:1.9677
+
+Epoch[485/600]:Train loss:1.7820,val loss:1.7451
+
+Saving  model with loss1.745
+Epoch[486/600]:Train loss:1.7399,val loss:1.8189
+
+Epoch[487/600]:Train loss:1.7268,val loss:1.7695
+
+Epoch[488/600]:Train loss:1.7382,val loss:1.7555
+
+Epoch[489/600]:Train loss:1.7833,val loss:1.7693
+
+Epoch[490/600]:Train loss:1.7238,val loss:1.8814
+
+Epoch[491/600]:Train loss:1.7248,val loss:1.7906
+
+Epoch[492/600]:Train loss:1.7459,val loss:1.8494
+
+Epoch[493/600]:Train loss:1.7254,val loss:1.7734
+
+Epoch[494/600]:Train loss:1.7413,val loss:1.7610
+
+Epoch[495/600]:Train loss:1.7236,val loss:1.7323
+
+Saving  model with loss1.732
+Epoch[496/600]:Train loss:1.7267,val loss:1.7472
+
+Epoch[497/600]:Train loss:1.7152,val loss:1.7169
+
+Saving  model with loss1.717
+Epoch[498/600]:Train loss:1.7427,val loss:1.7828
+
+Epoch[499/600]:Train loss:1.7147,val loss:1.8478
+
+Epoch[500/600]:Train loss:1.7190,val loss:1.7431
+
+Epoch[501/600]:Train loss:1.7104,val loss:1.7178
+
+Epoch[502/600]:Train loss:1.7010,val loss:1.7301
+
+Epoch[503/600]:Train loss:1.7322,val loss:1.7482
+
+Epoch[504/600]:Train loss:1.7072,val loss:1.7221
+
+Epoch[505/600]:Train loss:1.7401,val loss:1.8437
+
+Epoch[506/600]:Train loss:1.6919,val loss:1.7245
+
+Epoch[507/600]:Train loss:1.6812,val loss:1.7078
+
+Saving  model with loss1.708
+Epoch[508/600]:Train loss:1.7129,val loss:1.7166
+
+Epoch[509/600]:Train loss:1.7391,val loss:1.7074
+
+Saving  model with loss1.707
+Epoch[510/600]:Train loss:1.7229,val loss:1.7757
+
+Epoch[511/600]:Train loss:1.6892,val loss:1.7159
+
+Epoch[512/600]:Train loss:1.6753,val loss:1.7058
+
+Saving  model with loss1.706
+Epoch[513/600]:Train loss:1.7580,val loss:1.6762
+
+Saving  model with loss1.676
+Epoch[514/600]:Train loss:1.7050,val loss:1.7441
+
+Epoch[515/600]:Train loss:1.6999,val loss:1.7170
+
+Epoch[516/600]:Train loss:1.7056,val loss:1.7182
+
+Epoch[517/600]:Train loss:1.6739,val loss:1.7092
+
+Epoch[518/600]:Train loss:1.6657,val loss:1.6834
+
+Epoch[519/600]:Train loss:1.6882,val loss:1.6829
+
+Epoch[520/600]:Train loss:1.7121,val loss:1.7301
+
+Epoch[521/600]:Train loss:1.6723,val loss:1.7798
+
+Epoch[522/600]:Train loss:1.6799,val loss:1.7356
+
+Epoch[523/600]:Train loss:1.6865,val loss:1.7535
+
+Epoch[524/600]:Train loss:1.6554,val loss:1.6794
+
+Epoch[525/600]:Train loss:1.6997,val loss:1.6861
+
+Epoch[526/600]:Train loss:1.7947,val loss:1.6631
+
+Saving  model with loss1.663
+Epoch[527/600]:Train loss:1.7704,val loss:1.6659
+
+Epoch[528/600]:Train loss:1.7469,val loss:1.7124
+
+Epoch[529/600]:Train loss:1.6740,val loss:1.6858
+
+Epoch[530/600]:Train loss:1.6540,val loss:1.6767
+
+Epoch[531/600]:Train loss:1.6651,val loss:1.6870
+
+Epoch[532/600]:Train loss:1.6729,val loss:1.6656
+
+Epoch[533/600]:Train loss:1.6786,val loss:1.6762
+
+Epoch[534/600]:Train loss:1.6414,val loss:1.6899
+
+Epoch[535/600]:Train loss:1.6795,val loss:1.6807
+
+Epoch[536/600]:Train loss:1.6675,val loss:1.6985
+
+Epoch[537/600]:Train loss:1.7185,val loss:1.9676
+
+Epoch[538/600]:Train loss:1.7215,val loss:1.6886
+
+Epoch[539/600]:Train loss:1.6980,val loss:1.6702
+
+Epoch[540/600]:Train loss:1.6575,val loss:1.6807
+
+Epoch[541/600]:Train loss:1.7026,val loss:1.7143
+
+Epoch[542/600]:Train loss:1.6474,val loss:1.6734
+
+Epoch[543/600]:Train loss:1.6276,val loss:1.6774
+
+Epoch[544/600]:Train loss:1.6955,val loss:1.7420
+
+Epoch[545/600]:Train loss:1.7302,val loss:1.6385
+
+Saving  model with loss1.638
+Epoch[546/600]:Train loss:1.6395,val loss:1.6702
+
+Epoch[547/600]:Train loss:1.6804,val loss:1.6219
+
+Saving  model with loss1.622
+Epoch[548/600]:Train loss:1.6359,val loss:1.7898
+
+Epoch[549/600]:Train loss:1.6511,val loss:1.8510
+
+Epoch[550/600]:Train loss:1.6296,val loss:1.6296
+
+Epoch[551/600]:Train loss:1.6069,val loss:1.6362
+
+Epoch[552/600]:Train loss:1.6281,val loss:1.7050
+
+Epoch[553/600]:Train loss:1.6327,val loss:1.6555
+
+Epoch[554/600]:Train loss:1.5918,val loss:1.6369
+
+Epoch[555/600]:Train loss:1.6046,val loss:1.6301
+
+Epoch[556/600]:Train loss:1.6082,val loss:1.6039
+
+Saving  model with loss1.604
+Epoch[557/600]:Train loss:1.6145,val loss:1.6185
+
+Epoch[558/600]:Train loss:1.6159,val loss:1.6119
+
+Epoch[559/600]:Train loss:1.6172,val loss:1.6374
+
+Epoch[560/600]:Train loss:1.6254,val loss:1.5987
+
+Saving  model with loss1.599
+Epoch[561/600]:Train loss:1.6373,val loss:1.6377
+
+Epoch[562/600]:Train loss:1.6799,val loss:1.6507
+
+Epoch[563/600]:Train loss:1.6111,val loss:1.6194
+
+Epoch[564/600]:Train loss:1.5848,val loss:1.6337
+
+Epoch[565/600]:Train loss:1.6223,val loss:1.8114
+
+Epoch[566/600]:Train loss:1.6551,val loss:1.7934
+
+Epoch[567/600]:Train loss:1.6438,val loss:1.6221
+
+Epoch[568/600]:Train loss:1.6040,val loss:1.6967
+
+Epoch[569/600]:Train loss:1.6657,val loss:1.6220
+
+Epoch[570/600]:Train loss:1.6422,val loss:1.6023
+
+Epoch[571/600]:Train loss:1.6106,val loss:1.6786
+
+Epoch[572/600]:Train loss:1.5997,val loss:1.5770
+
+Saving  model with loss1.577
+Epoch[573/600]:Train loss:1.5753,val loss:1.6398
+
+Epoch[574/600]:Train loss:1.6168,val loss:1.8054
+
+Epoch[575/600]:Train loss:1.6061,val loss:1.5960
+
+Epoch[576/600]:Train loss:1.5796,val loss:1.6456
+
+Epoch[577/600]:Train loss:1.5707,val loss:1.5774
+
+Epoch[578/600]:Train loss:1.5776,val loss:1.5778
+
+Epoch[579/600]:Train loss:1.5676,val loss:1.6228
+
+Epoch[580/600]:Train loss:1.5464,val loss:1.6614
+
+Epoch[581/600]:Train loss:1.5761,val loss:1.6443
+
+Epoch[582/600]:Train loss:1.5800,val loss:1.5686
+
+Saving  model with loss1.569
+Epoch[583/600]:Train loss:1.6159,val loss:1.5990
+
+Epoch[584/600]:Train loss:1.6062,val loss:1.5819
+
+Epoch[585/600]:Train loss:1.5493,val loss:1.5853
+
+Epoch[586/600]:Train loss:1.5673,val loss:1.5753
+
+Epoch[587/600]:Train loss:1.6064,val loss:1.6469
+
+Epoch[588/600]:Train loss:1.5694,val loss:1.7306
+
+Epoch[589/600]:Train loss:1.6374,val loss:1.6714
+
+Epoch[590/600]:Train loss:1.5515,val loss:1.8844
+
+Epoch[591/600]:Train loss:1.6358,val loss:1.5625
+
+Saving  model with loss1.562
+Epoch[592/600]:Train loss:1.5820,val loss:1.5389
+
+Saving  model with loss1.539
+Epoch[593/600]:Train loss:1.5336,val loss:1.5474
+
+Epoch[594/600]:Train loss:1.5489,val loss:1.5586
+
+Epoch[595/600]:Train loss:1.5383,val loss:1.5535
+
+Epoch[596/600]:Train loss:1.5612,val loss:1.6151
+
+Epoch[597/600]:Train loss:1.5663,val loss:1.6767
+
+Epoch[598/600]:Train loss:1.5459,val loss:1.5515
+
+Epoch[599/600]:Train loss:1.5396,val loss:1.6449
+
+Epoch[600/600]:Train loss:1.5930,val loss:1.5469
+
+swanlab: Experiment covid_model_train has completed
+swanlab: 🌟 Run `swanlab watch D:\python-mangshe\pythonProject1\李宏毅机器学习\Hw1\swanlog` to view SwanLab Experiment Dashboard locally
+swanlab: 🏠 View project at https://swanlab.cn/@lizhongzheng/Hw1
+swanlab: 🚀 View run at https://swanlab.cn/@lizhongzheng/Hw1/runs/hxu46b2xwyi4pn0f2uzvz
+swanlab: \ Waiting for uploading completeswanlab: | Waiting for uploading completeswanlab: / Waiting for uploading complete                                                                                                    swanlab: \ Updating experiment status...                                                                                                    

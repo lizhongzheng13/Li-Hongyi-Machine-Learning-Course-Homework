@@ -1,0 +1,3507 @@
+swanlab: \ Creating experiment...                                                                                                    swanlab: Tracking run with swanlab version 0.4.9
+swanlab: Run data will be saved locally in D:\python-mangshe\pythonProject1\李宏毅机器学习\Hw1\swanlog\run-20250310_154222-28e12294
+swanlab: 👋 Hi lizhongzheng, welcome to swanlab!
+swanlab: Syncing run covid_model_train to the cloud
+swanlab: 🌟 Run `swanlab watch D:\python-mangshe\pythonProject1\李宏毅机器学习\Hw1\swanlog` to view SwanLab Experiment Dashboard locally
+swanlab: 🏠 View project at https://swanlab.cn/@lizhongzheng/Hw1
+swanlab: 🚀 View run at https://swanlab.cn/@lizhongzheng/Hw1/runs/1p7w5tr0gi2wuedrff1kf
+train_data size: (2408, 89) valid_data size: (601, 89) test_data size: (997, 88)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87]
+number of features: 88
+Epoch[1/8000]:Train loss:364.1592,val loss:115.5365
+
+Saving  model with loss115.537
+Epoch[2/8000]:Train loss:148.1449,val loss:119.0994
+
+Epoch[3/8000]:Train loss:139.9104,val loss:105.7117
+
+Saving  model with loss105.712
+Epoch[4/8000]:Train loss:141.0017,val loss:105.0121
+
+Saving  model with loss105.012
+Epoch[5/8000]:Train loss:127.2574,val loss:95.8195
+
+Saving  model with loss95.819
+Epoch[6/8000]:Train loss:119.5809,val loss:90.6015
+
+Saving  model with loss90.602
+Epoch[7/8000]:Train loss:118.6267,val loss:87.8445
+
+Saving  model with loss87.844
+Epoch[8/8000]:Train loss:112.0884,val loss:74.0460
+
+Saving  model with loss74.046
+Epoch[9/8000]:Train loss:117.6087,val loss:90.8211
+
+Epoch[10/8000]:Train loss:111.4805,val loss:91.1743
+
+Epoch[11/8000]:Train loss:110.8555,val loss:74.0677
+
+Epoch[12/8000]:Train loss:106.3350,val loss:80.2007
+
+Epoch[13/8000]:Train loss:104.4385,val loss:78.6363
+
+Epoch[14/8000]:Train loss:102.9065,val loss:64.8937
+
+Saving  model with loss64.894
+Epoch[15/8000]:Train loss:103.6990,val loss:62.1712
+
+Saving  model with loss62.171
+Epoch[16/8000]:Train loss:108.4076,val loss:109.4143
+
+Epoch[17/8000]:Train loss:103.9486,val loss:102.3919
+
+Epoch[18/8000]:Train loss:104.2884,val loss:58.4770
+
+Saving  model with loss58.477
+Epoch[19/8000]:Train loss:101.5051,val loss:53.0195
+
+Saving  model with loss53.019
+Epoch[20/8000]:Train loss:100.8812,val loss:65.8755
+
+Epoch[21/8000]:Train loss:94.2707,val loss:53.6525
+
+Epoch[22/8000]:Train loss:93.8475,val loss:52.3733
+
+Saving  model with loss52.373
+Epoch[23/8000]:Train loss:91.2739,val loss:43.0188
+
+Saving  model with loss43.019
+Epoch[24/8000]:Train loss:87.7020,val loss:38.9858
+
+Saving  model with loss38.986
+Epoch[25/8000]:Train loss:86.3695,val loss:66.9368
+
+Epoch[26/8000]:Train loss:109.2988,val loss:52.2457
+
+Epoch[27/8000]:Train loss:83.4212,val loss:34.1001
+
+Saving  model with loss34.100
+Epoch[28/8000]:Train loss:84.9649,val loss:35.7769
+
+Epoch[29/8000]:Train loss:76.6400,val loss:32.3643
+
+Saving  model with loss32.364
+Epoch[30/8000]:Train loss:132.6683,val loss:87.4545
+
+Epoch[31/8000]:Train loss:108.9089,val loss:45.3613
+
+Epoch[32/8000]:Train loss:90.7127,val loss:58.7046
+
+Epoch[33/8000]:Train loss:95.8708,val loss:41.9723
+
+Epoch[34/8000]:Train loss:86.3859,val loss:36.4834
+
+Epoch[35/8000]:Train loss:100.0637,val loss:38.2301
+
+Epoch[36/8000]:Train loss:92.3814,val loss:33.0181
+
+Epoch[37/8000]:Train loss:83.6674,val loss:46.8044
+
+Epoch[38/8000]:Train loss:82.1127,val loss:91.8363
+
+Epoch[39/8000]:Train loss:110.8746,val loss:62.0793
+
+Epoch[40/8000]:Train loss:102.1099,val loss:60.8161
+
+Epoch[41/8000]:Train loss:103.5443,val loss:101.3157
+
+Epoch[42/8000]:Train loss:95.6899,val loss:89.9656
+
+Epoch[43/8000]:Train loss:95.9313,val loss:46.9459
+
+Epoch[44/8000]:Train loss:89.6765,val loss:53.3314
+
+Epoch[45/8000]:Train loss:88.9856,val loss:45.2929
+
+Epoch[46/8000]:Train loss:89.3956,val loss:40.1231
+
+Epoch[47/8000]:Train loss:86.3631,val loss:38.6973
+
+Epoch[48/8000]:Train loss:87.0614,val loss:42.6307
+
+Epoch[49/8000]:Train loss:105.1867,val loss:61.6761
+
+Epoch[50/8000]:Train loss:113.2069,val loss:65.8532
+
+Epoch[51/8000]:Train loss:97.4494,val loss:86.3371
+
+Epoch[52/8000]:Train loss:147.2020,val loss:67.9805
+
+Epoch[53/8000]:Train loss:105.5874,val loss:106.2011
+
+Epoch[54/8000]:Train loss:110.1097,val loss:96.0262
+
+Epoch[55/8000]:Train loss:92.9487,val loss:97.1070
+
+Epoch[56/8000]:Train loss:104.5117,val loss:41.6378
+
+Epoch[57/8000]:Train loss:92.1689,val loss:64.6391
+
+Epoch[58/8000]:Train loss:93.5490,val loss:32.9631
+
+Epoch[59/8000]:Train loss:79.7541,val loss:33.7595
+
+Epoch[60/8000]:Train loss:77.8288,val loss:26.6735
+
+Saving  model with loss26.674
+Epoch[61/8000]:Train loss:82.0235,val loss:33.0883
+
+Epoch[62/8000]:Train loss:84.2981,val loss:54.4576
+
+Epoch[63/8000]:Train loss:111.0762,val loss:53.4009
+
+Epoch[64/8000]:Train loss:101.9044,val loss:83.8523
+
+Epoch[65/8000]:Train loss:98.7133,val loss:51.6220
+
+Epoch[66/8000]:Train loss:95.2096,val loss:72.3466
+
+Epoch[67/8000]:Train loss:88.1997,val loss:59.3983
+
+Epoch[68/8000]:Train loss:89.3397,val loss:57.3507
+
+Epoch[69/8000]:Train loss:85.6794,val loss:39.6781
+
+Epoch[70/8000]:Train loss:87.5938,val loss:34.1864
+
+Epoch[71/8000]:Train loss:102.3994,val loss:133.2024
+
+Epoch[72/8000]:Train loss:123.2365,val loss:76.0589
+
+Epoch[73/8000]:Train loss:105.4246,val loss:43.6607
+
+Epoch[74/8000]:Train loss:109.0610,val loss:72.2352
+
+Epoch[75/8000]:Train loss:98.8987,val loss:55.5334
+
+Epoch[76/8000]:Train loss:114.0519,val loss:43.8798
+
+Epoch[77/8000]:Train loss:94.2454,val loss:47.0714
+
+Epoch[78/8000]:Train loss:87.5607,val loss:47.1637
+
+Epoch[79/8000]:Train loss:79.1816,val loss:51.0606
+
+Epoch[80/8000]:Train loss:104.3555,val loss:120.8513
+
+Epoch[81/8000]:Train loss:108.6796,val loss:65.3173
+
+Epoch[82/8000]:Train loss:98.7545,val loss:24.5038
+
+Saving  model with loss24.504
+Epoch[83/8000]:Train loss:90.2673,val loss:38.8572
+
+Epoch[84/8000]:Train loss:76.1605,val loss:22.3050
+
+Saving  model with loss22.305
+Epoch[85/8000]:Train loss:92.3865,val loss:25.1121
+
+Epoch[86/8000]:Train loss:68.8054,val loss:39.0564
+
+Epoch[87/8000]:Train loss:107.9653,val loss:85.2704
+
+Epoch[88/8000]:Train loss:107.1946,val loss:84.6014
+
+Epoch[89/8000]:Train loss:98.5231,val loss:49.3465
+
+Epoch[90/8000]:Train loss:92.6694,val loss:79.6237
+
+Epoch[91/8000]:Train loss:91.2206,val loss:70.2096
+
+Epoch[92/8000]:Train loss:93.5030,val loss:50.8948
+
+Epoch[93/8000]:Train loss:95.7350,val loss:47.6376
+
+Epoch[94/8000]:Train loss:96.1424,val loss:86.4120
+
+Epoch[95/8000]:Train loss:94.6540,val loss:86.1103
+
+Epoch[96/8000]:Train loss:86.1172,val loss:84.1548
+
+Epoch[97/8000]:Train loss:109.0468,val loss:46.1404
+
+Epoch[98/8000]:Train loss:85.4103,val loss:39.1828
+
+Epoch[99/8000]:Train loss:87.5405,val loss:35.1049
+
+Epoch[100/8000]:Train loss:98.2244,val loss:98.0481
+
+Epoch[101/8000]:Train loss:124.5858,val loss:34.4775
+
+Epoch[102/8000]:Train loss:81.7020,val loss:132.8737
+
+Epoch[103/8000]:Train loss:100.0571,val loss:70.8586
+
+Epoch[104/8000]:Train loss:82.8045,val loss:17.9767
+
+Saving  model with loss17.977
+Epoch[105/8000]:Train loss:71.5176,val loss:33.6528
+
+Epoch[106/8000]:Train loss:86.4460,val loss:72.4146
+
+Epoch[107/8000]:Train loss:90.9565,val loss:39.9854
+
+Epoch[108/8000]:Train loss:74.2572,val loss:17.0721
+
+Saving  model with loss17.072
+Epoch[109/8000]:Train loss:72.0759,val loss:18.5050
+
+Epoch[110/8000]:Train loss:69.4616,val loss:16.7386
+
+Saving  model with loss16.739
+Epoch[111/8000]:Train loss:82.2247,val loss:21.2349
+
+Epoch[112/8000]:Train loss:82.3408,val loss:47.7453
+
+Epoch[113/8000]:Train loss:75.8076,val loss:34.0296
+
+Epoch[114/8000]:Train loss:57.4871,val loss:16.6223
+
+Saving  model with loss16.622
+Epoch[115/8000]:Train loss:116.4193,val loss:44.8824
+
+Epoch[116/8000]:Train loss:81.4289,val loss:43.9940
+
+Epoch[117/8000]:Train loss:77.3517,val loss:30.9420
+
+Epoch[118/8000]:Train loss:76.8215,val loss:12.8610
+
+Saving  model with loss12.861
+Epoch[119/8000]:Train loss:74.1609,val loss:93.2670
+
+Epoch[120/8000]:Train loss:83.6472,val loss:15.8199
+
+Epoch[121/8000]:Train loss:78.0139,val loss:18.0021
+
+Epoch[122/8000]:Train loss:62.7782,val loss:25.0668
+
+Epoch[123/8000]:Train loss:65.5824,val loss:31.5929
+
+Epoch[124/8000]:Train loss:70.7319,val loss:27.5155
+
+Epoch[125/8000]:Train loss:61.4462,val loss:20.0967
+
+Epoch[126/8000]:Train loss:59.6361,val loss:18.5084
+
+Epoch[127/8000]:Train loss:68.8000,val loss:99.2747
+
+Epoch[128/8000]:Train loss:64.9358,val loss:33.4664
+
+Epoch[129/8000]:Train loss:64.2696,val loss:46.8140
+
+Epoch[130/8000]:Train loss:61.6068,val loss:18.7627
+
+Epoch[131/8000]:Train loss:58.8262,val loss:26.4497
+
+Epoch[132/8000]:Train loss:65.2634,val loss:39.9338
+
+Epoch[133/8000]:Train loss:64.0451,val loss:20.4321
+
+Epoch[134/8000]:Train loss:61.8607,val loss:20.5467
+
+Epoch[135/8000]:Train loss:64.3553,val loss:31.1497
+
+Epoch[136/8000]:Train loss:65.3911,val loss:24.8654
+
+Epoch[137/8000]:Train loss:61.3647,val loss:13.7790
+
+Epoch[138/8000]:Train loss:60.8044,val loss:17.0817
+
+Epoch[139/8000]:Train loss:57.6772,val loss:11.3126
+
+Saving  model with loss11.313
+Epoch[140/8000]:Train loss:62.7943,val loss:45.4112
+
+Epoch[141/8000]:Train loss:59.0063,val loss:29.9273
+
+Epoch[142/8000]:Train loss:56.2449,val loss:16.8555
+
+Epoch[143/8000]:Train loss:60.6009,val loss:16.8707
+
+Epoch[144/8000]:Train loss:57.7476,val loss:18.9461
+
+Epoch[145/8000]:Train loss:65.4927,val loss:23.8581
+
+Epoch[146/8000]:Train loss:60.3960,val loss:35.5591
+
+Epoch[147/8000]:Train loss:56.9871,val loss:21.3780
+
+Epoch[148/8000]:Train loss:57.0802,val loss:16.4015
+
+Epoch[149/8000]:Train loss:63.1813,val loss:35.0454
+
+Epoch[150/8000]:Train loss:53.5119,val loss:25.0756
+
+Epoch[151/8000]:Train loss:55.7878,val loss:20.7685
+
+Epoch[152/8000]:Train loss:58.1020,val loss:29.7504
+
+Epoch[153/8000]:Train loss:53.4008,val loss:15.2564
+
+Epoch[154/8000]:Train loss:54.4746,val loss:31.6175
+
+Epoch[155/8000]:Train loss:54.5488,val loss:19.1875
+
+Epoch[156/8000]:Train loss:55.9854,val loss:28.2448
+
+Epoch[157/8000]:Train loss:56.4246,val loss:25.0266
+
+Epoch[158/8000]:Train loss:56.9508,val loss:15.8754
+
+Epoch[159/8000]:Train loss:59.6971,val loss:48.5212
+
+Epoch[160/8000]:Train loss:61.5263,val loss:19.7382
+
+Epoch[161/8000]:Train loss:56.0099,val loss:16.4452
+
+Epoch[162/8000]:Train loss:53.5410,val loss:35.5500
+
+Epoch[163/8000]:Train loss:60.0590,val loss:11.6657
+
+Epoch[164/8000]:Train loss:57.3696,val loss:10.3980
+
+Saving  model with loss10.398
+Epoch[165/8000]:Train loss:63.1982,val loss:13.0716
+
+Epoch[166/8000]:Train loss:58.9725,val loss:20.9696
+
+Epoch[167/8000]:Train loss:57.3036,val loss:11.4589
+
+Epoch[168/8000]:Train loss:56.7072,val loss:16.8046
+
+Epoch[169/8000]:Train loss:52.9121,val loss:12.9602
+
+Epoch[170/8000]:Train loss:50.0583,val loss:18.0326
+
+Epoch[171/8000]:Train loss:53.3135,val loss:36.5988
+
+Epoch[172/8000]:Train loss:51.1214,val loss:29.9073
+
+Epoch[173/8000]:Train loss:58.5412,val loss:61.4179
+
+Epoch[174/8000]:Train loss:57.1768,val loss:18.2046
+
+Epoch[175/8000]:Train loss:58.0400,val loss:20.0928
+
+Epoch[176/8000]:Train loss:54.6958,val loss:13.3252
+
+Epoch[177/8000]:Train loss:61.3961,val loss:11.1249
+
+Epoch[178/8000]:Train loss:58.0597,val loss:23.3351
+
+Epoch[179/8000]:Train loss:53.6912,val loss:25.3545
+
+Epoch[180/8000]:Train loss:55.3838,val loss:103.1339
+
+Epoch[181/8000]:Train loss:66.6588,val loss:23.4257
+
+Epoch[182/8000]:Train loss:51.6190,val loss:11.5618
+
+Epoch[183/8000]:Train loss:50.4499,val loss:19.8143
+
+Epoch[184/8000]:Train loss:53.0505,val loss:12.9059
+
+Epoch[185/8000]:Train loss:53.6005,val loss:12.1844
+
+Epoch[186/8000]:Train loss:57.0285,val loss:27.1077
+
+Epoch[187/8000]:Train loss:58.0545,val loss:11.0454
+
+Epoch[188/8000]:Train loss:54.5418,val loss:17.7220
+
+Epoch[189/8000]:Train loss:54.7417,val loss:20.4466
+
+Epoch[190/8000]:Train loss:53.1507,val loss:32.7851
+
+Epoch[191/8000]:Train loss:53.5526,val loss:27.7239
+
+Epoch[192/8000]:Train loss:54.8058,val loss:20.9440
+
+Epoch[193/8000]:Train loss:53.2672,val loss:43.4740
+
+Epoch[194/8000]:Train loss:57.1381,val loss:18.5620
+
+Epoch[195/8000]:Train loss:54.7436,val loss:13.4733
+
+Epoch[196/8000]:Train loss:51.8142,val loss:17.8954
+
+Epoch[197/8000]:Train loss:49.6541,val loss:45.6465
+
+Epoch[198/8000]:Train loss:71.4461,val loss:61.0154
+
+Epoch[199/8000]:Train loss:58.0763,val loss:15.5267
+
+Epoch[200/8000]:Train loss:54.4074,val loss:10.5184
+
+Epoch[201/8000]:Train loss:53.4647,val loss:21.7825
+
+Epoch[202/8000]:Train loss:53.1730,val loss:17.9457
+
+Epoch[203/8000]:Train loss:55.4373,val loss:15.5440
+
+Epoch[204/8000]:Train loss:49.9886,val loss:22.9661
+
+Epoch[205/8000]:Train loss:54.5368,val loss:39.2316
+
+Epoch[206/8000]:Train loss:53.0264,val loss:24.4991
+
+Epoch[207/8000]:Train loss:56.9429,val loss:11.4400
+
+Epoch[208/8000]:Train loss:54.1059,val loss:20.4869
+
+Epoch[209/8000]:Train loss:49.7761,val loss:19.8884
+
+Epoch[210/8000]:Train loss:50.2622,val loss:20.7122
+
+Epoch[211/8000]:Train loss:57.7691,val loss:12.0475
+
+Epoch[212/8000]:Train loss:53.6467,val loss:17.2254
+
+Epoch[213/8000]:Train loss:53.0663,val loss:20.1826
+
+Epoch[214/8000]:Train loss:56.6461,val loss:16.6256
+
+Epoch[215/8000]:Train loss:53.8056,val loss:19.5993
+
+Epoch[216/8000]:Train loss:51.2616,val loss:20.7738
+
+Epoch[217/8000]:Train loss:56.3010,val loss:11.1014
+
+Epoch[218/8000]:Train loss:51.3197,val loss:21.1311
+
+Epoch[219/8000]:Train loss:48.6720,val loss:26.7752
+
+Epoch[220/8000]:Train loss:53.2095,val loss:12.3347
+
+Epoch[221/8000]:Train loss:52.9040,val loss:20.9837
+
+Epoch[222/8000]:Train loss:56.3045,val loss:17.6533
+
+Epoch[223/8000]:Train loss:51.7607,val loss:19.8173
+
+Epoch[224/8000]:Train loss:50.1299,val loss:22.9584
+
+Epoch[225/8000]:Train loss:50.9031,val loss:15.2182
+
+Epoch[226/8000]:Train loss:52.2027,val loss:13.1733
+
+Epoch[227/8000]:Train loss:53.6878,val loss:26.8668
+
+Epoch[228/8000]:Train loss:46.5795,val loss:26.9296
+
+Epoch[229/8000]:Train loss:54.4558,val loss:17.6634
+
+Epoch[230/8000]:Train loss:51.0729,val loss:11.8698
+
+Epoch[231/8000]:Train loss:50.2448,val loss:13.4376
+
+Epoch[232/8000]:Train loss:50.1112,val loss:24.9088
+
+Epoch[233/8000]:Train loss:51.5231,val loss:19.4941
+
+Epoch[234/8000]:Train loss:46.4927,val loss:33.2362
+
+Epoch[235/8000]:Train loss:49.5894,val loss:36.7380
+
+Epoch[236/8000]:Train loss:52.5975,val loss:23.3534
+
+Epoch[237/8000]:Train loss:52.3292,val loss:12.5749
+
+Epoch[238/8000]:Train loss:51.1021,val loss:27.2769
+
+Epoch[239/8000]:Train loss:51.6578,val loss:29.8377
+
+Epoch[240/8000]:Train loss:53.8986,val loss:32.8113
+
+Epoch[241/8000]:Train loss:51.5588,val loss:10.6929
+
+Epoch[242/8000]:Train loss:49.1849,val loss:16.3859
+
+Epoch[243/8000]:Train loss:49.6882,val loss:15.9828
+
+Epoch[244/8000]:Train loss:48.8569,val loss:12.9731
+
+Epoch[245/8000]:Train loss:49.9108,val loss:13.9736
+
+Epoch[246/8000]:Train loss:47.4067,val loss:20.6240
+
+Epoch[247/8000]:Train loss:46.6687,val loss:11.3596
+
+Epoch[248/8000]:Train loss:53.0722,val loss:17.4203
+
+Epoch[249/8000]:Train loss:51.8515,val loss:22.2136
+
+Epoch[250/8000]:Train loss:50.1859,val loss:16.5852
+
+Epoch[251/8000]:Train loss:46.8394,val loss:17.1049
+
+Epoch[252/8000]:Train loss:46.7785,val loss:16.6811
+
+Epoch[253/8000]:Train loss:49.4242,val loss:11.7431
+
+Epoch[254/8000]:Train loss:52.9420,val loss:30.2688
+
+Epoch[255/8000]:Train loss:51.5621,val loss:34.6844
+
+Epoch[256/8000]:Train loss:47.5571,val loss:30.4013
+
+Epoch[257/8000]:Train loss:48.9175,val loss:22.6411
+
+Epoch[258/8000]:Train loss:52.0059,val loss:12.4756
+
+Epoch[259/8000]:Train loss:48.4544,val loss:24.9120
+
+Epoch[260/8000]:Train loss:51.3248,val loss:18.5850
+
+Epoch[261/8000]:Train loss:50.6071,val loss:24.7714
+
+Epoch[262/8000]:Train loss:52.5078,val loss:41.3544
+
+Epoch[263/8000]:Train loss:50.4565,val loss:15.1395
+
+Epoch[264/8000]:Train loss:46.1455,val loss:23.5856
+
+Epoch[265/8000]:Train loss:46.7172,val loss:15.8463
+
+Epoch[266/8000]:Train loss:49.5448,val loss:12.6465
+
+Epoch[267/8000]:Train loss:51.7996,val loss:11.3878
+
+Epoch[268/8000]:Train loss:59.3587,val loss:20.0628
+
+Epoch[269/8000]:Train loss:56.2764,val loss:35.7696
+
+Epoch[270/8000]:Train loss:56.2007,val loss:30.1454
+
+Epoch[271/8000]:Train loss:53.4793,val loss:27.0848
+
+Epoch[272/8000]:Train loss:51.9529,val loss:14.3414
+
+Epoch[273/8000]:Train loss:51.1454,val loss:11.4105
+
+Epoch[274/8000]:Train loss:55.5577,val loss:14.0436
+
+Epoch[275/8000]:Train loss:48.0943,val loss:14.1212
+
+Epoch[276/8000]:Train loss:50.9500,val loss:33.9549
+
+Epoch[277/8000]:Train loss:51.5385,val loss:28.6039
+
+Epoch[278/8000]:Train loss:51.2534,val loss:15.1641
+
+Epoch[279/8000]:Train loss:48.7919,val loss:10.2744
+
+Saving  model with loss10.274
+Epoch[280/8000]:Train loss:53.4018,val loss:18.2274
+
+Epoch[281/8000]:Train loss:47.5230,val loss:17.6130
+
+Epoch[282/8000]:Train loss:47.4294,val loss:8.9135
+
+Saving  model with loss8.913
+Epoch[283/8000]:Train loss:55.3297,val loss:32.6666
+
+Epoch[284/8000]:Train loss:46.6728,val loss:14.5210
+
+Epoch[285/8000]:Train loss:51.8624,val loss:26.3932
+
+Epoch[286/8000]:Train loss:48.5075,val loss:15.4813
+
+Epoch[287/8000]:Train loss:48.7683,val loss:25.7403
+
+Epoch[288/8000]:Train loss:51.5348,val loss:20.0041
+
+Epoch[289/8000]:Train loss:47.6931,val loss:16.9076
+
+Epoch[290/8000]:Train loss:51.0728,val loss:20.2244
+
+Epoch[291/8000]:Train loss:49.1331,val loss:11.7399
+
+Epoch[292/8000]:Train loss:50.6211,val loss:16.0521
+
+Epoch[293/8000]:Train loss:45.3829,val loss:14.6059
+
+Epoch[294/8000]:Train loss:52.6344,val loss:17.0853
+
+Epoch[295/8000]:Train loss:53.4685,val loss:13.2856
+
+Epoch[296/8000]:Train loss:48.8343,val loss:38.0768
+
+Epoch[297/8000]:Train loss:48.6376,val loss:24.3003
+
+Epoch[298/8000]:Train loss:50.1230,val loss:13.1539
+
+Epoch[299/8000]:Train loss:52.2694,val loss:23.8101
+
+Epoch[300/8000]:Train loss:52.2188,val loss:9.3547
+
+Epoch[301/8000]:Train loss:48.2224,val loss:17.1205
+
+Epoch[302/8000]:Train loss:51.2477,val loss:23.1143
+
+Epoch[303/8000]:Train loss:49.8204,val loss:14.5732
+
+Epoch[304/8000]:Train loss:52.3666,val loss:20.0551
+
+Epoch[305/8000]:Train loss:51.2939,val loss:24.8563
+
+Epoch[306/8000]:Train loss:49.9036,val loss:13.3918
+
+Epoch[307/8000]:Train loss:55.8349,val loss:16.9966
+
+Epoch[308/8000]:Train loss:50.5142,val loss:12.7811
+
+Epoch[309/8000]:Train loss:45.3991,val loss:17.3340
+
+Epoch[310/8000]:Train loss:48.6627,val loss:10.1026
+
+Epoch[311/8000]:Train loss:55.1226,val loss:13.0530
+
+Epoch[312/8000]:Train loss:50.4524,val loss:21.9664
+
+Epoch[313/8000]:Train loss:50.0939,val loss:36.1913
+
+Epoch[314/8000]:Train loss:50.0249,val loss:25.8743
+
+Epoch[315/8000]:Train loss:49.8093,val loss:21.9148
+
+Epoch[316/8000]:Train loss:51.9031,val loss:27.5301
+
+Epoch[317/8000]:Train loss:44.3293,val loss:21.9839
+
+Epoch[318/8000]:Train loss:52.3062,val loss:15.4430
+
+Epoch[319/8000]:Train loss:49.7014,val loss:32.9030
+
+Epoch[320/8000]:Train loss:48.6453,val loss:11.7946
+
+Epoch[321/8000]:Train loss:51.1604,val loss:22.0733
+
+Epoch[322/8000]:Train loss:51.2372,val loss:32.7297
+
+Epoch[323/8000]:Train loss:52.3902,val loss:28.5339
+
+Epoch[324/8000]:Train loss:52.7104,val loss:15.7651
+
+Epoch[325/8000]:Train loss:48.9364,val loss:14.8720
+
+Epoch[326/8000]:Train loss:50.0057,val loss:22.2472
+
+Epoch[327/8000]:Train loss:55.2234,val loss:8.7596
+
+Saving  model with loss8.760
+Epoch[328/8000]:Train loss:56.7469,val loss:34.3138
+
+Epoch[329/8000]:Train loss:51.9843,val loss:10.8715
+
+Epoch[330/8000]:Train loss:51.2349,val loss:34.1724
+
+Epoch[331/8000]:Train loss:50.0991,val loss:21.4610
+
+Epoch[332/8000]:Train loss:51.1775,val loss:11.6983
+
+Epoch[333/8000]:Train loss:48.0532,val loss:20.9128
+
+Epoch[334/8000]:Train loss:46.6908,val loss:14.6864
+
+Epoch[335/8000]:Train loss:50.4271,val loss:22.7111
+
+Epoch[336/8000]:Train loss:47.6733,val loss:27.8911
+
+Epoch[337/8000]:Train loss:50.5624,val loss:13.8978
+
+Epoch[338/8000]:Train loss:45.4268,val loss:12.3668
+
+Epoch[339/8000]:Train loss:54.6752,val loss:50.3975
+
+Epoch[340/8000]:Train loss:54.2669,val loss:22.1977
+
+Epoch[341/8000]:Train loss:48.2756,val loss:15.2478
+
+Epoch[342/8000]:Train loss:46.9679,val loss:21.1761
+
+Epoch[343/8000]:Train loss:48.0419,val loss:24.2460
+
+Epoch[344/8000]:Train loss:48.1706,val loss:23.3312
+
+Epoch[345/8000]:Train loss:48.9807,val loss:23.7350
+
+Epoch[346/8000]:Train loss:46.5366,val loss:14.9938
+
+Epoch[347/8000]:Train loss:48.3368,val loss:24.9418
+
+Epoch[348/8000]:Train loss:45.3022,val loss:18.0855
+
+Epoch[349/8000]:Train loss:48.7434,val loss:11.9797
+
+Epoch[350/8000]:Train loss:50.0344,val loss:13.4802
+
+Epoch[351/8000]:Train loss:50.6752,val loss:26.2894
+
+Epoch[352/8000]:Train loss:46.5559,val loss:21.2806
+
+Epoch[353/8000]:Train loss:49.0785,val loss:12.6741
+
+Epoch[354/8000]:Train loss:46.4267,val loss:25.3383
+
+Epoch[355/8000]:Train loss:50.2244,val loss:19.4493
+
+Epoch[356/8000]:Train loss:45.6086,val loss:11.8234
+
+Epoch[357/8000]:Train loss:48.7820,val loss:15.3994
+
+Epoch[358/8000]:Train loss:44.2750,val loss:13.8663
+
+Epoch[359/8000]:Train loss:48.2196,val loss:37.3624
+
+Epoch[360/8000]:Train loss:45.9430,val loss:12.1813
+
+Epoch[361/8000]:Train loss:49.7312,val loss:14.9548
+
+Epoch[362/8000]:Train loss:53.1922,val loss:34.6873
+
+Epoch[363/8000]:Train loss:48.8594,val loss:21.5400
+
+Epoch[364/8000]:Train loss:46.1336,val loss:17.9646
+
+Epoch[365/8000]:Train loss:52.4722,val loss:24.7684
+
+Epoch[366/8000]:Train loss:48.5025,val loss:39.1427
+
+Epoch[367/8000]:Train loss:50.9699,val loss:25.5392
+
+Epoch[368/8000]:Train loss:45.0147,val loss:13.8152
+
+Epoch[369/8000]:Train loss:50.9323,val loss:11.0892
+
+Epoch[370/8000]:Train loss:50.0081,val loss:25.7887
+
+Epoch[371/8000]:Train loss:46.4419,val loss:32.4988
+
+Epoch[372/8000]:Train loss:47.1970,val loss:33.4362
+
+Epoch[373/8000]:Train loss:49.4990,val loss:18.7829
+
+Epoch[374/8000]:Train loss:47.9578,val loss:19.0544
+
+Epoch[375/8000]:Train loss:48.2330,val loss:18.1042
+
+Epoch[376/8000]:Train loss:48.5046,val loss:25.7829
+
+Epoch[377/8000]:Train loss:51.5555,val loss:29.2258
+
+Epoch[378/8000]:Train loss:50.4791,val loss:23.3977
+
+Epoch[379/8000]:Train loss:48.9532,val loss:12.8552
+
+Epoch[380/8000]:Train loss:49.3704,val loss:11.0785
+
+Epoch[381/8000]:Train loss:49.2095,val loss:25.3648
+
+Epoch[382/8000]:Train loss:49.6337,val loss:18.6170
+
+Epoch[383/8000]:Train loss:47.7993,val loss:15.9502
+
+Epoch[384/8000]:Train loss:46.7722,val loss:16.6513
+
+Epoch[385/8000]:Train loss:46.7744,val loss:39.5938
+
+Epoch[386/8000]:Train loss:48.4931,val loss:23.8139
+
+Epoch[387/8000]:Train loss:44.9822,val loss:18.7501
+
+Epoch[388/8000]:Train loss:48.3784,val loss:30.1769
+
+Epoch[389/8000]:Train loss:49.1598,val loss:19.6852
+
+Epoch[390/8000]:Train loss:43.6189,val loss:13.8008
+
+Epoch[391/8000]:Train loss:50.5027,val loss:25.9422
+
+Epoch[392/8000]:Train loss:47.7862,val loss:18.3572
+
+Epoch[393/8000]:Train loss:45.0612,val loss:23.4977
+
+Epoch[394/8000]:Train loss:48.7940,val loss:10.4848
+
+Epoch[395/8000]:Train loss:44.3358,val loss:20.7198
+
+Epoch[396/8000]:Train loss:47.2029,val loss:19.0933
+
+Epoch[397/8000]:Train loss:45.9117,val loss:29.6020
+
+Epoch[398/8000]:Train loss:49.7370,val loss:29.3376
+
+Epoch[399/8000]:Train loss:47.7143,val loss:17.4925
+
+Epoch[400/8000]:Train loss:46.3528,val loss:17.6040
+
+Epoch[401/8000]:Train loss:50.1379,val loss:17.6540
+
+Epoch[402/8000]:Train loss:45.4922,val loss:22.6411
+
+Epoch[403/8000]:Train loss:47.8591,val loss:27.7956
+
+Epoch[404/8000]:Train loss:43.6479,val loss:35.5134
+
+Epoch[405/8000]:Train loss:44.9856,val loss:24.2638
+
+Epoch[406/8000]:Train loss:46.5113,val loss:29.4808
+
+Epoch[407/8000]:Train loss:44.6902,val loss:10.2636
+
+Epoch[408/8000]:Train loss:47.2151,val loss:14.3089
+
+Epoch[409/8000]:Train loss:43.7685,val loss:15.0123
+
+Epoch[410/8000]:Train loss:50.5020,val loss:37.6277
+
+Epoch[411/8000]:Train loss:47.8564,val loss:9.4011
+
+Epoch[412/8000]:Train loss:55.6611,val loss:49.8517
+
+Epoch[413/8000]:Train loss:46.9343,val loss:11.5796
+
+Epoch[414/8000]:Train loss:48.0504,val loss:19.7682
+
+Epoch[415/8000]:Train loss:43.3192,val loss:14.9947
+
+Epoch[416/8000]:Train loss:46.5882,val loss:18.1113
+
+Epoch[417/8000]:Train loss:45.2301,val loss:44.2023
+
+Epoch[418/8000]:Train loss:50.9609,val loss:14.9676
+
+Epoch[419/8000]:Train loss:52.7522,val loss:14.7088
+
+Epoch[420/8000]:Train loss:41.6867,val loss:12.9962
+
+Epoch[421/8000]:Train loss:49.9187,val loss:16.7887
+
+Epoch[422/8000]:Train loss:44.0013,val loss:19.5031
+
+Epoch[423/8000]:Train loss:45.3665,val loss:23.3691
+
+Epoch[424/8000]:Train loss:45.8004,val loss:14.7049
+
+Epoch[425/8000]:Train loss:47.3725,val loss:14.1699
+
+Epoch[426/8000]:Train loss:47.2960,val loss:18.9404
+
+Epoch[427/8000]:Train loss:43.8818,val loss:34.6373
+
+Epoch[428/8000]:Train loss:50.2031,val loss:9.9397
+
+Epoch[429/8000]:Train loss:52.8608,val loss:20.9943
+
+Epoch[430/8000]:Train loss:44.3310,val loss:14.9690
+
+Epoch[431/8000]:Train loss:45.8125,val loss:17.3454
+
+Epoch[432/8000]:Train loss:45.1343,val loss:20.9209
+
+Epoch[433/8000]:Train loss:45.1213,val loss:19.3945
+
+Epoch[434/8000]:Train loss:43.8797,val loss:18.6523
+
+Epoch[435/8000]:Train loss:45.9880,val loss:21.8352
+
+Epoch[436/8000]:Train loss:41.7692,val loss:35.2603
+
+Epoch[437/8000]:Train loss:48.0319,val loss:18.1889
+
+Epoch[438/8000]:Train loss:47.6295,val loss:30.3109
+
+Epoch[439/8000]:Train loss:46.9408,val loss:19.1842
+
+Epoch[440/8000]:Train loss:47.0958,val loss:14.5504
+
+Epoch[441/8000]:Train loss:42.7481,val loss:10.8301
+
+Epoch[442/8000]:Train loss:45.7748,val loss:17.3741
+
+Epoch[443/8000]:Train loss:42.4331,val loss:28.7942
+
+Epoch[444/8000]:Train loss:47.1449,val loss:11.6845
+
+Epoch[445/8000]:Train loss:45.9500,val loss:16.0408
+
+Epoch[446/8000]:Train loss:45.9629,val loss:35.9441
+
+Epoch[447/8000]:Train loss:50.7055,val loss:23.4789
+
+Epoch[448/8000]:Train loss:44.9278,val loss:33.8004
+
+Epoch[449/8000]:Train loss:48.6642,val loss:18.4383
+
+Epoch[450/8000]:Train loss:41.4695,val loss:18.7195
+
+Epoch[451/8000]:Train loss:41.9181,val loss:17.1284
+
+Epoch[452/8000]:Train loss:47.5154,val loss:10.4959
+
+Epoch[453/8000]:Train loss:46.6882,val loss:22.9741
+
+Epoch[454/8000]:Train loss:44.8667,val loss:9.2572
+
+Epoch[455/8000]:Train loss:45.4313,val loss:22.1639
+
+Epoch[456/8000]:Train loss:46.9079,val loss:23.1317
+
+Epoch[457/8000]:Train loss:47.3023,val loss:47.8692
+
+Epoch[458/8000]:Train loss:40.7377,val loss:20.0910
+
+Epoch[459/8000]:Train loss:46.4712,val loss:23.0113
+
+Epoch[460/8000]:Train loss:46.5734,val loss:29.2278
+
+Epoch[461/8000]:Train loss:45.4846,val loss:16.7718
+
+Epoch[462/8000]:Train loss:45.6138,val loss:27.1271
+
+Epoch[463/8000]:Train loss:43.4944,val loss:14.3982
+
+Epoch[464/8000]:Train loss:44.2132,val loss:27.0402
+
+Epoch[465/8000]:Train loss:43.8702,val loss:15.1203
+
+Epoch[466/8000]:Train loss:47.9780,val loss:25.6211
+
+Epoch[467/8000]:Train loss:44.5614,val loss:16.1393
+
+Epoch[468/8000]:Train loss:47.7565,val loss:16.6506
+
+Epoch[469/8000]:Train loss:43.2953,val loss:23.4865
+
+Epoch[470/8000]:Train loss:42.2635,val loss:13.3367
+
+Epoch[471/8000]:Train loss:46.9030,val loss:18.3935
+
+Epoch[472/8000]:Train loss:44.1007,val loss:33.1007
+
+Epoch[473/8000]:Train loss:46.5584,val loss:18.0438
+
+Epoch[474/8000]:Train loss:46.7350,val loss:20.7993
+
+Epoch[475/8000]:Train loss:41.9422,val loss:25.3264
+
+Epoch[476/8000]:Train loss:47.2213,val loss:14.3221
+
+Epoch[477/8000]:Train loss:41.6614,val loss:17.2269
+
+Epoch[478/8000]:Train loss:42.7504,val loss:27.8862
+
+Epoch[479/8000]:Train loss:43.5034,val loss:19.0005
+
+Epoch[480/8000]:Train loss:40.4129,val loss:18.0927
+
+Epoch[481/8000]:Train loss:44.8474,val loss:24.2289
+
+Epoch[482/8000]:Train loss:44.7445,val loss:12.3115
+
+Epoch[483/8000]:Train loss:42.3651,val loss:18.5086
+
+Epoch[484/8000]:Train loss:45.4317,val loss:32.4838
+
+Epoch[485/8000]:Train loss:44.7674,val loss:9.2639
+
+Epoch[486/8000]:Train loss:44.7251,val loss:21.9244
+
+Epoch[487/8000]:Train loss:45.1116,val loss:13.1112
+
+Epoch[488/8000]:Train loss:45.2500,val loss:33.0430
+
+Epoch[489/8000]:Train loss:46.2686,val loss:21.8710
+
+Epoch[490/8000]:Train loss:44.8068,val loss:10.2118
+
+Epoch[491/8000]:Train loss:43.0556,val loss:15.9213
+
+Epoch[492/8000]:Train loss:46.4192,val loss:20.3140
+
+Epoch[493/8000]:Train loss:45.7015,val loss:12.2419
+
+Epoch[494/8000]:Train loss:44.4005,val loss:21.1063
+
+Epoch[495/8000]:Train loss:44.9296,val loss:26.1832
+
+Epoch[496/8000]:Train loss:40.1959,val loss:20.8746
+
+Epoch[497/8000]:Train loss:43.3258,val loss:13.0899
+
+Epoch[498/8000]:Train loss:47.5503,val loss:11.1698
+
+Epoch[499/8000]:Train loss:48.7099,val loss:20.0876
+
+Epoch[500/8000]:Train loss:40.4810,val loss:15.4427
+
+Epoch[501/8000]:Train loss:43.1233,val loss:27.0789
+
+Epoch[502/8000]:Train loss:45.7174,val loss:9.2091
+
+Epoch[503/8000]:Train loss:42.5462,val loss:13.9557
+
+Epoch[504/8000]:Train loss:43.2158,val loss:13.4201
+
+Epoch[505/8000]:Train loss:41.7514,val loss:12.0755
+
+Epoch[506/8000]:Train loss:43.2896,val loss:26.5478
+
+Epoch[507/8000]:Train loss:44.8098,val loss:19.6691
+
+Epoch[508/8000]:Train loss:41.5833,val loss:8.8711
+
+Epoch[509/8000]:Train loss:47.7928,val loss:10.8616
+
+Epoch[510/8000]:Train loss:46.2767,val loss:13.6720
+
+Epoch[511/8000]:Train loss:45.0767,val loss:16.7018
+
+Epoch[512/8000]:Train loss:45.1658,val loss:14.1573
+
+Epoch[513/8000]:Train loss:41.6480,val loss:14.9426
+
+Epoch[514/8000]:Train loss:41.7779,val loss:24.9530
+
+Epoch[515/8000]:Train loss:43.2331,val loss:12.5776
+
+Epoch[516/8000]:Train loss:43.9958,val loss:17.3837
+
+Epoch[517/8000]:Train loss:42.6318,val loss:20.9904
+
+Epoch[518/8000]:Train loss:42.9025,val loss:10.5525
+
+Epoch[519/8000]:Train loss:44.0146,val loss:25.7096
+
+Epoch[520/8000]:Train loss:46.7949,val loss:22.4866
+
+Epoch[521/8000]:Train loss:41.9287,val loss:14.8077
+
+Epoch[522/8000]:Train loss:43.0543,val loss:14.2996
+
+Epoch[523/8000]:Train loss:41.6033,val loss:20.9492
+
+Epoch[524/8000]:Train loss:42.9206,val loss:15.4523
+
+Epoch[525/8000]:Train loss:45.1713,val loss:15.8354
+
+Epoch[526/8000]:Train loss:45.1502,val loss:28.5148
+
+Epoch[527/8000]:Train loss:43.8457,val loss:10.4467
+
+Epoch[528/8000]:Train loss:50.9644,val loss:29.9513
+
+Epoch[529/8000]:Train loss:42.2672,val loss:22.7650
+
+Epoch[530/8000]:Train loss:41.3844,val loss:10.7786
+
+Epoch[531/8000]:Train loss:46.0437,val loss:21.6294
+
+Epoch[532/8000]:Train loss:43.6223,val loss:24.2440
+
+Epoch[533/8000]:Train loss:43.4692,val loss:14.7811
+
+Epoch[534/8000]:Train loss:39.8569,val loss:31.4291
+
+Epoch[535/8000]:Train loss:44.2285,val loss:18.9478
+
+Epoch[536/8000]:Train loss:41.3098,val loss:30.3673
+
+Epoch[537/8000]:Train loss:44.3203,val loss:13.3536
+
+Epoch[538/8000]:Train loss:43.6463,val loss:35.9759
+
+Epoch[539/8000]:Train loss:44.2695,val loss:33.0152
+
+Epoch[540/8000]:Train loss:42.7436,val loss:29.8799
+
+Epoch[541/8000]:Train loss:42.3470,val loss:23.9839
+
+Epoch[542/8000]:Train loss:42.6542,val loss:17.7585
+
+Epoch[543/8000]:Train loss:42.2848,val loss:16.7001
+
+Epoch[544/8000]:Train loss:44.5144,val loss:18.6826
+
+Epoch[545/8000]:Train loss:40.4697,val loss:15.0280
+
+Epoch[546/8000]:Train loss:41.6040,val loss:22.1152
+
+Epoch[547/8000]:Train loss:45.4564,val loss:16.7501
+
+Epoch[548/8000]:Train loss:43.2475,val loss:15.9909
+
+Epoch[549/8000]:Train loss:41.3496,val loss:17.5111
+
+Epoch[550/8000]:Train loss:41.3812,val loss:19.8433
+
+Epoch[551/8000]:Train loss:39.6600,val loss:29.5615
+
+Epoch[552/8000]:Train loss:46.5039,val loss:11.0150
+
+Epoch[553/8000]:Train loss:45.3101,val loss:40.3378
+
+Epoch[554/8000]:Train loss:42.8366,val loss:13.1392
+
+Epoch[555/8000]:Train loss:41.6367,val loss:17.4724
+
+Epoch[556/8000]:Train loss:41.3510,val loss:12.1526
+
+Epoch[557/8000]:Train loss:46.0403,val loss:30.4775
+
+Epoch[558/8000]:Train loss:45.8477,val loss:29.7702
+
+Epoch[559/8000]:Train loss:41.4697,val loss:22.8865
+
+Epoch[560/8000]:Train loss:44.0714,val loss:22.6115
+
+Epoch[561/8000]:Train loss:42.0942,val loss:15.9182
+
+Epoch[562/8000]:Train loss:38.8894,val loss:30.2347
+
+Epoch[563/8000]:Train loss:45.5122,val loss:23.6063
+
+Epoch[564/8000]:Train loss:44.5352,val loss:17.3108
+
+Epoch[565/8000]:Train loss:44.9042,val loss:10.7542
+
+Epoch[566/8000]:Train loss:43.5712,val loss:17.3443
+
+Epoch[567/8000]:Train loss:43.0714,val loss:14.3683
+
+Epoch[568/8000]:Train loss:43.6140,val loss:20.7858
+
+Epoch[569/8000]:Train loss:45.7715,val loss:19.9776
+
+Epoch[570/8000]:Train loss:44.5351,val loss:9.2225
+
+Epoch[571/8000]:Train loss:43.0409,val loss:19.9861
+
+Epoch[572/8000]:Train loss:39.8365,val loss:34.7468
+
+Epoch[573/8000]:Train loss:42.9422,val loss:17.3408
+
+Epoch[574/8000]:Train loss:42.4197,val loss:43.3522
+
+Epoch[575/8000]:Train loss:44.6336,val loss:12.2502
+
+Epoch[576/8000]:Train loss:43.5237,val loss:29.0708
+
+Epoch[577/8000]:Train loss:47.3157,val loss:21.8237
+
+Epoch[578/8000]:Train loss:41.3337,val loss:36.6557
+
+Epoch[579/8000]:Train loss:42.2800,val loss:13.3274
+
+Epoch[580/8000]:Train loss:40.8043,val loss:22.0140
+
+Epoch[581/8000]:Train loss:42.6230,val loss:18.5192
+
+Epoch[582/8000]:Train loss:39.7587,val loss:30.1198
+
+Epoch[583/8000]:Train loss:45.0309,val loss:17.5751
+
+Epoch[584/8000]:Train loss:41.8556,val loss:15.3503
+
+Epoch[585/8000]:Train loss:42.9924,val loss:13.6660
+
+Epoch[586/8000]:Train loss:45.0994,val loss:19.7016
+
+Epoch[587/8000]:Train loss:43.2321,val loss:10.3218
+
+Epoch[588/8000]:Train loss:43.0991,val loss:13.9470
+
+Epoch[589/8000]:Train loss:41.4501,val loss:43.6391
+
+Epoch[590/8000]:Train loss:41.8796,val loss:14.8611
+
+Epoch[591/8000]:Train loss:44.7013,val loss:34.5610
+
+Epoch[592/8000]:Train loss:43.1367,val loss:16.9075
+
+Epoch[593/8000]:Train loss:41.9544,val loss:41.9940
+
+Epoch[594/8000]:Train loss:48.3920,val loss:15.3798
+
+Epoch[595/8000]:Train loss:45.6554,val loss:31.4596
+
+Epoch[596/8000]:Train loss:39.2727,val loss:9.8052
+
+Epoch[597/8000]:Train loss:43.9304,val loss:14.1994
+
+Epoch[598/8000]:Train loss:36.8471,val loss:22.8149
+
+Epoch[599/8000]:Train loss:42.2866,val loss:15.0234
+
+Epoch[600/8000]:Train loss:41.4774,val loss:27.7964
+
+Epoch[601/8000]:Train loss:42.1859,val loss:15.9441
+
+Epoch[602/8000]:Train loss:43.2521,val loss:31.3943
+
+Epoch[603/8000]:Train loss:43.1231,val loss:18.4591
+
+Epoch[604/8000]:Train loss:45.2679,val loss:20.0950
+
+Epoch[605/8000]:Train loss:40.9509,val loss:20.1388
+
+Epoch[606/8000]:Train loss:42.2549,val loss:27.8444
+
+Epoch[607/8000]:Train loss:39.9959,val loss:16.3273
+
+Epoch[608/8000]:Train loss:42.0194,val loss:21.2741
+
+Epoch[609/8000]:Train loss:42.1956,val loss:15.4562
+
+Epoch[610/8000]:Train loss:40.8189,val loss:14.0039
+
+Epoch[611/8000]:Train loss:45.0869,val loss:16.4272
+
+Epoch[612/8000]:Train loss:39.3105,val loss:20.3097
+
+Epoch[613/8000]:Train loss:40.0982,val loss:23.1688
+
+Epoch[614/8000]:Train loss:42.7999,val loss:18.5737
+
+Epoch[615/8000]:Train loss:43.1388,val loss:30.6134
+
+Epoch[616/8000]:Train loss:40.4536,val loss:15.4211
+
+Epoch[617/8000]:Train loss:42.8204,val loss:22.3617
+
+Epoch[618/8000]:Train loss:45.0129,val loss:23.7322
+
+Epoch[619/8000]:Train loss:42.1409,val loss:19.3788
+
+Epoch[620/8000]:Train loss:44.9160,val loss:34.0742
+
+Epoch[621/8000]:Train loss:42.1799,val loss:20.0108
+
+Epoch[622/8000]:Train loss:39.4031,val loss:29.6768
+
+Epoch[623/8000]:Train loss:36.2044,val loss:22.0393
+
+Epoch[624/8000]:Train loss:42.8532,val loss:21.6667
+
+Epoch[625/8000]:Train loss:43.4390,val loss:17.9313
+
+Epoch[626/8000]:Train loss:42.5510,val loss:33.8981
+
+Epoch[627/8000]:Train loss:43.9079,val loss:16.5191
+
+Epoch[628/8000]:Train loss:37.4804,val loss:26.4538
+
+Epoch[629/8000]:Train loss:43.4321,val loss:14.6175
+
+Epoch[630/8000]:Train loss:42.7741,val loss:24.8718
+
+Epoch[631/8000]:Train loss:39.9223,val loss:11.3566
+
+Epoch[632/8000]:Train loss:39.7921,val loss:27.8249
+
+Epoch[633/8000]:Train loss:43.0372,val loss:21.0286
+
+Epoch[634/8000]:Train loss:43.6104,val loss:27.3674
+
+Epoch[635/8000]:Train loss:41.0581,val loss:13.3733
+
+Epoch[636/8000]:Train loss:43.2633,val loss:22.3919
+
+Epoch[637/8000]:Train loss:40.0236,val loss:23.5661
+
+Epoch[638/8000]:Train loss:38.5766,val loss:13.1431
+
+Epoch[639/8000]:Train loss:38.5442,val loss:33.6772
+
+Epoch[640/8000]:Train loss:41.8615,val loss:20.8384
+
+Epoch[641/8000]:Train loss:40.5644,val loss:10.6736
+
+Epoch[642/8000]:Train loss:39.9049,val loss:37.3802
+
+Epoch[643/8000]:Train loss:41.9022,val loss:14.9893
+
+Epoch[644/8000]:Train loss:42.8606,val loss:11.5611
+
+Epoch[645/8000]:Train loss:37.9857,val loss:26.4118
+
+Epoch[646/8000]:Train loss:43.4597,val loss:9.9634
+
+Epoch[647/8000]:Train loss:40.7850,val loss:12.9248
+
+Epoch[648/8000]:Train loss:42.2107,val loss:22.2285
+
+Epoch[649/8000]:Train loss:39.1056,val loss:16.8803
+
+Epoch[650/8000]:Train loss:40.2622,val loss:19.3354
+
+Epoch[651/8000]:Train loss:40.1972,val loss:11.3432
+
+Epoch[652/8000]:Train loss:42.1786,val loss:11.8968
+
+Epoch[653/8000]:Train loss:43.1697,val loss:20.9833
+
+Epoch[654/8000]:Train loss:42.1580,val loss:21.1747
+
+Epoch[655/8000]:Train loss:42.4111,val loss:18.9675
+
+Epoch[656/8000]:Train loss:39.5316,val loss:22.4187
+
+Epoch[657/8000]:Train loss:41.9056,val loss:21.8579
+
+Epoch[658/8000]:Train loss:42.9712,val loss:12.8210
+
+Epoch[659/8000]:Train loss:43.9416,val loss:20.4825
+
+Epoch[660/8000]:Train loss:39.9623,val loss:27.8888
+
+Epoch[661/8000]:Train loss:41.7527,val loss:17.1989
+
+Epoch[662/8000]:Train loss:39.9758,val loss:27.6655
+
+Epoch[663/8000]:Train loss:42.8556,val loss:11.5801
+
+Epoch[664/8000]:Train loss:41.9566,val loss:19.5615
+
+Epoch[665/8000]:Train loss:35.5702,val loss:12.5500
+
+Epoch[666/8000]:Train loss:39.1313,val loss:26.8829
+
+Epoch[667/8000]:Train loss:40.6302,val loss:23.5985
+
+Epoch[668/8000]:Train loss:45.0245,val loss:23.0602
+
+Epoch[669/8000]:Train loss:38.9336,val loss:24.7337
+
+Epoch[670/8000]:Train loss:41.7697,val loss:21.1319
+
+Epoch[671/8000]:Train loss:37.7165,val loss:15.1421
+
+Epoch[672/8000]:Train loss:41.7069,val loss:25.7950
+
+Epoch[673/8000]:Train loss:42.2866,val loss:24.2951
+
+Epoch[674/8000]:Train loss:37.0040,val loss:17.9498
+
+Epoch[675/8000]:Train loss:37.7975,val loss:17.9133
+
+Epoch[676/8000]:Train loss:41.3218,val loss:26.3629
+
+Epoch[677/8000]:Train loss:41.7351,val loss:19.2629
+
+Epoch[678/8000]:Train loss:40.7491,val loss:24.4865
+
+Epoch[679/8000]:Train loss:41.0701,val loss:16.1882
+
+Epoch[680/8000]:Train loss:38.2153,val loss:37.7258
+
+Epoch[681/8000]:Train loss:44.9161,val loss:22.7731
+
+Epoch[682/8000]:Train loss:43.2564,val loss:35.0245
+
+Epoch[683/8000]:Train loss:41.6801,val loss:16.6174
+
+Epoch[684/8000]:Train loss:39.1575,val loss:10.6869
+
+Epoch[685/8000]:Train loss:39.2641,val loss:14.7646
+
+Epoch[686/8000]:Train loss:40.0911,val loss:20.9426
+
+Epoch[687/8000]:Train loss:42.6747,val loss:12.1474
+
+Epoch[688/8000]:Train loss:42.6908,val loss:26.6557
+
+Epoch[689/8000]:Train loss:41.6198,val loss:18.5135
+
+Epoch[690/8000]:Train loss:40.9450,val loss:27.6039
+
+Epoch[691/8000]:Train loss:37.3334,val loss:16.9011
+
+Epoch[692/8000]:Train loss:36.8269,val loss:16.1657
+
+Epoch[693/8000]:Train loss:41.8700,val loss:21.7030
+
+Epoch[694/8000]:Train loss:38.1439,val loss:20.1406
+
+Epoch[695/8000]:Train loss:39.0727,val loss:17.9859
+
+Epoch[696/8000]:Train loss:36.9448,val loss:18.0460
+
+Epoch[697/8000]:Train loss:40.8459,val loss:25.5179
+
+Epoch[698/8000]:Train loss:36.7994,val loss:16.3841
+
+Epoch[699/8000]:Train loss:38.2720,val loss:22.3338
+
+Epoch[700/8000]:Train loss:41.3858,val loss:28.0759
+
+Epoch[701/8000]:Train loss:38.4582,val loss:20.5955
+
+Epoch[702/8000]:Train loss:43.8803,val loss:17.3632
+
+Epoch[703/8000]:Train loss:36.9104,val loss:22.0732
+
+Epoch[704/8000]:Train loss:36.5109,val loss:18.9661
+
+Epoch[705/8000]:Train loss:37.7378,val loss:17.1063
+
+Epoch[706/8000]:Train loss:39.6295,val loss:13.7149
+
+Epoch[707/8000]:Train loss:37.2276,val loss:19.1039
+
+Epoch[708/8000]:Train loss:36.8682,val loss:22.4321
+
+Epoch[709/8000]:Train loss:41.7588,val loss:21.0576
+
+Epoch[710/8000]:Train loss:42.6218,val loss:27.9492
+
+Epoch[711/8000]:Train loss:38.7141,val loss:24.4093
+
+Epoch[712/8000]:Train loss:39.3360,val loss:25.6973
+
+Epoch[713/8000]:Train loss:40.7568,val loss:11.1294
+
+Epoch[714/8000]:Train loss:39.0585,val loss:21.4269
+
+Epoch[715/8000]:Train loss:38.6744,val loss:20.0874
+
+Epoch[716/8000]:Train loss:41.6468,val loss:28.4558
+
+Epoch[717/8000]:Train loss:38.7933,val loss:25.2155
+
+Epoch[718/8000]:Train loss:40.5293,val loss:22.2215
+
+Epoch[719/8000]:Train loss:38.1626,val loss:21.8748
+
+Epoch[720/8000]:Train loss:36.6321,val loss:34.5406
+
+Epoch[721/8000]:Train loss:40.4975,val loss:15.6637
+
+Epoch[722/8000]:Train loss:37.7605,val loss:10.8407
+
+Epoch[723/8000]:Train loss:43.1649,val loss:16.4492
+
+Epoch[724/8000]:Train loss:42.5141,val loss:21.8569
+
+Epoch[725/8000]:Train loss:40.8785,val loss:21.6405
+
+Epoch[726/8000]:Train loss:36.8510,val loss:13.6346
+
+Epoch[727/8000]:Train loss:36.1406,val loss:22.0920
+
+Epoch[728/8000]:Train loss:38.8107,val loss:26.9753
+
+Epoch[729/8000]:Train loss:39.2548,val loss:17.2542
+
+Epoch[730/8000]:Train loss:34.8512,val loss:25.2172
+
+Epoch[731/8000]:Train loss:40.3287,val loss:15.3449
+
+Epoch[732/8000]:Train loss:44.2027,val loss:46.7793
+
+Epoch[733/8000]:Train loss:42.5860,val loss:23.3047
+
+Epoch[734/8000]:Train loss:39.6102,val loss:19.0848
+
+Epoch[735/8000]:Train loss:40.5595,val loss:16.7133
+
+Epoch[736/8000]:Train loss:42.4437,val loss:17.8933
+
+Epoch[737/8000]:Train loss:37.5004,val loss:25.0634
+
+Epoch[738/8000]:Train loss:41.8976,val loss:40.2102
+
+Epoch[739/8000]:Train loss:38.3208,val loss:11.9493
+
+Epoch[740/8000]:Train loss:39.6497,val loss:16.0125
+
+Epoch[741/8000]:Train loss:40.5616,val loss:29.1084
+
+Epoch[742/8000]:Train loss:41.1242,val loss:22.5191
+
+Epoch[743/8000]:Train loss:40.2182,val loss:10.3142
+
+Epoch[744/8000]:Train loss:41.2178,val loss:27.3604
+
+Epoch[745/8000]:Train loss:36.0954,val loss:18.8424
+
+Epoch[746/8000]:Train loss:39.7349,val loss:23.6958
+
+Epoch[747/8000]:Train loss:38.3938,val loss:13.6947
+
+Epoch[748/8000]:Train loss:39.9580,val loss:12.8422
+
+Epoch[749/8000]:Train loss:39.1541,val loss:13.6159
+
+Epoch[750/8000]:Train loss:38.8367,val loss:32.0403
+
+Epoch[751/8000]:Train loss:39.9163,val loss:20.0354
+
+Epoch[752/8000]:Train loss:41.1166,val loss:14.0929
+
+Epoch[753/8000]:Train loss:37.7047,val loss:25.0300
+
+Epoch[754/8000]:Train loss:40.7288,val loss:18.6933
+
+Epoch[755/8000]:Train loss:37.8135,val loss:16.0222
+
+Epoch[756/8000]:Train loss:38.9429,val loss:22.3454
+
+Epoch[757/8000]:Train loss:40.8227,val loss:21.5862
+
+Epoch[758/8000]:Train loss:41.5826,val loss:18.1297
+
+Epoch[759/8000]:Train loss:39.3836,val loss:25.4364
+
+Epoch[760/8000]:Train loss:38.5066,val loss:13.1577
+
+Epoch[761/8000]:Train loss:41.9367,val loss:12.7230
+
+Epoch[762/8000]:Train loss:38.2167,val loss:17.3207
+
+Epoch[763/8000]:Train loss:36.9700,val loss:25.8682
+
+Epoch[764/8000]:Train loss:41.5712,val loss:14.6737
+
+Epoch[765/8000]:Train loss:37.7482,val loss:18.5723
+
+Epoch[766/8000]:Train loss:37.5135,val loss:19.2128
+
+Epoch[767/8000]:Train loss:37.3914,val loss:29.9332
+
+Epoch[768/8000]:Train loss:34.3674,val loss:21.5997
+
+Epoch[769/8000]:Train loss:35.7613,val loss:35.8789
+
+Epoch[770/8000]:Train loss:36.2453,val loss:13.7968
+
+Epoch[771/8000]:Train loss:40.4540,val loss:30.0270
+
+Epoch[772/8000]:Train loss:43.0198,val loss:22.0868
+
+Epoch[773/8000]:Train loss:37.1084,val loss:27.9317
+
+Epoch[774/8000]:Train loss:39.1924,val loss:36.5951
+
+Epoch[775/8000]:Train loss:42.7322,val loss:23.9580
+
+Epoch[776/8000]:Train loss:41.5293,val loss:15.4344
+
+Epoch[777/8000]:Train loss:41.3263,val loss:17.6376
+
+Epoch[778/8000]:Train loss:38.2783,val loss:26.5473
+
+Epoch[779/8000]:Train loss:38.7466,val loss:36.9045
+
+Epoch[780/8000]:Train loss:39.9901,val loss:30.1450
+
+Epoch[781/8000]:Train loss:39.4182,val loss:16.7641
+
+Epoch[782/8000]:Train loss:41.4320,val loss:19.6704
+
+Epoch[783/8000]:Train loss:36.0672,val loss:25.1354
+
+Epoch[784/8000]:Train loss:35.3049,val loss:17.1029
+
+Epoch[785/8000]:Train loss:35.9329,val loss:15.8465
+
+Epoch[786/8000]:Train loss:38.4087,val loss:13.6559
+
+Epoch[787/8000]:Train loss:35.8430,val loss:25.1957
+
+Epoch[788/8000]:Train loss:45.1677,val loss:16.1126
+
+Epoch[789/8000]:Train loss:41.1524,val loss:9.8246
+
+Epoch[790/8000]:Train loss:43.3460,val loss:22.0362
+
+Epoch[791/8000]:Train loss:34.8014,val loss:19.6173
+
+Epoch[792/8000]:Train loss:36.7520,val loss:9.6483
+
+Epoch[793/8000]:Train loss:37.0965,val loss:15.3627
+
+Epoch[794/8000]:Train loss:38.2278,val loss:20.7562
+
+Epoch[795/8000]:Train loss:36.5905,val loss:24.1091
+
+Epoch[796/8000]:Train loss:35.4645,val loss:18.6248
+
+Epoch[797/8000]:Train loss:39.5659,val loss:11.8701
+
+Epoch[798/8000]:Train loss:37.6805,val loss:21.3244
+
+Epoch[799/8000]:Train loss:38.6604,val loss:14.4475
+
+Epoch[800/8000]:Train loss:37.1008,val loss:29.4853
+
+Epoch[801/8000]:Train loss:33.7506,val loss:13.5339
+
+Epoch[802/8000]:Train loss:36.9301,val loss:18.3874
+
+Epoch[803/8000]:Train loss:37.6836,val loss:24.5181
+
+Epoch[804/8000]:Train loss:37.6938,val loss:18.3117
+
+Epoch[805/8000]:Train loss:36.3763,val loss:10.6233
+
+Epoch[806/8000]:Train loss:39.2032,val loss:19.9735
+
+Epoch[807/8000]:Train loss:41.6385,val loss:17.8545
+
+Epoch[808/8000]:Train loss:35.8838,val loss:25.1881
+
+Epoch[809/8000]:Train loss:35.1535,val loss:12.3098
+
+Epoch[810/8000]:Train loss:36.6776,val loss:17.9451
+
+Epoch[811/8000]:Train loss:37.7944,val loss:19.6991
+
+Epoch[812/8000]:Train loss:38.7043,val loss:30.2222
+
+Epoch[813/8000]:Train loss:37.8177,val loss:11.7465
+
+Epoch[814/8000]:Train loss:38.2003,val loss:15.8233
+
+Epoch[815/8000]:Train loss:36.2766,val loss:10.1549
+
+Epoch[816/8000]:Train loss:38.8963,val loss:22.6778
+
+Epoch[817/8000]:Train loss:37.2904,val loss:27.4750
+
+Epoch[818/8000]:Train loss:36.7063,val loss:9.8106
+
+Epoch[819/8000]:Train loss:37.8945,val loss:24.1613
+
+Epoch[820/8000]:Train loss:39.1232,val loss:13.4671
+
+Epoch[821/8000]:Train loss:35.2738,val loss:32.4657
+
+Epoch[822/8000]:Train loss:36.6838,val loss:37.1900
+
+Epoch[823/8000]:Train loss:39.6363,val loss:21.9991
+
+Epoch[824/8000]:Train loss:37.1949,val loss:13.4268
+
+Epoch[825/8000]:Train loss:37.4799,val loss:28.3158
+
+Epoch[826/8000]:Train loss:38.2473,val loss:16.5494
+
+Epoch[827/8000]:Train loss:35.6759,val loss:22.0155
+
+Epoch[828/8000]:Train loss:39.5496,val loss:14.0411
+
+Epoch[829/8000]:Train loss:38.0886,val loss:23.2565
+
+Epoch[830/8000]:Train loss:36.4018,val loss:28.7580
+
+Epoch[831/8000]:Train loss:34.8928,val loss:16.1062
+
+Epoch[832/8000]:Train loss:36.1130,val loss:19.5870
+
+Epoch[833/8000]:Train loss:39.7372,val loss:16.8012
+
+Epoch[834/8000]:Train loss:36.2305,val loss:29.1578
+
+Epoch[835/8000]:Train loss:37.8034,val loss:15.5605
+
+Epoch[836/8000]:Train loss:37.0265,val loss:12.6895
+
+Epoch[837/8000]:Train loss:42.6923,val loss:32.9946
+
+Epoch[838/8000]:Train loss:38.5503,val loss:23.9930
+
+Epoch[839/8000]:Train loss:40.4884,val loss:17.2629
+
+Epoch[840/8000]:Train loss:33.9998,val loss:16.4912
+
+Epoch[841/8000]:Train loss:37.1491,val loss:25.1929
+
+Epoch[842/8000]:Train loss:40.0426,val loss:13.4643
+
+Epoch[843/8000]:Train loss:34.9629,val loss:20.5887
+
+Epoch[844/8000]:Train loss:40.5326,val loss:21.2162
+
+Epoch[845/8000]:Train loss:39.5412,val loss:16.4247
+
+Epoch[846/8000]:Train loss:36.9782,val loss:18.1774
+
+Epoch[847/8000]:Train loss:36.9310,val loss:23.2053
+
+Epoch[848/8000]:Train loss:35.2843,val loss:27.7364
+
+Epoch[849/8000]:Train loss:39.1868,val loss:15.7452
+
+Epoch[850/8000]:Train loss:35.0527,val loss:29.8972
+
+Epoch[851/8000]:Train loss:33.0476,val loss:25.5063
+
+Epoch[852/8000]:Train loss:34.5091,val loss:27.6047
+
+Epoch[853/8000]:Train loss:35.5444,val loss:17.1506
+
+Epoch[854/8000]:Train loss:34.4801,val loss:19.1652
+
+Epoch[855/8000]:Train loss:37.1533,val loss:17.3634
+
+Epoch[856/8000]:Train loss:37.5607,val loss:28.3540
+
+Epoch[857/8000]:Train loss:37.2301,val loss:18.1671
+
+Epoch[858/8000]:Train loss:38.4650,val loss:24.8380
+
+Epoch[859/8000]:Train loss:36.9737,val loss:13.8636
+
+Epoch[860/8000]:Train loss:36.3283,val loss:16.3263
+
+Epoch[861/8000]:Train loss:31.0639,val loss:12.7720
+
+Epoch[862/8000]:Train loss:33.4285,val loss:22.8187
+
+Epoch[863/8000]:Train loss:37.1501,val loss:10.5678
+
+Epoch[864/8000]:Train loss:35.3937,val loss:20.1683
+
+Epoch[865/8000]:Train loss:32.0564,val loss:19.4898
+
+Epoch[866/8000]:Train loss:35.4439,val loss:26.9179
+
+Epoch[867/8000]:Train loss:35.0272,val loss:10.1811
+
+Epoch[868/8000]:Train loss:39.0248,val loss:18.3176
+
+Epoch[869/8000]:Train loss:41.0530,val loss:22.1743
+
+Epoch[870/8000]:Train loss:35.1745,val loss:15.3689
+
+Epoch[871/8000]:Train loss:34.3420,val loss:34.2498
+
+Epoch[872/8000]:Train loss:32.9585,val loss:26.6530
+
+Epoch[873/8000]:Train loss:35.1454,val loss:21.6502
+
+Epoch[874/8000]:Train loss:32.6488,val loss:12.1466
+
+Epoch[875/8000]:Train loss:35.4811,val loss:27.3394
+
+Epoch[876/8000]:Train loss:34.2109,val loss:28.2139
+
+Epoch[877/8000]:Train loss:38.4971,val loss:25.0917
+
+Epoch[878/8000]:Train loss:34.6407,val loss:27.1316
+
+Epoch[879/8000]:Train loss:37.3773,val loss:17.8919
+
+Epoch[880/8000]:Train loss:35.0484,val loss:25.6354
+
+Epoch[881/8000]:Train loss:33.4866,val loss:18.5601
+
+Epoch[882/8000]:Train loss:38.3903,val loss:20.0651
+
+Epoch[883/8000]:Train loss:33.1124,val loss:18.5350
+
+Epoch[884/8000]:Train loss:30.5629,val loss:10.4418
+
+Epoch[885/8000]:Train loss:32.1439,val loss:12.7408
+
+Epoch[886/8000]:Train loss:31.0516,val loss:12.7634
+
+Epoch[887/8000]:Train loss:32.5730,val loss:15.5764
+
+Epoch[888/8000]:Train loss:35.6846,val loss:11.1937
+
+Epoch[889/8000]:Train loss:32.9001,val loss:16.3195
+
+Epoch[890/8000]:Train loss:30.8017,val loss:21.6361
+
+Epoch[891/8000]:Train loss:30.9399,val loss:32.1624
+
+Epoch[892/8000]:Train loss:34.7699,val loss:25.7659
+
+Epoch[893/8000]:Train loss:35.0190,val loss:15.4862
+
+Epoch[894/8000]:Train loss:31.5610,val loss:13.9079
+
+Epoch[895/8000]:Train loss:31.9448,val loss:13.4152
+
+Epoch[896/8000]:Train loss:32.1691,val loss:10.7887
+
+Epoch[897/8000]:Train loss:29.2713,val loss:7.5837
+
+Saving  model with loss7.584
+Epoch[898/8000]:Train loss:40.4049,val loss:15.3345
+
+Epoch[899/8000]:Train loss:33.6005,val loss:27.9020
+
+Epoch[900/8000]:Train loss:36.1404,val loss:10.5904
+
+Epoch[901/8000]:Train loss:32.2362,val loss:7.3330
+
+Saving  model with loss7.333
+Epoch[902/8000]:Train loss:35.6215,val loss:19.3752
+
+Epoch[903/8000]:Train loss:33.6548,val loss:12.5940
+
+Epoch[904/8000]:Train loss:29.9634,val loss:15.5240
+
+Epoch[905/8000]:Train loss:30.2516,val loss:9.3246
+
+Epoch[906/8000]:Train loss:27.9655,val loss:13.8628
+
+Epoch[907/8000]:Train loss:34.5558,val loss:10.7891
+
+Epoch[908/8000]:Train loss:32.8238,val loss:37.2043
+
+Epoch[909/8000]:Train loss:34.1533,val loss:26.2167
+
+Epoch[910/8000]:Train loss:28.8375,val loss:16.0383
+
+Epoch[911/8000]:Train loss:34.5136,val loss:16.2584
+
+Epoch[912/8000]:Train loss:32.1911,val loss:21.1059
+
+Epoch[913/8000]:Train loss:32.4865,val loss:15.5986
+
+Epoch[914/8000]:Train loss:34.1379,val loss:9.1360
+
+Epoch[915/8000]:Train loss:33.3119,val loss:7.4107
+
+Epoch[916/8000]:Train loss:36.7254,val loss:8.8666
+
+Epoch[917/8000]:Train loss:31.3525,val loss:7.3976
+
+Epoch[918/8000]:Train loss:34.0305,val loss:13.1838
+
+Epoch[919/8000]:Train loss:31.7024,val loss:10.0177
+
+Epoch[920/8000]:Train loss:31.9459,val loss:32.3527
+
+Epoch[921/8000]:Train loss:31.6445,val loss:15.3162
+
+Epoch[922/8000]:Train loss:32.4176,val loss:16.3101
+
+Epoch[923/8000]:Train loss:29.9372,val loss:22.1396
+
+Epoch[924/8000]:Train loss:29.7422,val loss:9.4180
+
+Epoch[925/8000]:Train loss:34.5655,val loss:28.8893
+
+Epoch[926/8000]:Train loss:30.3363,val loss:13.3616
+
+Epoch[927/8000]:Train loss:30.1178,val loss:13.9939
+
+Epoch[928/8000]:Train loss:31.5730,val loss:7.8245
+
+Epoch[929/8000]:Train loss:39.4030,val loss:6.4974
+
+Saving  model with loss6.497
+Epoch[930/8000]:Train loss:35.8360,val loss:17.1034
+
+Epoch[931/8000]:Train loss:32.3806,val loss:16.6647
+
+Epoch[932/8000]:Train loss:29.5813,val loss:9.4540
+
+Epoch[933/8000]:Train loss:33.6264,val loss:20.8928
+
+Epoch[934/8000]:Train loss:36.2754,val loss:33.8971
+
+Epoch[935/8000]:Train loss:32.2285,val loss:46.2413
+
+Epoch[936/8000]:Train loss:32.0882,val loss:29.0655
+
+Epoch[937/8000]:Train loss:36.7371,val loss:14.4168
+
+Epoch[938/8000]:Train loss:29.2393,val loss:37.7103
+
+Epoch[939/8000]:Train loss:31.0679,val loss:16.1413
+
+Epoch[940/8000]:Train loss:30.3400,val loss:22.8737
+
+Epoch[941/8000]:Train loss:32.7474,val loss:11.1267
+
+Epoch[942/8000]:Train loss:34.8915,val loss:14.1599
+
+Epoch[943/8000]:Train loss:30.2345,val loss:23.7067
+
+Epoch[944/8000]:Train loss:31.6475,val loss:16.2787
+
+Epoch[945/8000]:Train loss:28.3860,val loss:11.7941
+
+Epoch[946/8000]:Train loss:31.3188,val loss:23.8662
+
+Epoch[947/8000]:Train loss:28.8671,val loss:18.5798
+
+Epoch[948/8000]:Train loss:31.5361,val loss:9.0821
+
+Epoch[949/8000]:Train loss:30.6048,val loss:19.3244
+
+Epoch[950/8000]:Train loss:30.2222,val loss:19.1617
+
+Epoch[951/8000]:Train loss:30.3713,val loss:33.0901
+
+Epoch[952/8000]:Train loss:30.1519,val loss:13.5624
+
+Epoch[953/8000]:Train loss:30.7040,val loss:12.9932
+
+Epoch[954/8000]:Train loss:28.3589,val loss:17.0372
+
+Epoch[955/8000]:Train loss:31.6984,val loss:21.4823
+
+Epoch[956/8000]:Train loss:29.9436,val loss:21.7644
+
+Epoch[957/8000]:Train loss:30.4014,val loss:18.9452
+
+Epoch[958/8000]:Train loss:30.2868,val loss:25.9389
+
+Epoch[959/8000]:Train loss:31.4129,val loss:31.1579
+
+Epoch[960/8000]:Train loss:28.4676,val loss:17.9555
+
+Epoch[961/8000]:Train loss:32.8633,val loss:11.0744
+
+Epoch[962/8000]:Train loss:30.9389,val loss:22.0218
+
+Epoch[963/8000]:Train loss:26.8497,val loss:12.6650
+
+Epoch[964/8000]:Train loss:30.6333,val loss:8.3099
+
+Epoch[965/8000]:Train loss:30.1245,val loss:15.2981
+
+Epoch[966/8000]:Train loss:27.9118,val loss:17.9941
+
+Epoch[967/8000]:Train loss:29.0904,val loss:23.3828
+
+Epoch[968/8000]:Train loss:32.7890,val loss:13.8949
+
+Epoch[969/8000]:Train loss:36.1748,val loss:10.8439
+
+Epoch[970/8000]:Train loss:27.8814,val loss:15.4860
+
+Epoch[971/8000]:Train loss:31.4747,val loss:10.2263
+
+Epoch[972/8000]:Train loss:31.6160,val loss:24.8673
+
+Epoch[973/8000]:Train loss:33.2848,val loss:8.0064
+
+Epoch[974/8000]:Train loss:33.0214,val loss:12.6499
+
+Epoch[975/8000]:Train loss:33.0350,val loss:18.0162
+
+Epoch[976/8000]:Train loss:30.5195,val loss:20.6925
+
+Epoch[977/8000]:Train loss:32.7791,val loss:14.2273
+
+Epoch[978/8000]:Train loss:29.1408,val loss:12.2547
+
+Epoch[979/8000]:Train loss:33.9969,val loss:24.3623
+
+Epoch[980/8000]:Train loss:29.4470,val loss:33.7322
+
+Epoch[981/8000]:Train loss:30.2836,val loss:11.9840
+
+Epoch[982/8000]:Train loss:30.4589,val loss:10.8382
+
+Epoch[983/8000]:Train loss:31.0429,val loss:11.0457
+
+Epoch[984/8000]:Train loss:34.6932,val loss:11.3623
+
+Epoch[985/8000]:Train loss:35.5145,val loss:50.5209
+
+Epoch[986/8000]:Train loss:35.0338,val loss:13.7249
+
+Epoch[987/8000]:Train loss:30.3516,val loss:7.0527
+
+Epoch[988/8000]:Train loss:32.7087,val loss:36.1599
+
+Epoch[989/8000]:Train loss:32.5510,val loss:26.1863
+
+Epoch[990/8000]:Train loss:32.1939,val loss:15.8380
+
+Epoch[991/8000]:Train loss:29.5939,val loss:15.0528
+
+Epoch[992/8000]:Train loss:33.7687,val loss:13.4149
+
+Epoch[993/8000]:Train loss:32.7599,val loss:15.7297
+
+Epoch[994/8000]:Train loss:28.9705,val loss:7.6430
+
+Epoch[995/8000]:Train loss:32.5971,val loss:10.7325
+
+Epoch[996/8000]:Train loss:27.3296,val loss:20.2609
+
+Epoch[997/8000]:Train loss:26.2168,val loss:17.4930
+
+Epoch[998/8000]:Train loss:28.3892,val loss:16.3156
+
+Epoch[999/8000]:Train loss:28.4582,val loss:29.6431
+
+Epoch[1000/8000]:Train loss:31.6699,val loss:14.2234
+
+Epoch[1001/8000]:Train loss:29.8229,val loss:10.5955
+
+Epoch[1002/8000]:Train loss:28.3147,val loss:23.4379
+
+Epoch[1003/8000]:Train loss:30.1158,val loss:10.4996
+
+Epoch[1004/8000]:Train loss:31.3447,val loss:16.3919
+
+Epoch[1005/8000]:Train loss:28.1772,val loss:14.6971
+
+Epoch[1006/8000]:Train loss:28.7312,val loss:24.3367
+
+Epoch[1007/8000]:Train loss:31.9373,val loss:9.3512
+
+Epoch[1008/8000]:Train loss:32.7501,val loss:17.9117
+
+Epoch[1009/8000]:Train loss:27.7292,val loss:24.9151
+
+Epoch[1010/8000]:Train loss:30.3188,val loss:10.3223
+
+Epoch[1011/8000]:Train loss:29.6704,val loss:41.5341
+
+Epoch[1012/8000]:Train loss:30.8933,val loss:23.1031
+
+Epoch[1013/8000]:Train loss:29.2818,val loss:12.6723
+
+Epoch[1014/8000]:Train loss:29.5377,val loss:13.9725
+
+Epoch[1015/8000]:Train loss:33.2257,val loss:10.3533
+
+Epoch[1016/8000]:Train loss:26.2151,val loss:16.1416
+
+Epoch[1017/8000]:Train loss:27.9005,val loss:10.0781
+
+Epoch[1018/8000]:Train loss:29.4615,val loss:15.1294
+
+Epoch[1019/8000]:Train loss:31.0764,val loss:15.8119
+
+Epoch[1020/8000]:Train loss:33.8865,val loss:11.2547
+
+Epoch[1021/8000]:Train loss:32.1239,val loss:17.1270
+
+Epoch[1022/8000]:Train loss:30.6270,val loss:10.6077
+
+Epoch[1023/8000]:Train loss:29.9556,val loss:17.9867
+
+Epoch[1024/8000]:Train loss:27.6668,val loss:15.9966
+
+Epoch[1025/8000]:Train loss:28.0433,val loss:30.9957
+
+Epoch[1026/8000]:Train loss:32.4178,val loss:14.6918
+
+Epoch[1027/8000]:Train loss:33.0616,val loss:13.0608
+
+Epoch[1028/8000]:Train loss:29.4004,val loss:8.6582
+
+Epoch[1029/8000]:Train loss:30.3695,val loss:29.5281
+
+Epoch[1030/8000]:Train loss:29.4450,val loss:16.8282
+
+Epoch[1031/8000]:Train loss:29.6008,val loss:22.2673
+
+Epoch[1032/8000]:Train loss:26.6652,val loss:14.3380
+
+Epoch[1033/8000]:Train loss:28.0350,val loss:29.9411
+
+Epoch[1034/8000]:Train loss:29.2565,val loss:17.1185
+
+Epoch[1035/8000]:Train loss:31.2107,val loss:24.3998
+
+Epoch[1036/8000]:Train loss:30.3732,val loss:17.8581
+
+Epoch[1037/8000]:Train loss:29.3392,val loss:27.5928
+
+Epoch[1038/8000]:Train loss:33.5417,val loss:19.2689
+
+Epoch[1039/8000]:Train loss:28.2054,val loss:36.4479
+
+Epoch[1040/8000]:Train loss:33.7115,val loss:7.3578
+
+Epoch[1041/8000]:Train loss:29.4803,val loss:13.1701
+
+Epoch[1042/8000]:Train loss:31.1969,val loss:10.9535
+
+Epoch[1043/8000]:Train loss:32.4209,val loss:22.8891
+
+Epoch[1044/8000]:Train loss:32.0196,val loss:21.4552
+
+Epoch[1045/8000]:Train loss:30.9749,val loss:14.2735
+
+Epoch[1046/8000]:Train loss:27.5707,val loss:29.1299
+
+Epoch[1047/8000]:Train loss:29.3543,val loss:15.0146
+
+Epoch[1048/8000]:Train loss:26.8347,val loss:18.0936
+
+Epoch[1049/8000]:Train loss:28.9997,val loss:13.7296
+
+Epoch[1050/8000]:Train loss:28.4800,val loss:23.8096
+
+Epoch[1051/8000]:Train loss:29.8548,val loss:12.0328
+
+Epoch[1052/8000]:Train loss:29.1327,val loss:16.3551
+
+Epoch[1053/8000]:Train loss:29.1984,val loss:14.8748
+
+Epoch[1054/8000]:Train loss:32.3212,val loss:15.3840
+
+Epoch[1055/8000]:Train loss:30.1302,val loss:14.4081
+
+Epoch[1056/8000]:Train loss:28.6467,val loss:20.4094
+
+Epoch[1057/8000]:Train loss:30.2838,val loss:16.0035
+
+Epoch[1058/8000]:Train loss:27.8203,val loss:18.2798
+
+Epoch[1059/8000]:Train loss:26.7864,val loss:7.3216
+
+Epoch[1060/8000]:Train loss:32.7330,val loss:7.5954
+
+Epoch[1061/8000]:Train loss:31.8010,val loss:20.1483
+
+Epoch[1062/8000]:Train loss:29.7144,val loss:17.0611
+
+Epoch[1063/8000]:Train loss:27.8894,val loss:10.6576
+
+Epoch[1064/8000]:Train loss:28.3238,val loss:15.1278
+
+Epoch[1065/8000]:Train loss:26.9130,val loss:17.1973
+
+Epoch[1066/8000]:Train loss:28.3120,val loss:19.1231
+
+Epoch[1067/8000]:Train loss:30.2927,val loss:24.7173
+
+Epoch[1068/8000]:Train loss:29.3497,val loss:12.2266
+
+Epoch[1069/8000]:Train loss:27.5377,val loss:16.2439
+
+Epoch[1070/8000]:Train loss:32.9218,val loss:21.2163
+
+Epoch[1071/8000]:Train loss:27.5654,val loss:7.2885
+
+Epoch[1072/8000]:Train loss:29.2537,val loss:25.3791
+
+Epoch[1073/8000]:Train loss:28.3224,val loss:14.2591
+
+Epoch[1074/8000]:Train loss:34.1849,val loss:22.1684
+
+Epoch[1075/8000]:Train loss:28.0818,val loss:26.6313
+
+Epoch[1076/8000]:Train loss:30.8176,val loss:11.8578
+
+Epoch[1077/8000]:Train loss:28.8960,val loss:8.6025
+
+Epoch[1078/8000]:Train loss:27.7042,val loss:11.9377
+
+Epoch[1079/8000]:Train loss:28.7764,val loss:18.3928
+
+Epoch[1080/8000]:Train loss:28.3463,val loss:13.1827
+
+Epoch[1081/8000]:Train loss:32.0788,val loss:13.0787
+
+Epoch[1082/8000]:Train loss:28.7766,val loss:21.4575
+
+Epoch[1083/8000]:Train loss:28.4696,val loss:18.8900
+
+Epoch[1084/8000]:Train loss:28.3138,val loss:27.9285
+
+Epoch[1085/8000]:Train loss:26.6482,val loss:26.6130
+
+Epoch[1086/8000]:Train loss:32.4450,val loss:30.6380
+
+Epoch[1087/8000]:Train loss:27.8467,val loss:14.8564
+
+Epoch[1088/8000]:Train loss:29.7631,val loss:18.9993
+
+Epoch[1089/8000]:Train loss:30.4783,val loss:29.4959
+
+Epoch[1090/8000]:Train loss:27.2647,val loss:20.5540
+
+Epoch[1091/8000]:Train loss:30.7004,val loss:12.9226
+
+Epoch[1092/8000]:Train loss:27.5995,val loss:10.7296
+
+Epoch[1093/8000]:Train loss:31.0701,val loss:11.4111
+
+Epoch[1094/8000]:Train loss:27.4865,val loss:26.8947
+
+Epoch[1095/8000]:Train loss:28.1693,val loss:21.7567
+
+Epoch[1096/8000]:Train loss:25.3751,val loss:15.2186
+
+Epoch[1097/8000]:Train loss:28.4179,val loss:9.4318
+
+Epoch[1098/8000]:Train loss:26.9910,val loss:24.4076
+
+Epoch[1099/8000]:Train loss:29.2125,val loss:24.4161
+
+Epoch[1100/8000]:Train loss:30.0224,val loss:16.9737
+
+Epoch[1101/8000]:Train loss:29.2878,val loss:19.6664
+
+Epoch[1102/8000]:Train loss:28.5390,val loss:9.0361
+
+Epoch[1103/8000]:Train loss:28.8017,val loss:14.2816
+
+Epoch[1104/8000]:Train loss:28.6864,val loss:8.4650
+
+Epoch[1105/8000]:Train loss:27.8701,val loss:19.9567
+
+Epoch[1106/8000]:Train loss:29.8682,val loss:17.8358
+
+Epoch[1107/8000]:Train loss:28.5532,val loss:13.2707
+
+Epoch[1108/8000]:Train loss:35.3437,val loss:23.4806
+
+Epoch[1109/8000]:Train loss:28.8095,val loss:17.1941
+
+Epoch[1110/8000]:Train loss:28.9032,val loss:10.7580
+
+Epoch[1111/8000]:Train loss:25.4346,val loss:10.9829
+
+Epoch[1112/8000]:Train loss:25.7758,val loss:14.5109
+
+Epoch[1113/8000]:Train loss:26.4022,val loss:11.0997
+
+Epoch[1114/8000]:Train loss:29.5340,val loss:20.2482
+
+Epoch[1115/8000]:Train loss:28.9655,val loss:27.7600
+
+Epoch[1116/8000]:Train loss:30.2272,val loss:27.5204
+
+Epoch[1117/8000]:Train loss:28.7623,val loss:11.2039
+
+Epoch[1118/8000]:Train loss:29.9081,val loss:24.1217
+
+Epoch[1119/8000]:Train loss:28.4367,val loss:19.9324
+
+Epoch[1120/8000]:Train loss:27.5966,val loss:13.7678
+
+Epoch[1121/8000]:Train loss:30.4255,val loss:12.4868
+
+Epoch[1122/8000]:Train loss:30.9327,val loss:22.9770
+
+Epoch[1123/8000]:Train loss:31.5903,val loss:13.2258
+
+Epoch[1124/8000]:Train loss:31.2382,val loss:19.5052
+
+Epoch[1125/8000]:Train loss:27.9254,val loss:22.6614
+
+Epoch[1126/8000]:Train loss:28.6602,val loss:12.2183
+
+Epoch[1127/8000]:Train loss:27.5568,val loss:13.1651
+
+Epoch[1128/8000]:Train loss:28.2477,val loss:22.4073
+
+Epoch[1129/8000]:Train loss:29.9137,val loss:26.9550
+
+Epoch[1130/8000]:Train loss:29.1873,val loss:25.1590
+
+Epoch[1131/8000]:Train loss:30.0946,val loss:22.8700
+
+Epoch[1132/8000]:Train loss:27.2008,val loss:28.2487
+
+Epoch[1133/8000]:Train loss:27.4744,val loss:22.7788
+
+Epoch[1134/8000]:Train loss:30.1814,val loss:21.5820
+
+Epoch[1135/8000]:Train loss:27.5091,val loss:19.7658
+
+Epoch[1136/8000]:Train loss:30.3990,val loss:13.8347
+
+Epoch[1137/8000]:Train loss:28.7761,val loss:10.8172
+
+Epoch[1138/8000]:Train loss:26.6114,val loss:21.4250
+
+Epoch[1139/8000]:Train loss:28.1041,val loss:13.1536
+
+Epoch[1140/8000]:Train loss:28.6035,val loss:21.1420
+
+Epoch[1141/8000]:Train loss:28.7608,val loss:8.7484
+
+Epoch[1142/8000]:Train loss:31.6250,val loss:18.5603
+
+Epoch[1143/8000]:Train loss:25.6575,val loss:20.5011
+
+Epoch[1144/8000]:Train loss:28.0505,val loss:15.7897
+
+Epoch[1145/8000]:Train loss:27.6716,val loss:13.4388
+
+Epoch[1146/8000]:Train loss:27.8494,val loss:16.9636
+
+Epoch[1147/8000]:Train loss:27.0222,val loss:12.9278
+
+Epoch[1148/8000]:Train loss:31.7592,val loss:22.4825
+
+Epoch[1149/8000]:Train loss:38.9721,val loss:20.3788
+
+Epoch[1150/8000]:Train loss:29.6726,val loss:11.4057
+
+Epoch[1151/8000]:Train loss:30.5092,val loss:16.2779
+
+Epoch[1152/8000]:Train loss:30.2383,val loss:25.3869
+
+Epoch[1153/8000]:Train loss:27.5037,val loss:19.2909
+
+Epoch[1154/8000]:Train loss:28.0852,val loss:20.8603
+
+Epoch[1155/8000]:Train loss:28.2741,val loss:18.1254
+
+Epoch[1156/8000]:Train loss:28.3935,val loss:20.3984
+
+Epoch[1157/8000]:Train loss:29.9012,val loss:27.6958
+
+Epoch[1158/8000]:Train loss:26.3286,val loss:15.4310
+
+Epoch[1159/8000]:Train loss:26.8268,val loss:23.4659
+
+Epoch[1160/8000]:Train loss:29.0066,val loss:15.8057
+
+Epoch[1161/8000]:Train loss:24.8728,val loss:11.6934
+
+Epoch[1162/8000]:Train loss:27.3100,val loss:13.7301
+
+Epoch[1163/8000]:Train loss:29.8936,val loss:12.4220
+
+Epoch[1164/8000]:Train loss:29.6691,val loss:21.5659
+
+Epoch[1165/8000]:Train loss:32.8888,val loss:28.1401
+
+Epoch[1166/8000]:Train loss:28.1256,val loss:13.0087
+
+Epoch[1167/8000]:Train loss:27.7006,val loss:20.9631
+
+Epoch[1168/8000]:Train loss:29.3062,val loss:20.0741
+
+Epoch[1169/8000]:Train loss:27.4465,val loss:16.9133
+
+Epoch[1170/8000]:Train loss:25.9241,val loss:30.3578
+
+Epoch[1171/8000]:Train loss:27.1386,val loss:18.4329
+
+Epoch[1172/8000]:Train loss:26.7421,val loss:21.1487
+
+Epoch[1173/8000]:Train loss:28.5857,val loss:18.8733
+
+Epoch[1174/8000]:Train loss:28.2141,val loss:13.0816
+
+Epoch[1175/8000]:Train loss:29.0676,val loss:20.5727
+
+Epoch[1176/8000]:Train loss:26.8497,val loss:17.2419
+
+Epoch[1177/8000]:Train loss:25.0532,val loss:22.0443
+
+Epoch[1178/8000]:Train loss:28.3434,val loss:19.7851
+
+Epoch[1179/8000]:Train loss:25.9740,val loss:12.4002
+
+Epoch[1180/8000]:Train loss:27.3258,val loss:20.5695
+
+Epoch[1181/8000]:Train loss:27.1220,val loss:19.9086
+
+Epoch[1182/8000]:Train loss:26.4679,val loss:24.1740
+
+Epoch[1183/8000]:Train loss:26.2880,val loss:13.2438
+
+Epoch[1184/8000]:Train loss:31.0904,val loss:17.0793
+
+Epoch[1185/8000]:Train loss:26.9711,val loss:21.6852
+
+Epoch[1186/8000]:Train loss:27.6040,val loss:16.5170
+
+Epoch[1187/8000]:Train loss:24.7980,val loss:19.1544
+
+Epoch[1188/8000]:Train loss:26.8686,val loss:20.4811
+
+Epoch[1189/8000]:Train loss:31.1445,val loss:9.6617
+
+Epoch[1190/8000]:Train loss:27.1564,val loss:15.5814
+
+Epoch[1191/8000]:Train loss:26.3675,val loss:18.9853
+
+Epoch[1192/8000]:Train loss:26.5638,val loss:16.3355
+
+Epoch[1193/8000]:Train loss:29.1170,val loss:17.1388
+
+Epoch[1194/8000]:Train loss:29.3238,val loss:15.3547
+
+Epoch[1195/8000]:Train loss:27.6360,val loss:13.9798
+
+Epoch[1196/8000]:Train loss:32.2975,val loss:24.4203
+
+Epoch[1197/8000]:Train loss:26.5058,val loss:10.4321
+
+Epoch[1198/8000]:Train loss:25.3686,val loss:16.6476
+
+Epoch[1199/8000]:Train loss:27.2130,val loss:7.5206
+
+Epoch[1200/8000]:Train loss:25.2503,val loss:13.4016
+
+Epoch[1201/8000]:Train loss:29.0957,val loss:7.0545
+
+Epoch[1202/8000]:Train loss:29.8531,val loss:33.6501
+
+Epoch[1203/8000]:Train loss:29.5367,val loss:15.1998
+
+Epoch[1204/8000]:Train loss:29.0289,val loss:15.5244
+
+Epoch[1205/8000]:Train loss:29.7512,val loss:9.9443
+
+Epoch[1206/8000]:Train loss:28.3787,val loss:14.4539
+
+Epoch[1207/8000]:Train loss:25.6844,val loss:21.8110
+
+Epoch[1208/8000]:Train loss:27.1337,val loss:15.3150
+
+Epoch[1209/8000]:Train loss:27.1798,val loss:22.1389
+
+Epoch[1210/8000]:Train loss:28.1168,val loss:10.9576
+
+Epoch[1211/8000]:Train loss:26.1293,val loss:24.9660
+
+Epoch[1212/8000]:Train loss:27.0759,val loss:17.2990
+
+Epoch[1213/8000]:Train loss:25.6200,val loss:8.0440
+
+Epoch[1214/8000]:Train loss:28.9178,val loss:24.7982
+
+Epoch[1215/8000]:Train loss:28.2407,val loss:10.5786
+
+Epoch[1216/8000]:Train loss:26.6413,val loss:21.2217
+
+Epoch[1217/8000]:Train loss:28.1570,val loss:13.9568
+
+Epoch[1218/8000]:Train loss:26.4277,val loss:15.0363
+
+Epoch[1219/8000]:Train loss:26.6686,val loss:12.5029
+
+Epoch[1220/8000]:Train loss:27.8571,val loss:14.1167
+
+Epoch[1221/8000]:Train loss:25.7938,val loss:11.5752
+
+Epoch[1222/8000]:Train loss:27.6264,val loss:9.4658
+
+Epoch[1223/8000]:Train loss:28.7996,val loss:15.3442
+
+Epoch[1224/8000]:Train loss:26.9417,val loss:13.0034
+
+Epoch[1225/8000]:Train loss:28.8586,val loss:16.3477
+
+Epoch[1226/8000]:Train loss:27.5273,val loss:13.0788
+
+Epoch[1227/8000]:Train loss:26.6866,val loss:17.8340
+
+Epoch[1228/8000]:Train loss:28.2390,val loss:7.6398
+
+Epoch[1229/8000]:Train loss:29.3795,val loss:17.0765
+
+Epoch[1230/8000]:Train loss:27.8981,val loss:21.4044
+
+Epoch[1231/8000]:Train loss:28.3132,val loss:16.7422
+
+Epoch[1232/8000]:Train loss:26.5657,val loss:20.8575
+
+Epoch[1233/8000]:Train loss:27.2588,val loss:14.0928
+
+Epoch[1234/8000]:Train loss:28.4846,val loss:20.6668
+
+Epoch[1235/8000]:Train loss:30.3166,val loss:22.6211
+
+Epoch[1236/8000]:Train loss:27.9367,val loss:24.5314
+
+Epoch[1237/8000]:Train loss:24.8274,val loss:15.0615
+
+Epoch[1238/8000]:Train loss:27.2858,val loss:12.7009
+
+Epoch[1239/8000]:Train loss:25.6089,val loss:13.2926
+
+Epoch[1240/8000]:Train loss:26.0682,val loss:21.3734
+
+Epoch[1241/8000]:Train loss:25.4460,val loss:12.5478
+
+Epoch[1242/8000]:Train loss:27.0482,val loss:21.0785
+
+Epoch[1243/8000]:Train loss:25.4437,val loss:13.9236
+
+Epoch[1244/8000]:Train loss:29.0605,val loss:15.3909
+
+Epoch[1245/8000]:Train loss:27.0532,val loss:17.6152
+
+Epoch[1246/8000]:Train loss:26.8648,val loss:24.2126
+
+Epoch[1247/8000]:Train loss:27.1684,val loss:26.4400
+
+Epoch[1248/8000]:Train loss:28.9523,val loss:15.2218
+
+Epoch[1249/8000]:Train loss:26.6519,val loss:20.2734
+
+Epoch[1250/8000]:Train loss:24.0246,val loss:8.4652
+
+Epoch[1251/8000]:Train loss:32.5072,val loss:18.8380
+
+Epoch[1252/8000]:Train loss:29.4119,val loss:12.2167
+
+Epoch[1253/8000]:Train loss:26.7327,val loss:25.7512
+
+Epoch[1254/8000]:Train loss:26.8389,val loss:9.8782
+
+Epoch[1255/8000]:Train loss:28.9498,val loss:12.8189
+
+Epoch[1256/8000]:Train loss:29.8232,val loss:20.5154
+
+Epoch[1257/8000]:Train loss:25.5201,val loss:21.8001
+
+Epoch[1258/8000]:Train loss:28.5327,val loss:12.9311
+
+Epoch[1259/8000]:Train loss:29.0154,val loss:7.8575
+
+Epoch[1260/8000]:Train loss:26.8245,val loss:22.2092
+
+Epoch[1261/8000]:Train loss:27.7338,val loss:12.8998
+
+Epoch[1262/8000]:Train loss:26.2818,val loss:15.6437
+
+Epoch[1263/8000]:Train loss:27.1356,val loss:11.9660
+
+Epoch[1264/8000]:Train loss:27.3834,val loss:13.0702
+
+Epoch[1265/8000]:Train loss:27.3247,val loss:20.6166
+
+Epoch[1266/8000]:Train loss:25.7755,val loss:14.8954
+
+Epoch[1267/8000]:Train loss:26.9043,val loss:13.1904
+
+Epoch[1268/8000]:Train loss:26.0362,val loss:13.6459
+
+Epoch[1269/8000]:Train loss:24.8308,val loss:24.5856
+
+Epoch[1270/8000]:Train loss:27.7990,val loss:14.3330
+
+Epoch[1271/8000]:Train loss:28.9469,val loss:10.3094
+
+Epoch[1272/8000]:Train loss:28.7805,val loss:15.7271
+
+Epoch[1273/8000]:Train loss:27.3407,val loss:18.9340
+
+Epoch[1274/8000]:Train loss:27.6735,val loss:13.3181
+
+Epoch[1275/8000]:Train loss:29.4025,val loss:24.6342
+
+Epoch[1276/8000]:Train loss:25.8588,val loss:22.2519
+
+Epoch[1277/8000]:Train loss:26.7367,val loss:12.6752
+
+Epoch[1278/8000]:Train loss:26.6384,val loss:10.8037
+
+Epoch[1279/8000]:Train loss:25.8822,val loss:20.7125
+
+Epoch[1280/8000]:Train loss:27.1350,val loss:15.7641
+
+Epoch[1281/8000]:Train loss:27.8168,val loss:11.2337
+
+Epoch[1282/8000]:Train loss:26.5878,val loss:11.3252
+
+Epoch[1283/8000]:Train loss:26.9200,val loss:9.2046
+
+Epoch[1284/8000]:Train loss:27.9984,val loss:19.6275
+
+Epoch[1285/8000]:Train loss:27.3933,val loss:18.8350
+
+Epoch[1286/8000]:Train loss:28.9385,val loss:20.2557
+
+Epoch[1287/8000]:Train loss:26.9106,val loss:18.6398
+
+Epoch[1288/8000]:Train loss:26.4085,val loss:11.7288
+
+Epoch[1289/8000]:Train loss:25.9277,val loss:14.1985
+
+Epoch[1290/8000]:Train loss:29.3097,val loss:12.1253
+
+Epoch[1291/8000]:Train loss:27.7352,val loss:8.5656
+
+Epoch[1292/8000]:Train loss:26.0043,val loss:18.3208
+
+Epoch[1293/8000]:Train loss:27.4438,val loss:13.4596
+
+Epoch[1294/8000]:Train loss:25.0031,val loss:10.2371
+
+Epoch[1295/8000]:Train loss:26.2024,val loss:24.2365
+
+Epoch[1296/8000]:Train loss:26.6009,val loss:15.0998
+
+Epoch[1297/8000]:Train loss:27.9315,val loss:23.5207
+
+Epoch[1298/8000]:Train loss:25.0382,val loss:12.1593
+
+Epoch[1299/8000]:Train loss:25.0699,val loss:19.9622
+
+Epoch[1300/8000]:Train loss:26.8248,val loss:14.8259
+
+Epoch[1301/8000]:Train loss:27.6448,val loss:13.7364
+
+Epoch[1302/8000]:Train loss:26.0053,val loss:15.1581
+
+Epoch[1303/8000]:Train loss:25.0543,val loss:18.5375
+
+Epoch[1304/8000]:Train loss:24.3843,val loss:10.3715
+
+Epoch[1305/8000]:Train loss:26.6554,val loss:10.5457
+
+Epoch[1306/8000]:Train loss:30.4778,val loss:10.3192
+
+Epoch[1307/8000]:Train loss:25.8502,val loss:12.6215
+
+Epoch[1308/8000]:Train loss:26.4891,val loss:15.0783
+
+Epoch[1309/8000]:Train loss:27.6152,val loss:9.2358
+
+Epoch[1310/8000]:Train loss:27.8274,val loss:8.1419
+
+Epoch[1311/8000]:Train loss:26.3928,val loss:20.4726
+
+Epoch[1312/8000]:Train loss:27.2359,val loss:15.1702
+
+Epoch[1313/8000]:Train loss:26.7179,val loss:6.9141
+
+Epoch[1314/8000]:Train loss:28.1651,val loss:21.0182
+
+Epoch[1315/8000]:Train loss:25.1757,val loss:23.0602
+
+Epoch[1316/8000]:Train loss:28.3136,val loss:14.3866
+
+Epoch[1317/8000]:Train loss:25.7108,val loss:15.5147
+
+Epoch[1318/8000]:Train loss:26.0523,val loss:10.8300
+
+Epoch[1319/8000]:Train loss:27.7643,val loss:13.3459
+
+Epoch[1320/8000]:Train loss:27.0569,val loss:25.1417
+
+Epoch[1321/8000]:Train loss:27.2565,val loss:13.2131
+
+Epoch[1322/8000]:Train loss:25.7646,val loss:9.1311
+
+Epoch[1323/8000]:Train loss:26.4073,val loss:16.7095
+
+Epoch[1324/8000]:Train loss:26.0047,val loss:15.8898
+
+Epoch[1325/8000]:Train loss:27.7056,val loss:25.0145
+
+Epoch[1326/8000]:Train loss:28.1891,val loss:19.1525
+
+Epoch[1327/8000]:Train loss:24.6483,val loss:8.5247
+
+Epoch[1328/8000]:Train loss:25.6120,val loss:20.1466
+
+Epoch[1329/8000]:Train loss:25.8259,val loss:12.4971
+
+Epoch[1330/8000]:Train loss:24.5622,val loss:16.8492
+
+Epoch[1331/8000]:Train loss:25.3768,val loss:13.1827
+
+Epoch[1332/8000]:Train loss:26.6358,val loss:14.7280
+
+Epoch[1333/8000]:Train loss:25.1882,val loss:10.3947
+
+Epoch[1334/8000]:Train loss:28.0970,val loss:23.4149
+
+Epoch[1335/8000]:Train loss:27.5767,val loss:22.6559
+
+Epoch[1336/8000]:Train loss:27.1159,val loss:16.2402
+
+Epoch[1337/8000]:Train loss:27.5818,val loss:12.8905
+
+Epoch[1338/8000]:Train loss:23.7798,val loss:18.1822
+
+Epoch[1339/8000]:Train loss:28.3081,val loss:30.7703
+
+Epoch[1340/8000]:Train loss:29.9108,val loss:10.1563
+
+Epoch[1341/8000]:Train loss:25.9816,val loss:23.5216
+
+Epoch[1342/8000]:Train loss:27.8870,val loss:30.5187
+
+Epoch[1343/8000]:Train loss:27.8461,val loss:9.0553
+
+Epoch[1344/8000]:Train loss:27.1078,val loss:15.4521
+
+Epoch[1345/8000]:Train loss:25.5367,val loss:15.2257
+
+Epoch[1346/8000]:Train loss:26.9533,val loss:22.8370
+
+Epoch[1347/8000]:Train loss:25.4973,val loss:12.1278
+
+Epoch[1348/8000]:Train loss:25.2983,val loss:17.8359
+
+Epoch[1349/8000]:Train loss:25.3092,val loss:21.9662
+
+Epoch[1350/8000]:Train loss:25.7126,val loss:10.0749
+
+Epoch[1351/8000]:Train loss:26.4380,val loss:20.4325
+
+Epoch[1352/8000]:Train loss:28.0044,val loss:10.0356
+
+Epoch[1353/8000]:Train loss:27.0124,val loss:27.3194
+
+Epoch[1354/8000]:Train loss:26.2336,val loss:8.5786
+
+Epoch[1355/8000]:Train loss:27.5344,val loss:11.1635
+
+Epoch[1356/8000]:Train loss:26.6639,val loss:20.8643
+
+Epoch[1357/8000]:Train loss:26.4364,val loss:15.8161
+
+Epoch[1358/8000]:Train loss:27.3898,val loss:16.0694
+
+Epoch[1359/8000]:Train loss:28.1666,val loss:20.1280
+
+Epoch[1360/8000]:Train loss:28.4089,val loss:11.2514
+
+Epoch[1361/8000]:Train loss:26.8488,val loss:14.0095
+
+Epoch[1362/8000]:Train loss:27.8070,val loss:13.6289
+
+Epoch[1363/8000]:Train loss:26.9106,val loss:20.6970
+
+Epoch[1364/8000]:Train loss:25.8584,val loss:9.4198
+
+Epoch[1365/8000]:Train loss:25.7259,val loss:17.8676
+
+Epoch[1366/8000]:Train loss:26.7876,val loss:18.0879
+
+Epoch[1367/8000]:Train loss:25.6505,val loss:36.8170
+
+Epoch[1368/8000]:Train loss:26.7205,val loss:13.4309
+
+Epoch[1369/8000]:Train loss:25.4931,val loss:15.8337
+
+Epoch[1370/8000]:Train loss:25.3182,val loss:13.2445
+
+Epoch[1371/8000]:Train loss:24.7674,val loss:18.6378
+
+Epoch[1372/8000]:Train loss:26.8696,val loss:16.6705
+
+Epoch[1373/8000]:Train loss:26.7426,val loss:13.6471
+
+Epoch[1374/8000]:Train loss:24.8391,val loss:6.8567
+
+Epoch[1375/8000]:Train loss:26.2808,val loss:18.1660
+
+Epoch[1376/8000]:Train loss:26.8865,val loss:18.1774
+
+Epoch[1377/8000]:Train loss:25.5582,val loss:9.4109
+
+Epoch[1378/8000]:Train loss:25.1266,val loss:13.1363
+
+Epoch[1379/8000]:Train loss:25.3968,val loss:11.3756
+
+Epoch[1380/8000]:Train loss:24.3729,val loss:25.1839
+
+Epoch[1381/8000]:Train loss:24.1603,val loss:8.4496
+
+Epoch[1382/8000]:Train loss:25.8817,val loss:15.4235
+
+Epoch[1383/8000]:Train loss:24.0093,val loss:17.2041
+
+Epoch[1384/8000]:Train loss:25.6986,val loss:18.4018
+
+Epoch[1385/8000]:Train loss:28.5437,val loss:12.4868
+
+Epoch[1386/8000]:Train loss:25.8598,val loss:13.7801
+
+Epoch[1387/8000]:Train loss:24.1286,val loss:17.3949
+
+Epoch[1388/8000]:Train loss:22.9644,val loss:20.1519
+
+Epoch[1389/8000]:Train loss:25.4907,val loss:21.8507
+
+Epoch[1390/8000]:Train loss:25.2867,val loss:15.7663
+
+Epoch[1391/8000]:Train loss:25.8866,val loss:15.6251
+
+Epoch[1392/8000]:Train loss:23.6434,val loss:20.6243
+
+Epoch[1393/8000]:Train loss:25.6911,val loss:12.0431
+
+Epoch[1394/8000]:Train loss:26.9403,val loss:25.5045
+
+Epoch[1395/8000]:Train loss:23.9554,val loss:11.5013
+
+Epoch[1396/8000]:Train loss:27.0291,val loss:12.2652
+
+Epoch[1397/8000]:Train loss:27.2870,val loss:7.6262
+
+Epoch[1398/8000]:Train loss:25.3080,val loss:17.1625
+
+Epoch[1399/8000]:Train loss:26.7823,val loss:11.8825
+
+Epoch[1400/8000]:Train loss:26.9639,val loss:13.1597
+
+Epoch[1401/8000]:Train loss:25.1621,val loss:13.4416
+
+Epoch[1402/8000]:Train loss:23.8691,val loss:12.9735
+
+Epoch[1403/8000]:Train loss:24.1654,val loss:17.2521
+
+Epoch[1404/8000]:Train loss:25.6799,val loss:13.9716
+
+Epoch[1405/8000]:Train loss:28.0022,val loss:15.6785
+
+Epoch[1406/8000]:Train loss:25.9059,val loss:10.7671
+
+Epoch[1407/8000]:Train loss:27.0194,val loss:15.0493
+
+Epoch[1408/8000]:Train loss:24.1805,val loss:16.1224
+
+Epoch[1409/8000]:Train loss:25.6487,val loss:19.4424
+
+Epoch[1410/8000]:Train loss:25.1650,val loss:14.4120
+
+Epoch[1411/8000]:Train loss:26.4504,val loss:9.5045
+
+Epoch[1412/8000]:Train loss:25.3864,val loss:22.7189
+
+Epoch[1413/8000]:Train loss:23.4928,val loss:13.3310
+
+Epoch[1414/8000]:Train loss:26.2559,val loss:33.0247
+
+Epoch[1415/8000]:Train loss:25.3675,val loss:12.1026
+
+Epoch[1416/8000]:Train loss:25.3075,val loss:23.0837
+
+Epoch[1417/8000]:Train loss:25.9089,val loss:11.1565
+
+Epoch[1418/8000]:Train loss:27.2198,val loss:23.1531
+
+Epoch[1419/8000]:Train loss:26.5614,val loss:14.8068
+
+Epoch[1420/8000]:Train loss:26.3861,val loss:29.2005
+
+Epoch[1421/8000]:Train loss:27.0050,val loss:18.3780
+
+Epoch[1422/8000]:Train loss:25.7779,val loss:11.7992
+
+Epoch[1423/8000]:Train loss:26.4025,val loss:13.2642
+
+Epoch[1424/8000]:Train loss:24.3345,val loss:21.3063
+
+Epoch[1425/8000]:Train loss:26.4858,val loss:10.7045
+
+Epoch[1426/8000]:Train loss:27.1234,val loss:10.7667
+
+Epoch[1427/8000]:Train loss:24.6365,val loss:20.4090
+
+Epoch[1428/8000]:Train loss:25.0959,val loss:20.7578
+
+Epoch[1429/8000]:Train loss:29.1400,val loss:17.0156
+
+Epoch[1430/8000]:Train loss:23.8704,val loss:13.7957
+
+Epoch[1431/8000]:Train loss:25.6656,val loss:20.0450
+
+Epoch[1432/8000]:Train loss:22.9015,val loss:14.3820
+
+Epoch[1433/8000]:Train loss:25.8902,val loss:17.6983
+
+Epoch[1434/8000]:Train loss:26.1418,val loss:14.3116
+
+Epoch[1435/8000]:Train loss:24.1849,val loss:17.1552
+
+Epoch[1436/8000]:Train loss:23.9396,val loss:24.4534
+
+Epoch[1437/8000]:Train loss:25.8754,val loss:20.7383
+
+Epoch[1438/8000]:Train loss:25.5170,val loss:23.2863
+
+Epoch[1439/8000]:Train loss:24.8711,val loss:16.4752
+
+Epoch[1440/8000]:Train loss:25.1822,val loss:17.6571
+
+Epoch[1441/8000]:Train loss:25.3039,val loss:13.7849
+
+Epoch[1442/8000]:Train loss:23.9907,val loss:14.0676
+
+Epoch[1443/8000]:Train loss:26.8829,val loss:14.5455
+
+Epoch[1444/8000]:Train loss:26.5612,val loss:14.9855
+
+Epoch[1445/8000]:Train loss:27.4687,val loss:12.2650
+
+Epoch[1446/8000]:Train loss:24.5991,val loss:16.5225
+
+Epoch[1447/8000]:Train loss:24.9622,val loss:15.8270
+
+Epoch[1448/8000]:Train loss:23.9206,val loss:12.0339
+
+Epoch[1449/8000]:Train loss:23.5405,val loss:10.6594
+
+Epoch[1450/8000]:Train loss:24.9566,val loss:14.5234
+
+Epoch[1451/8000]:Train loss:23.9324,val loss:13.4583
+
+Epoch[1452/8000]:Train loss:27.2193,val loss:12.9455
+
+Epoch[1453/8000]:Train loss:25.5984,val loss:22.9623
+
+Epoch[1454/8000]:Train loss:23.7141,val loss:17.8963
+
+Epoch[1455/8000]:Train loss:25.4951,val loss:11.3024
+
+Epoch[1456/8000]:Train loss:23.7022,val loss:20.0210
+
+Epoch[1457/8000]:Train loss:24.9895,val loss:18.5138
+
+Epoch[1458/8000]:Train loss:26.7362,val loss:21.9660
+
+Epoch[1459/8000]:Train loss:25.2720,val loss:10.5155
+
+Epoch[1460/8000]:Train loss:25.2482,val loss:7.9291
+
+Epoch[1461/8000]:Train loss:26.8704,val loss:17.0113
+
+Epoch[1462/8000]:Train loss:26.4697,val loss:19.7164
+
+Epoch[1463/8000]:Train loss:25.7184,val loss:15.2126
+
+Epoch[1464/8000]:Train loss:25.0746,val loss:30.7882
+
+Epoch[1465/8000]:Train loss:29.5240,val loss:13.8979
+
+Epoch[1466/8000]:Train loss:26.1279,val loss:18.5519
+
+Epoch[1467/8000]:Train loss:24.0978,val loss:19.2947
+
+Epoch[1468/8000]:Train loss:24.3528,val loss:17.4910
+
+Epoch[1469/8000]:Train loss:26.2215,val loss:24.2378
+
+Epoch[1470/8000]:Train loss:23.9044,val loss:9.9911
+
+Epoch[1471/8000]:Train loss:25.1222,val loss:17.2736
+
+Epoch[1472/8000]:Train loss:26.2523,val loss:18.5411
+
+Epoch[1473/8000]:Train loss:23.2700,val loss:19.8195
+
+Epoch[1474/8000]:Train loss:24.8568,val loss:23.4900
+
+Epoch[1475/8000]:Train loss:26.4062,val loss:12.0985
+
+Epoch[1476/8000]:Train loss:25.2306,val loss:16.1863
+
+Epoch[1477/8000]:Train loss:24.5423,val loss:17.7621
+
+Epoch[1478/8000]:Train loss:25.4928,val loss:19.7747
+
+Epoch[1479/8000]:Train loss:24.3717,val loss:15.4967
+
+Epoch[1480/8000]:Train loss:24.1221,val loss:12.0317
+
+Epoch[1481/8000]:Train loss:25.4898,val loss:16.1920
+
+Epoch[1482/8000]:Train loss:23.7648,val loss:31.1079
+
+Epoch[1483/8000]:Train loss:25.0750,val loss:14.8916
+
+Epoch[1484/8000]:Train loss:25.5069,val loss:16.3895
+
+Epoch[1485/8000]:Train loss:23.2506,val loss:19.7195
+
+Epoch[1486/8000]:Train loss:24.8965,val loss:13.3400
+
+Epoch[1487/8000]:Train loss:25.2904,val loss:14.0497
+
+Epoch[1488/8000]:Train loss:25.2632,val loss:12.8610
+
+Epoch[1489/8000]:Train loss:24.5846,val loss:22.9150
+
+Epoch[1490/8000]:Train loss:26.5635,val loss:15.8742
+
+Epoch[1491/8000]:Train loss:25.8175,val loss:29.8591
+
+Epoch[1492/8000]:Train loss:26.9607,val loss:11.7887
+
+Epoch[1493/8000]:Train loss:24.0380,val loss:12.9293
+
+Epoch[1494/8000]:Train loss:26.4817,val loss:17.7992
+
+Epoch[1495/8000]:Train loss:23.8164,val loss:25.8102
+
+Epoch[1496/8000]:Train loss:25.4051,val loss:9.7292
+
+Epoch[1497/8000]:Train loss:25.0034,val loss:13.6349
+
+Epoch[1498/8000]:Train loss:24.7067,val loss:14.7320
+
+Epoch[1499/8000]:Train loss:25.1388,val loss:15.4280
+
+Epoch[1500/8000]:Train loss:24.1434,val loss:14.3210
+
+Epoch[1501/8000]:Train loss:24.5332,val loss:14.9238
+
+Epoch[1502/8000]:Train loss:24.0291,val loss:18.3729
+
+Epoch[1503/8000]:Train loss:28.8347,val loss:16.9816
+
+Epoch[1504/8000]:Train loss:23.5910,val loss:9.1990
+
+Epoch[1505/8000]:Train loss:24.8723,val loss:13.1721
+
+Epoch[1506/8000]:Train loss:23.7321,val loss:22.3234
+
+Epoch[1507/8000]:Train loss:28.1562,val loss:9.9756
+
+Epoch[1508/8000]:Train loss:24.8712,val loss:17.6148
+
+Epoch[1509/8000]:Train loss:26.3709,val loss:11.0544
+
+Epoch[1510/8000]:Train loss:24.5592,val loss:15.1174
+
+Epoch[1511/8000]:Train loss:26.5627,val loss:24.4625
+
+Epoch[1512/8000]:Train loss:22.1497,val loss:10.6895
+
+Epoch[1513/8000]:Train loss:24.5762,val loss:28.4862
+
+Epoch[1514/8000]:Train loss:26.0436,val loss:10.4265
+
+Epoch[1515/8000]:Train loss:26.2714,val loss:13.5264
+
+Epoch[1516/8000]:Train loss:23.5876,val loss:14.4738
+
+Epoch[1517/8000]:Train loss:24.6292,val loss:14.3252
+
+Epoch[1518/8000]:Train loss:26.9674,val loss:19.1399
+
+Epoch[1519/8000]:Train loss:26.9380,val loss:14.5341
+
+Epoch[1520/8000]:Train loss:24.5653,val loss:15.9326
+
+Epoch[1521/8000]:Train loss:25.0449,val loss:8.8816
+
+Epoch[1522/8000]:Train loss:24.6172,val loss:12.3094
+
+Epoch[1523/8000]:Train loss:24.9181,val loss:18.0923
+
+Epoch[1524/8000]:Train loss:24.9435,val loss:20.2018
+
+Epoch[1525/8000]:Train loss:27.2275,val loss:16.9789
+
+Epoch[1526/8000]:Train loss:23.6319,val loss:16.8242
+
+Epoch[1527/8000]:Train loss:22.9394,val loss:21.0218
+
+Epoch[1528/8000]:Train loss:24.0364,val loss:14.1790
+
+Epoch[1529/8000]:Train loss:27.0655,val loss:13.6020
+
+Epoch[1530/8000]:Train loss:24.9929,val loss:22.5168
+
+Epoch[1531/8000]:Train loss:25.5950,val loss:21.6505
+
+Epoch[1532/8000]:Train loss:25.3627,val loss:19.3613
+
+Epoch[1533/8000]:Train loss:25.3409,val loss:11.7451
+
+Epoch[1534/8000]:Train loss:23.6771,val loss:13.9890
+
+Epoch[1535/8000]:Train loss:24.5986,val loss:18.1813
+
+Epoch[1536/8000]:Train loss:25.4958,val loss:8.0824
+
+Epoch[1537/8000]:Train loss:25.8427,val loss:11.7848
+
+Epoch[1538/8000]:Train loss:25.4073,val loss:11.7860
+
+Epoch[1539/8000]:Train loss:24.8319,val loss:16.1045
+
+Epoch[1540/8000]:Train loss:23.5717,val loss:12.6271
+
+Epoch[1541/8000]:Train loss:27.0881,val loss:15.1958
+
+Epoch[1542/8000]:Train loss:25.7036,val loss:14.1126
+
+Epoch[1543/8000]:Train loss:23.7492,val loss:13.3034
+
+Epoch[1544/8000]:Train loss:25.9607,val loss:22.4337
+
+Epoch[1545/8000]:Train loss:24.2487,val loss:12.7487
+
+Epoch[1546/8000]:Train loss:24.5822,val loss:24.3561
+
+Epoch[1547/8000]:Train loss:25.4116,val loss:14.0235
+
+Epoch[1548/8000]:Train loss:28.6098,val loss:15.1894
+
+Epoch[1549/8000]:Train loss:25.0308,val loss:14.6684
+
+Epoch[1550/8000]:Train loss:26.6338,val loss:18.1431
+
+Epoch[1551/8000]:Train loss:25.1943,val loss:10.8752
+
+Epoch[1552/8000]:Train loss:24.5908,val loss:20.2101
+
+Epoch[1553/8000]:Train loss:23.6978,val loss:16.4364
+
+Epoch[1554/8000]:Train loss:23.7189,val loss:23.5647
+
+Epoch[1555/8000]:Train loss:25.1139,val loss:7.9433
+
+Epoch[1556/8000]:Train loss:25.5572,val loss:20.2729
+
+Epoch[1557/8000]:Train loss:27.6182,val loss:15.9212
+
+Epoch[1558/8000]:Train loss:24.6429,val loss:18.8222
+
+Epoch[1559/8000]:Train loss:25.9986,val loss:9.8452
+
+Epoch[1560/8000]:Train loss:24.2067,val loss:17.3209
+
+Epoch[1561/8000]:Train loss:26.9464,val loss:12.3474
+
+Epoch[1562/8000]:Train loss:25.7248,val loss:11.0997
+
+Epoch[1563/8000]:Train loss:23.2939,val loss:18.9310
+
+Epoch[1564/8000]:Train loss:25.6711,val loss:12.4388
+
+Epoch[1565/8000]:Train loss:23.3103,val loss:21.9489
+
+Epoch[1566/8000]:Train loss:26.4140,val loss:15.0317
+
+Epoch[1567/8000]:Train loss:25.0268,val loss:11.1319
+
+Epoch[1568/8000]:Train loss:25.7321,val loss:15.7134
+
+Epoch[1569/8000]:Train loss:25.0524,val loss:20.7046
+
+Epoch[1570/8000]:Train loss:25.9205,val loss:16.0764
+
+Epoch[1571/8000]:Train loss:27.3519,val loss:11.1309
+
+Epoch[1572/8000]:Train loss:23.4961,val loss:10.5744
+
+Epoch[1573/8000]:Train loss:28.3125,val loss:17.2184
+
+Epoch[1574/8000]:Train loss:23.4158,val loss:9.4755
+
+Epoch[1575/8000]:Train loss:25.6092,val loss:14.3180
+
+Epoch[1576/8000]:Train loss:23.8847,val loss:16.1362
+
+Epoch[1577/8000]:Train loss:23.2379,val loss:11.7988
+
+Epoch[1578/8000]:Train loss:23.8487,val loss:12.4552
+
+Epoch[1579/8000]:Train loss:22.9397,val loss:15.3942
+
+Epoch[1580/8000]:Train loss:24.5282,val loss:21.0299
+
+Epoch[1581/8000]:Train loss:27.3533,val loss:25.0074
+
+Epoch[1582/8000]:Train loss:26.4907,val loss:20.2766
+
+Epoch[1583/8000]:Train loss:23.7597,val loss:16.2359
+
+Epoch[1584/8000]:Train loss:22.9253,val loss:12.6462
+
+Epoch[1585/8000]:Train loss:23.5180,val loss:13.7662
+
+Epoch[1586/8000]:Train loss:23.2009,val loss:19.9110
+
+Epoch[1587/8000]:Train loss:26.1665,val loss:20.2001
+
+Epoch[1588/8000]:Train loss:26.4852,val loss:16.4587
+
+Epoch[1589/8000]:Train loss:25.0678,val loss:19.8743
+
+Epoch[1590/8000]:Train loss:24.2778,val loss:14.2303
+
+Epoch[1591/8000]:Train loss:27.1069,val loss:16.1854
+
+Epoch[1592/8000]:Train loss:23.1832,val loss:12.2549
+
+Epoch[1593/8000]:Train loss:26.7682,val loss:20.1361
+
+Epoch[1594/8000]:Train loss:21.6155,val loss:13.8339
+
+Epoch[1595/8000]:Train loss:24.7427,val loss:14.4336
+
+Epoch[1596/8000]:Train loss:25.6643,val loss:8.2570
+
+Epoch[1597/8000]:Train loss:27.0728,val loss:13.7381
+
+Epoch[1598/8000]:Train loss:23.2396,val loss:13.5784
+
+Epoch[1599/8000]:Train loss:24.5835,val loss:23.1421
+
+Epoch[1600/8000]:Train loss:25.6493,val loss:11.0235
+
+Epoch[1601/8000]:Train loss:25.7607,val loss:13.5922
+
+Epoch[1602/8000]:Train loss:23.4501,val loss:16.7348
+
+Epoch[1603/8000]:Train loss:27.3786,val loss:12.0530
+
+Epoch[1604/8000]:Train loss:23.9534,val loss:20.1744
+
+Epoch[1605/8000]:Train loss:22.0554,val loss:11.8110
+
+Epoch[1606/8000]:Train loss:24.5797,val loss:11.7045
+
+Epoch[1607/8000]:Train loss:23.5801,val loss:11.6592
+
+Epoch[1608/8000]:Train loss:24.1554,val loss:20.3639
+
+Epoch[1609/8000]:Train loss:24.1522,val loss:14.8900
+
+Epoch[1610/8000]:Train loss:22.1276,val loss:18.1971
+
+Epoch[1611/8000]:Train loss:23.4226,val loss:14.5478
+
+Epoch[1612/8000]:Train loss:24.7527,val loss:20.3688
+
+Epoch[1613/8000]:Train loss:25.5760,val loss:18.3885
+
+Epoch[1614/8000]:Train loss:25.9489,val loss:13.9577
+
+Epoch[1615/8000]:Train loss:24.7918,val loss:15.0671
+
+Epoch[1616/8000]:Train loss:27.0217,val loss:10.7812
+
+Epoch[1617/8000]:Train loss:25.5542,val loss:13.2670
+
+Epoch[1618/8000]:Train loss:25.0599,val loss:12.5094
+
+Epoch[1619/8000]:Train loss:24.4184,val loss:11.6564
+
+Epoch[1620/8000]:Train loss:22.6917,val loss:14.7270
+
+Epoch[1621/8000]:Train loss:25.3071,val loss:19.2176
+
+Epoch[1622/8000]:Train loss:24.7142,val loss:10.9795
+
+Epoch[1623/8000]:Train loss:24.4332,val loss:11.8155
+
+Epoch[1624/8000]:Train loss:23.2615,val loss:16.7966
+
+Epoch[1625/8000]:Train loss:24.2288,val loss:13.1611
+
+Epoch[1626/8000]:Train loss:24.9747,val loss:12.7943
+
+Epoch[1627/8000]:Train loss:24.2489,val loss:14.0005
+
+Epoch[1628/8000]:Train loss:22.2660,val loss:11.1315
+
+Epoch[1629/8000]:Train loss:22.4019,val loss:14.2594
+
+Epoch[1630/8000]:Train loss:21.1996,val loss:15.5265
+
+Epoch[1631/8000]:Train loss:22.8576,val loss:10.5491
+
+Epoch[1632/8000]:Train loss:22.6311,val loss:24.8358
+
+Epoch[1633/8000]:Train loss:25.0666,val loss:27.8629
+
+Epoch[1634/8000]:Train loss:25.3164,val loss:13.9193
+
+Epoch[1635/8000]:Train loss:24.3716,val loss:18.3180
+
+Epoch[1636/8000]:Train loss:23.5718,val loss:12.7775
+
+Epoch[1637/8000]:Train loss:24.9233,val loss:18.4298
+
+Epoch[1638/8000]:Train loss:21.9414,val loss:16.5143
+
+Epoch[1639/8000]:Train loss:24.2795,val loss:8.9831
+
+Epoch[1640/8000]:Train loss:26.2708,val loss:13.8903
+
+Epoch[1641/8000]:Train loss:25.7346,val loss:12.8902
+
+Epoch[1642/8000]:Train loss:22.2296,val loss:16.4590
+
+Epoch[1643/8000]:Train loss:24.6379,val loss:22.0036
+
+Epoch[1644/8000]:Train loss:25.3743,val loss:14.0118
+
+Epoch[1645/8000]:Train loss:24.0259,val loss:18.4609
+
+Epoch[1646/8000]:Train loss:25.0590,val loss:23.3700
+
+Epoch[1647/8000]:Train loss:25.8081,val loss:16.9748
+
+Epoch[1648/8000]:Train loss:25.0478,val loss:19.2702
+
+Epoch[1649/8000]:Train loss:23.9844,val loss:14.8718
+
+Epoch[1650/8000]:Train loss:24.2324,val loss:10.7787
+
+Epoch[1651/8000]:Train loss:24.1693,val loss:9.6717
+
+Epoch[1652/8000]:Train loss:25.3173,val loss:14.4340
+
+Epoch[1653/8000]:Train loss:23.9830,val loss:14.9915
+
+Epoch[1654/8000]:Train loss:25.2642,val loss:12.5007
+
+Epoch[1655/8000]:Train loss:25.0246,val loss:10.8424
+
+Epoch[1656/8000]:Train loss:23.3608,val loss:9.5396
+
+Epoch[1657/8000]:Train loss:25.5624,val loss:14.5954
+
+Epoch[1658/8000]:Train loss:24.3347,val loss:14.1442
+
+Epoch[1659/8000]:Train loss:22.6174,val loss:9.3873
+
+Epoch[1660/8000]:Train loss:22.9590,val loss:26.0746
+
+Epoch[1661/8000]:Train loss:25.0872,val loss:9.6594
+
+Epoch[1662/8000]:Train loss:22.9041,val loss:16.4557
+
+Epoch[1663/8000]:Train loss:22.8497,val loss:15.9633
+
+Epoch[1664/8000]:Train loss:22.5900,val loss:16.7987
+
+Epoch[1665/8000]:Train loss:23.0690,val loss:15.3630
+
+Epoch[1666/8000]:Train loss:23.5243,val loss:10.4748
+
+Epoch[1667/8000]:Train loss:23.4870,val loss:18.6547
+
+Epoch[1668/8000]:Train loss:23.4337,val loss:11.5654
+
+Epoch[1669/8000]:Train loss:22.8328,val loss:15.5800
+
+Epoch[1670/8000]:Train loss:23.9222,val loss:22.2695
+
+Epoch[1671/8000]:Train loss:25.2988,val loss:25.1716
+
+Epoch[1672/8000]:Train loss:23.7923,val loss:21.2072
+
+Epoch[1673/8000]:Train loss:24.4221,val loss:19.3434
+
+Epoch[1674/8000]:Train loss:23.9659,val loss:11.9539
+
+Epoch[1675/8000]:Train loss:24.8465,val loss:17.7318
+
+Epoch[1676/8000]:Train loss:24.3915,val loss:18.3442
+
+Epoch[1677/8000]:Train loss:24.5975,val loss:22.7395
+
+Epoch[1678/8000]:Train loss:24.6391,val loss:15.8807
+
+Epoch[1679/8000]:Train loss:25.3788,val loss:10.6996
+
+Epoch[1680/8000]:Train loss:24.6421,val loss:9.3835
+
+Epoch[1681/8000]:Train loss:27.3593,val loss:11.2242
+
+Epoch[1682/8000]:Train loss:23.5664,val loss:19.5986
+
+Epoch[1683/8000]:Train loss:22.0734,val loss:21.7484
+
+Epoch[1684/8000]:Train loss:22.3990,val loss:15.3917
+
+Epoch[1685/8000]:Train loss:23.6173,val loss:14.5317
+
+Epoch[1686/8000]:Train loss:23.7445,val loss:20.8335
+
+Epoch[1687/8000]:Train loss:22.3128,val loss:17.5965
+
+Epoch[1688/8000]:Train loss:23.8043,val loss:10.1619
+
+Epoch[1689/8000]:Train loss:25.0616,val loss:19.2155
+
+Epoch[1690/8000]:Train loss:25.1037,val loss:11.0446
+
+Epoch[1691/8000]:Train loss:24.8296,val loss:12.5292
+
+Epoch[1692/8000]:Train loss:24.6983,val loss:10.2164
+
+Epoch[1693/8000]:Train loss:23.9193,val loss:9.6910
+
+Epoch[1694/8000]:Train loss:24.9685,val loss:11.8325
+
+Epoch[1695/8000]:Train loss:24.9097,val loss:8.0396
+
+Epoch[1696/8000]:Train loss:24.0669,val loss:14.6839
+
+Epoch[1697/8000]:Train loss:25.0862,val loss:11.4347
+
+Epoch[1698/8000]:Train loss:25.4355,val loss:16.0009
+
+Epoch[1699/8000]:Train loss:25.6135,val loss:10.6900
+
+Epoch[1700/8000]:Train loss:25.3307,val loss:13.2151
+
+Epoch[1701/8000]:Train loss:22.7459,val loss:19.0877
+
+Epoch[1702/8000]:Train loss:21.5799,val loss:16.9572
+
+Epoch[1703/8000]:Train loss:23.7421,val loss:13.2794
+
+Epoch[1704/8000]:Train loss:24.3845,val loss:8.4862
+
+Epoch[1705/8000]:Train loss:25.7931,val loss:13.3000
+
+Epoch[1706/8000]:Train loss:26.2196,val loss:14.5967
+
+Epoch[1707/8000]:Train loss:22.9288,val loss:15.2605
+
+Epoch[1708/8000]:Train loss:22.7413,val loss:7.8449
+
+Epoch[1709/8000]:Train loss:25.4523,val loss:12.0847
+
+Epoch[1710/8000]:Train loss:24.5540,val loss:14.1753
+
+Epoch[1711/8000]:Train loss:23.2564,val loss:14.1208
+
+Epoch[1712/8000]:Train loss:24.8036,val loss:14.8169
+
+Epoch[1713/8000]:Train loss:24.1505,val loss:16.8676
+
+Epoch[1714/8000]:Train loss:21.8959,val loss:24.4600
+
+Epoch[1715/8000]:Train loss:24.8339,val loss:8.9598
+
+Epoch[1716/8000]:Train loss:27.0148,val loss:21.5067
+
+Epoch[1717/8000]:Train loss:25.3693,val loss:12.0209
+
+Epoch[1718/8000]:Train loss:22.7814,val loss:11.5492
+
+Epoch[1719/8000]:Train loss:23.3292,val loss:20.0051
+
+Epoch[1720/8000]:Train loss:22.8335,val loss:16.9129
+
+Epoch[1721/8000]:Train loss:23.2368,val loss:8.5807
+
+Epoch[1722/8000]:Train loss:23.6686,val loss:12.1613
+
+Epoch[1723/8000]:Train loss:25.5982,val loss:14.7304
+
+Epoch[1724/8000]:Train loss:26.3417,val loss:18.7921
+
+Epoch[1725/8000]:Train loss:23.9134,val loss:10.6198
+
+Epoch[1726/8000]:Train loss:24.8668,val loss:18.9029
+
+Epoch[1727/8000]:Train loss:22.1816,val loss:13.7065
+
+Epoch[1728/8000]:Train loss:23.1563,val loss:10.4791
+
+Epoch[1729/8000]:Train loss:22.1474,val loss:15.6631
+
+模型没有提升，中止训练！
+
+swanlab: Experiment covid_model_train has completed
+swanlab: 🌟 Run `swanlab watch D:\python-mangshe\pythonProject1\李宏毅机器学习\Hw1\swanlog` to view SwanLab Experiment Dashboard locally
+swanlab: 🏠 View project at https://swanlab.cn/@lizhongzheng/Hw1
+swanlab: 🚀 View run at https://swanlab.cn/@lizhongzheng/Hw1/runs/1p7w5tr0gi2wuedrff1kf
+swanlab: \ Waiting for uploading completeswanlab: | Waiting for uploading completeswanlab: / Waiting for uploading complete
