@@ -28,10 +28,10 @@ def save_pred(preds, file):
 
 if __name__ == '__main__':
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    x_train = np.load('x_train.npy')  # 加载x_train
+    x_train = np.load('./for_test/x_train.npy')  # 加载x_train
     model = MyModel(input=x_train.shape[1]).to(device)
-    config = np.load('config.npy', allow_pickle=True).item()
+    config = np.load('./for_test/config.npy', allow_pickle=True).item()
     model.load_state_dict(torch.load(config['save_model']))
-    test_loader = np.load('test_loader.npy', allow_pickle=True).item()
+    test_loader = np.load('./for_test/test_loader.npy', allow_pickle=True).item()
     preds = predict(test_loader, model, device)
     save_pred(preds, 'pred.csv')

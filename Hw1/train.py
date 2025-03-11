@@ -7,7 +7,7 @@ import csv
 import math
 import torch
 import shutil
-import swanlab
+import swanlab  # 可删除
 import numpy as np
 from sympy.physics.units import momentum
 from data import *
@@ -118,7 +118,7 @@ def model_train_process(train_loader, val_loader, model, config, device):
         # 平均损失值
         mean_train_loss = sum(loss_record) / len(loss_record)
         writer.add_scalar('loss/train', mean_train_loss, epoch)  # loss函数值的图的绘制
-        swanlab.log({"train_loss": mean_train_loss}, step=epoch)  # 记录训练损失
+        swanlab.log({"train_loss": mean_train_loss}, step=epoch)  # 记录训练损失 #可删除
 
         # 验证模式
         model.eval()
@@ -132,7 +132,7 @@ def model_train_process(train_loader, val_loader, model, config, device):
         mean_val_loss = sum(loss_record) / len(loss_record)
         print(f'Epoch[{epoch + 1}/{epochs}]:Train loss:{mean_train_loss:.4f},val loss:{mean_val_loss:.4f}\n')
         writer.add_scalar('loss/val', mean_train_loss, mean_val_loss, step)
-        swanlab.log({"val_loss": mean_val_loss}, step=epoch)  # 记录验证损失
+        swanlab.log({"val_loss": mean_val_loss}, step=epoch)  # 记录验证损失 #可删除
 
         if mean_val_loss < best_loss:  # 是否需要优化模型
             best_loss = mean_val_loss
@@ -161,12 +161,12 @@ if __name__ == '__main__':
         'save_model': 'models/model.ckpt',  # TensorFlow中用于存储模型参数的一种文件格式 #中断继续
 
     }
-    np.save('config.npy', config)  # 保存x_train
+    np.save('./for_test/config.npy', config)  # 保存x_train
     # 初始化 swanlab
     swanlab.init(
         experiment_name="covid_model_train",
         config=config
-    )
+    )  # 可删除
     # 填入具体的参数
     set_seed(config['seed'])
     train_data = pd.read_csv('ml2023spring-hw1/covid_train.csv').values
@@ -177,7 +177,7 @@ if __name__ == '__main__':
         f"""train_data size: {train_data.shape} valid_data size: {val_data.shape} test_data size: {test_data.shape}""")
     # 选择特征
     x_train, x_val, x_test, y_train, y_val = select_feature(train_data, val_data, test_data, config['select_all'])
-    np.save('x_train.npy', x_train)  # 保存x_train
+    np.save('./for_test/x_train.npy', x_train)  # 保存x_train
     print(f'number of features: {x_train.shape[1]}')
     # 构造数据集
     train_dataset = MyDataset(x_train, y_train)
@@ -187,7 +187,7 @@ if __name__ == '__main__':
     train_loader = DataLoader(train_dataset, batch_size=config['batch_size'], shuffle=True, pin_memory=True)
     val_loader = DataLoader(val_dataset, batch_size=config['batch_size'], shuffle=True, pin_memory=True)
     test_loader = DataLoader(test_dataset, batch_size=config['batch_size'], shuffle=False, pin_memory=True)
-    np.save('test_loader.npy', test_loader)
+    np.save('./for_test/test_loader.npy', test_loader)
     # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     model = MyModel(input=x_train.shape[1]).to(device)
     model_train_process(train_loader, val_loader, model, config, device)
