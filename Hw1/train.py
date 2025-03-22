@@ -21,6 +21,13 @@ from torch.utils.data import Dataset, DataLoader, random_split
 from torch.utils.tensorboard import SummaryWriter  # 将日志数据写入到 runs 目录中
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 
+"""
+数据处理（划分训练集和验证集、选择特征）。
+模型训练（定义损失函数、优化器、学习率调度器）。
+模型验证（评估模型性能）。
+模型保存（将训练好的模型保存起来）
+"""
+
 
 def train_val_data_process(data_set, val_ratio, seed=999):
     """ 划分训练集和验证集 """
@@ -42,17 +49,18 @@ def set_seed(seed):
         torch.cuda.manual_seed_all(regular_seed)
 
 
-def predict(test_loader, model, device):  # 使用训练好的神经网络模型 对测试数据集 进行预测
-    """ 预测模型输出 """
-    model.eval()  # Set your model to evaluation mode.
-    preds = []
-    for x in tqdm(test_loader):  # 进度条
-        x = x.to(device)
-        with torch.no_grad():
-            pred = model(x)
-            preds.append(pred.detach().cpu())
-    preds = torch.cat(preds, dim=0).numpy()
-    return preds
+# # for test
+# def predict(test_loader, model, device):  # 使用训练好的神经网络模型 对测试数据集 进行预测
+#     """ 预测模型输出 """
+#     model.eval()  # Set your model to evaluation mode.
+#     preds = []
+#     for x in tqdm(test_loader):  # 进度条
+#         x = x.to(device)
+#         with torch.no_grad():
+#             pred = model(x)
+#             preds.append(pred.detach().cpu())
+#     preds = torch.cat(preds, dim=0).numpy()
+#     return preds
 
 
 def select_feature(train_data, val_data, test_data, select_all=True):
@@ -84,7 +92,7 @@ def model_train_process(train_loader, val_loader, model, config, device):
     optimizer = torch.optim.SGD(model.parameters(), lr=config['learning_rate'], momentum=0.7,
                                 weight_decay=1e-5)  # 随机梯度下降法
     # 添加学习率调度器
-    scheduler = ReduceLROnPlateau(optimizer, 'min')
+    # scheduler = ReduceLROnPlateau(optimizer, 'min')  # 根据验证集的损失值动态调整学习率
     writer = SummaryWriter()  # 可视化
 
     if not os.path.isdir('./models'):
@@ -101,12 +109,12 @@ def model_train_process(train_loader, val_loader, model, config, device):
         loss_record = []
         train_process = tqdm(train_loader, position=0, leave=True, disable=True)  # 进度条
         # train_process = train_loader
-        for x, y in train_process:
+        for x, y in train_process:  # y:true
             optimizer.zero_grad()
             x, y = x.to(device), y.to(device)
             pred = model(x)
             loss = criterion(pred, y)  # 预测值与真实值之间的差距
-            loss.backward()
+            loss.backward()  # 自动，前向传播是手动的 #反向计算出每个参数的错误程度（也就是“梯度”）
             optimizer.step()  # 更新模型
             step += 1
             loss_record.append(loss.detach().item())  # detach()相当于这个数据的张量形式
@@ -130,6 +138,8 @@ def model_train_process(train_loader, val_loader, model, config, device):
                 loss = criterion(pred, y)
                 loss_record.append(loss.detach().item())
         mean_val_loss = sum(loss_record) / len(loss_record)
+        # 将验证集的损失传递给学习率调度器
+        # scheduler.step(mean_val_loss)
         print(f'Epoch[{epoch + 1}/{epochs}]:Train loss:{mean_train_loss:.4f},val loss:{mean_val_loss:.4f}\n')
         writer.add_scalar('loss/val', mean_train_loss, mean_val_loss, step)
         swanlab.log({"val_loss": mean_val_loss}, step=epoch)  # 记录验证损失 #可删除
@@ -157,7 +167,7 @@ if __name__ == '__main__':
         'epochs': 5000,
         'batch_size': 128,  # 256
         'learning_rate': 0.00001,
-        'early_stopping': 800,  # 连续执行800次后若是model没有更新，退出执行
+        'early_stopping': 1000,  # 连续执行800次后若是model没有更新，退出执行
         'save_model': 'models/model.ckpt',  # TensorFlow中用于存储模型参数的一种文件格式 #中断继续
 
     }

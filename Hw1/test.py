@@ -33,5 +33,5 @@ if __name__ == '__main__':
     config = np.load('./for_test/config.npy', allow_pickle=True).item()
     model.load_state_dict(torch.load(config['save_model']))
     test_loader = np.load('./for_test/test_loader.npy', allow_pickle=True).item()
-    preds = predict(test_loader, model, device)
+    preds = test_process(test_loader, model, device)
     save_pred(preds, 'pred.csv')

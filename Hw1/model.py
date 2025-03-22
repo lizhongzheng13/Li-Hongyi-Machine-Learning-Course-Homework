@@ -16,12 +16,17 @@ class MyModel(nn.Module):
             nn.ReLU(),
             nn.Linear(8, 1),
         )
-        for m in self.modules():
-            """权重初始化"""
-            if isinstance(m, nn.Linear):
-                nn.init.normal_(m.weight, 0, 0.01)
-                if m.bias is not None:
-                    nn.init.constant_(m.bias, 0)
+        # self.layers = nn.Sequential(
+        #     nn.Linear(input, 64),  # 全连接层后常加上一个激活函数
+        #     nn.ReLU(),  # 如果没有激活函数，神经网络将只能表示线性函数，即使有再多的层，其整体功能也等同于一个简单的线性模型
+        #     nn.Linear(64, 1),
+        # )
+        # for m in self.modules():
+        #     """权重初始化"""
+        #     if isinstance(m, nn.Linear):
+        #         nn.init.normal_(m.weight, 0, 0.01)
+        #         if m.bias is not None:
+        #             nn.init.constant_(m.bias, 0)
 
     def forward(self, x):
         x = self.layers(x)
@@ -29,7 +34,7 @@ class MyModel(nn.Module):
         return x
 
 
-if __name__ == '__main__':
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    model = MyModel(2).to(device)
-    print(summary(model, (2,)))
+# if __name__ == '__main__':
+#     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+#     model = MyModel(2).to(device)
+#     print(summary(model, (2,)))
